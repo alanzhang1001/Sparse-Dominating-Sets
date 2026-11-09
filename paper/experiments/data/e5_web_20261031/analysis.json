@@ -1,0 +1,2598 @@
+{
+  "rows": [
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "ratio",
+      "mean_candidates": 11182.101764705882,
+      "landmark_count": 28534,
+      "index_payload_bytes": 8156156,
+      "average_congestion": 1.2734139031986367,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 19.369522373574284,
+        "max": 18962,
+        "mean": 8.945994252470737,
+        "p99": 65.66999999999825,
+        "size_biased_mean": 3365.289777290267
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "ratio",
+      "mean_candidates": 10927.551323529411,
+      "landmark_count": 30221,
+      "index_payload_bytes": 9341552,
+      "average_congestion": 1.3865864885511134,
+      "partition_metrics": {
+        "count": 30221,
+        "cv": 18.491270343143224,
+        "max": 16950,
+        "mean": 8.446609973197445,
+        "p99": 62.0,
+        "size_biased_mean": 2896.571284743306
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "ratio",
+      "mean_candidates": 10174.278823529412,
+      "landmark_count": 35897,
+      "index_payload_bytes": 10354352,
+      "average_congestion": 1.7914833604293576,
+      "partition_metrics": {
+        "count": 35897,
+        "cv": 15.299622605355754,
+        "max": 12285,
+        "mean": 7.111039919770454,
+        "p99": 52.0,
+        "size_biased_mean": 1671.652255499187
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 19216.958529411764,
+      "landmark_count": 19052,
+      "index_payload_bytes": 8063940,
+      "average_congestion": 1.1935674691007385,
+      "partition_metrics": {
+        "count": 19052,
+        "cv": 23.061071658355093,
+        "max": 34002,
+        "mean": 13.398330883896703,
+        "p99": 86.0,
+        "size_biased_mean": 7138.805222024171
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 17395.410294117646,
+      "landmark_count": 21955,
+      "index_payload_bytes": 9103168,
+      "average_congestion": 1.374481421268094,
+      "partition_metrics": {
+        "count": 21955,
+        "cv": 21.588425737367107,
+        "max": 28568,
+        "mean": 11.626736506490548,
+        "p99": 78.45999999999913,
+        "size_biased_mean": 5430.385015572053
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 12593.898088235293,
+      "landmark_count": 31909,
+      "index_payload_bytes": 10544420,
+      "average_congestion": 2.0947250896127554,
+      "partition_metrics": {
+        "count": 31909,
+        "cv": 16.06233127975603,
+        "max": 15297,
+        "mean": 7.99978062615563,
+        "p99": 56.0,
+        "size_biased_mean": 2071.9310716314417
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "degree",
+      "mean_candidates": 14769.598088235294,
+      "landmark_count": 9976,
+      "index_payload_bytes": 7942904,
+      "average_congestion": 1.8555187746067812,
+      "partition_metrics": {
+        "count": 9976,
+        "cv": 10.834372447967684,
+        "max": 18925,
+        "mean": 25.58791098636728,
+        "p99": 203.0,
+        "size_biased_mean": 3029.1896930640705
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "degree",
+      "mean_candidates": 13639.208823529412,
+      "landmark_count": 15955,
+      "index_payload_bytes": 9243880,
+      "average_congestion": 2.2482909917144926,
+      "partition_metrics": {
+        "count": 15955,
+        "cv": 11.793535462419474,
+        "max": 17129,
+        "mean": 15.999059855844562,
+        "p99": 124.45999999999913,
+        "size_biased_mean": 2241.2679568291774
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "degree",
+      "mean_candidates": 12589.957352941177,
+      "landmark_count": 23932,
+      "index_payload_bytes": 10261908,
+      "average_congestion": 2.6796897341977943,
+      "partition_metrics": {
+        "count": 23932,
+        "cv": 12.283489121715345,
+        "max": 14951,
+        "mean": 10.666262744442587,
+        "p99": 77.68999999999869,
+        "size_biased_mean": 1620.0357706696961
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "cc2fs",
+      "mean_candidates": 20078.47882352941,
+      "landmark_count": 14681,
+      "index_payload_bytes": 8078164,
+      "average_congestion": 1.2052533641509804,
+      "partition_metrics": {
+        "count": 14681,
+        "cv": 19.44412825439258,
+        "max": 29901,
+        "mean": 17.387439547714735,
+        "p99": 120.20000000000073,
+        "size_biased_mean": 6591.12840773314
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "cc2fs",
+      "mean_candidates": 15738.98911764706,
+      "landmark_count": 19943,
+      "index_payload_bytes": 9301360,
+      "average_congestion": 1.5749906959434314,
+      "partition_metrics": {
+        "count": 19943,
+        "cv": 16.6161147959836,
+        "max": 17252,
+        "mean": 12.799729228300658,
+        "p99": 83.0,
+        "size_biased_mean": 3546.7444381329205
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "cc2fs",
+      "mean_candidates": 13771.965294117646,
+      "landmark_count": 27920,
+      "index_payload_bytes": 10366160,
+      "average_congestion": 2.0987209370654027,
+      "partition_metrics": {
+        "count": 27920,
+        "cv": 15.513894778169183,
+        "max": 15001,
+        "mean": 9.142729226361032,
+        "p99": 62.0,
+        "size_biased_mean": 2209.623313027638
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 14419.381764705882,
+      "landmark_count": 14797,
+      "index_payload_bytes": 8025740,
+      "average_congestion": 1.789971206393356,
+      "partition_metrics": {
+        "count": 14797,
+        "cv": 13.116356159826193,
+        "max": 14924,
+        "mean": 17.251131986213423,
+        "p99": 136.0,
+        "size_biased_mean": 2985.1151587565864
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 13610.484705882353,
+      "landmark_count": 17683,
+      "index_payload_bytes": 8947308,
+      "average_congestion": 1.9594382308581277,
+      "partition_metrics": {
+        "count": 17683,
+        "cv": 13.105667809145208,
+        "max": 14138,
+        "mean": 14.435616128484986,
+        "p99": 113.0,
+        "size_biased_mean": 2493.875803576675
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 12009.384411764706,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10458188,
+      "average_congestion": 2.7040448161714297,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 12.631777237982014,
+        "max": 11168,
+        "mean": 8.945994252470737,
+        "p99": 65.66999999999825,
+        "size_biased_mean": 1436.3849058821224
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 15087.66911764706,
+      "landmark_count": 15015,
+      "index_payload_bytes": 7979276,
+      "average_congestion": 1.6510136524787966,
+      "partition_metrics": {
+        "count": 15015,
+        "cv": 13.81920317960913,
+        "max": 14892,
+        "mean": 17.000666000666,
+        "p99": 142.86000000000058,
+        "size_biased_mean": 3263.6242532270385
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 13665.281323529412,
+      "landmark_count": 19663,
+      "index_payload_bytes": 9280364,
+      "average_congestion": 1.9151705090788005,
+      "partition_metrics": {
+        "count": 19663,
+        "cv": 13.756645434682845,
+        "max": 13743,
+        "mean": 12.981996643441997,
+        "p99": 105.0,
+        "size_biased_mean": 2469.763763148101
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 12062.408970588236,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10455536,
+      "average_congestion": 2.559246273480501,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 12.80391100968838,
+        "max": 11198,
+        "mean": 8.945994252470737,
+        "p99": 68.0,
+        "size_biased_mean": 1475.5535188921317
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 14337.484264705883,
+      "landmark_count": 14948,
+      "index_payload_bytes": 8050948,
+      "average_congestion": 1.6694768182085284,
+      "partition_metrics": {
+        "count": 14948,
+        "cv": 13.499143200191464,
+        "max": 14972,
+        "mean": 17.076866470430826,
+        "p99": 140.0,
+        "size_biased_mean": 3128.9407439327756
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 13372.876323529412,
+      "landmark_count": 19312,
+      "index_payload_bytes": 9220996,
+      "average_congestion": 1.9148375217910798,
+      "partition_metrics": {
+        "count": 19312,
+        "cv": 13.563524141933565,
+        "max": 13880,
+        "mean": 13.217947390223696,
+        "p99": 105.0,
+        "size_biased_mean": 2444.912984545472
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 11644.487352941176,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10454812,
+      "average_congestion": 2.504836150666954,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 12.884920918374338,
+        "max": 11222,
+        "mean": 8.945994252470737,
+        "p99": 65.0,
+        "size_biased_mean": 1494.1705795937555
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 15714.940882352941,
+      "landmark_count": 15100,
+      "index_payload_bytes": 8103960,
+      "average_congestion": 1.6659158129786693,
+      "partition_metrics": {
+        "count": 15100,
+        "cv": 14.380000182379433,
+        "max": 19061,
+        "mean": 16.904966887417217,
+        "p99": 133.01000000000022,
+        "size_biased_mean": 3512.5884903923375
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 14314.0875,
+      "landmark_count": 19862,
+      "index_payload_bytes": 9240936,
+      "average_congestion": 1.938679411591875,
+      "partition_metrics": {
+        "count": 19862,
+        "cv": 14.387457190870649,
+        "max": 17550,
+        "mean": 12.851928305306616,
+        "p99": 95.38999999999942,
+        "size_biased_mean": 2673.187264215619
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 12109.150735294117,
+      "landmark_count": 30221,
+      "index_payload_bytes": 10599836,
+      "average_congestion": 2.6662213777838715,
+      "partition_metrics": {
+        "count": 30221,
+        "cv": 13.714526951807962,
+        "max": 14778,
+        "mean": 8.446609973197445,
+        "p99": 61.0,
+        "size_biased_mean": 1597.1546941413824
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 15226.164117647058,
+      "landmark_count": 15048,
+      "index_payload_bytes": 8029300,
+      "average_congestion": 1.6730182359508745,
+      "partition_metrics": {
+        "count": 15048,
+        "cv": 13.841282725219505,
+        "max": 17842,
+        "mean": 16.963383838383837,
+        "p99": 124.06000000000131,
+        "size_biased_mean": 3266.8272461951306
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 14050.663970588235,
+      "landmark_count": 19525,
+      "index_payload_bytes": 9248040,
+      "average_congestion": 1.9279807259122872,
+      "partition_metrics": {
+        "count": 19525,
+        "cv": 13.870287776427263,
+        "max": 16577,
+        "mean": 13.073751600512164,
+        "p99": 92.0,
+        "size_biased_mean": 2528.2659236479735
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 12622.684852941176,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10453284,
+      "average_congestion": 2.504796975691928,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 13.388409736558687,
+        "max": 14140,
+        "mean": 8.945994252470737,
+        "p99": 63.669999999998254,
+        "size_biased_mean": 1612.5111276516561
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "ratio",
+      "mean_candidates": 11182.101764705882,
+      "landmark_count": 28534,
+      "index_payload_bytes": 8156156,
+      "average_congestion": 1.2734139031986367,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 19.369522373574284,
+        "max": 18962,
+        "mean": 8.945994252470737,
+        "p99": 65.66999999999825,
+        "size_biased_mean": 3365.289777290267
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 13131.415882352941,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10139316,
+      "average_congestion": 1.9049654280845396,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 16.398107697038164,
+        "max": 16384,
+        "mean": 8.945994252470737,
+        "p99": 62.669999999998254,
+        "size_biased_mean": 2414.5053846003175
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "degree",
+      "mean_candidates": 11842.345294117647,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10758616,
+      "average_congestion": 2.967586625663526,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 12.379933908068883,
+        "max": 13990,
+        "mean": 8.945994252470737,
+        "p99": 65.0,
+        "size_biased_mean": 1380.033796250955
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "cc2fs",
+      "mean_candidates": 13660.253235294118,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10432720,
+      "average_congestion": 2.136368088065344,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 15.528006965908077,
+        "max": 14902,
+        "mean": 8.945994252470737,
+        "p99": 60.0,
+        "size_biased_mean": 2165.9951853955695
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 12009.384411764706,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10458188,
+      "average_congestion": 2.7040448161714297,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 12.631777237982014,
+        "max": 11168,
+        "mean": 8.945994252470737,
+        "p99": 65.66999999999825,
+        "size_biased_mean": 1436.3849058821224
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 12062.408970588236,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10455536,
+      "average_congestion": 2.559246273480501,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 12.80391100968838,
+        "max": 11198,
+        "mean": 8.945994252470737,
+        "p99": 68.0,
+        "size_biased_mean": 1475.5535188921317
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 11644.487352941176,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10454812,
+      "average_congestion": 2.504836150666954,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 12.884920918374338,
+        "max": 11222,
+        "mean": 8.945994252470737,
+        "p99": 65.0,
+        "size_biased_mean": 1494.1705795937555
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 12251.860294117647,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10412260,
+      "average_congestion": 2.574896676003369,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 13.687268137193835,
+        "max": 15110,
+        "mean": 8.945994252470737,
+        "p99": 64.0,
+        "size_biased_mean": 1684.900268348579
+      }
+    },
+    {
+      "dataset_id": "web-Stanford",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 12622.684852941176,
+      "landmark_count": 28534,
+      "index_payload_bytes": 10453284,
+      "average_congestion": 2.504796975691928,
+      "partition_metrics": {
+        "count": 28534,
+        "cv": 13.388409736558687,
+        "max": 14140,
+        "mean": 8.945994252470737,
+        "p99": 63.669999999998254,
+        "size_biased_mean": 1612.5111276516561
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "ratio",
+      "mean_candidates": 1731.7476470588235,
+      "landmark_count": 212524,
+      "index_payload_bytes": 29172272,
+      "average_congestion": 1.4942790505280428,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 3.009686491521353,
+        "max": 1584,
+        "mean": 4.026848732378461,
+        "p99": 31.0,
+        "size_biased_mean": 40.50290137204634
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "ratio",
+      "mean_candidates": 1525.3613235294117,
+      "landmark_count": 267439,
+      "index_payload_bytes": 33422360,
+      "average_congestion": 2.308115662267674,
+      "partition_metrics": {
+        "count": 267439,
+        "cv": 2.4481412875467874,
+        "max": 1426,
+        "mean": 3.1999895303228025,
+        "p99": 20.0,
+        "size_biased_mean": 22.378793225535812
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "ratio",
+      "mean_candidates": 1401.3407352941176,
+      "landmark_count": 320926,
+      "index_payload_bytes": 36368520,
+      "average_congestion": 3.0934865775027403,
+      "partition_metrics": {
+        "count": 320926,
+        "cv": 2.120060051034909,
+        "max": 1316,
+        "mean": 2.666664589344584,
+        "p99": 15.0,
+        "size_biased_mean": 14.652400905817
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 3265.314117647059,
+      "landmark_count": 185891,
+      "index_payload_bytes": 28359768,
+      "average_congestion": 1.5304147454668253,
+      "partition_metrics": {
+        "count": 185891,
+        "cv": 4.483066887912875,
+        "max": 4771,
+        "mean": 4.603783937899092,
+        "p99": 35.0,
+        "size_biased_mean": 97.13012121962791
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 1898.8508823529412,
+      "landmark_count": 240695,
+      "index_payload_bytes": 32516096,
+      "average_congestion": 2.3054585055889096,
+      "partition_metrics": {
+        "count": 240695,
+        "cv": 3.1432922954927482,
+        "max": 2590,
+        "mean": 3.5555453997798043,
+        "p99": 21.0,
+        "size_biased_mean": 38.68535245302068
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 1471.3633823529412,
+      "landmark_count": 320926,
+      "index_payload_bytes": 36842476,
+      "average_congestion": 3.4573721491653444,
+      "partition_metrics": {
+        "count": 320926,
+        "cv": 2.2364321117772064,
+        "max": 1245,
+        "mean": 2.666664589344584,
+        "p99": 15.0,
+        "size_biased_mean": 16.004330440919745
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "degree",
+      "mean_candidates": 3016.1894117647057,
+      "landmark_count": 133719,
+      "index_payload_bytes": 28603924,
+      "average_congestion": 2.5651131920701284,
+      "partition_metrics": {
+        "count": 133719,
+        "cv": 3.1198933248648895,
+        "max": 2194,
+        "mean": 6.400002991347527,
+        "p99": 41.0,
+        "size_biased_mean": 68.6959320029633
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "degree",
+      "mean_candidates": 2171.326470588235,
+      "landmark_count": 213951,
+      "index_payload_bytes": 33183116,
+      "average_congestion": 3.5011766740437626,
+      "partition_metrics": {
+        "count": 213951,
+        "cv": 2.4169767686360215,
+        "max": 968,
+        "mean": 3.9999906520651924,
+        "p99": 22.0,
+        "size_biased_mean": 27.367042844022333
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "degree",
+      "mean_candidates": 1760.7320588235293,
+      "landmark_count": 294182,
+      "index_payload_bytes": 36909064,
+      "average_congestion": 4.441879079506708,
+      "partition_metrics": {
+        "count": 294182,
+        "cv": 1.970478025623244,
+        "max": 861,
+        "mean": 2.9090902910443197,
+        "p99": 14.0,
+        "size_biased_mean": 14.2044585079259
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "cc2fs",
+      "mean_candidates": 3452.25,
+      "landmark_count": 133719,
+      "index_payload_bytes": 28486576,
+      "average_congestion": 2.3715590755805667,
+      "partition_metrics": {
+        "count": 133719,
+        "cv": 3.8478935681327116,
+        "max": 2260,
+        "mean": 6.400002991347527,
+        "p99": 39.0,
+        "size_biased_mean": 101.16027071682468
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "cc2fs",
+      "mean_candidates": 2327.5763235294116,
+      "landmark_count": 213951,
+      "index_payload_bytes": 33114440,
+      "average_congestion": 3.3294488678456,
+      "partition_metrics": {
+        "count": 213951,
+        "cv": 2.802037660381645,
+        "max": 1326,
+        "mean": 3.9999906520651924,
+        "p99": 21.0,
+        "size_biased_mean": 35.405577458337326
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "cc2fs",
+      "mean_candidates": 1818.0383823529412,
+      "landmark_count": 294182,
+      "index_payload_bytes": 36859780,
+      "average_congestion": 4.288718652211609,
+      "partition_metrics": {
+        "count": 294182,
+        "cv": 2.1819148797646215,
+        "max": 1162,
+        "mean": 2.9090902910443197,
+        "p99": 14.0,
+        "size_biased_mean": 16.75854929060694
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 3332.5860294117647,
+      "landmark_count": 145605,
+      "index_payload_bytes": 28453920,
+      "average_congestion": 2.3046043360496937,
+      "partition_metrics": {
+        "count": 145605,
+        "cv": 3.8258848360653213,
+        "max": 2303,
+        "mean": 5.877559149754473,
+        "p99": 39.0,
+        "size_biased_mean": 91.90971276066193
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 2364.8717647058825,
+      "landmark_count": 212524,
+      "index_payload_bytes": 32559292,
+      "average_congestion": 3.122041079595514,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.880380240766818,
+        "max": 1089,
+        "mean": 4.026848732378461,
+        "p99": 23.0,
+        "size_biased_mean": 37.43596299143961
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 1713.8979411764706,
+      "landmark_count": 320926,
+      "index_payload_bytes": 37727668,
+      "average_congestion": 4.454972061294551,
+      "partition_metrics": {
+        "count": 320926,
+        "cv": 2.047466022962046,
+        "max": 855,
+        "mean": 2.666664589344584,
+        "p99": 13.0,
+        "size_biased_mean": 13.845634854791179
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 3400.2801470588233,
+      "landmark_count": 153906,
+      "index_payload_bytes": 28995048,
+      "average_congestion": 2.3897618841741433,
+      "partition_metrics": {
+        "count": 153906,
+        "cv": 3.8087360014730707,
+        "max": 2111,
+        "mean": 5.560549946070978,
+        "p99": 35.0,
+        "size_biased_mean": 86.22450052699105
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 2475.9138235294117,
+      "landmark_count": 212524,
+      "index_payload_bytes": 32532400,
+      "average_congestion": 3.1043477346395543,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.966888396307444,
+        "max": 1145,
+        "mean": 4.026848732378461,
+        "p99": 23.0,
+        "size_biased_mean": 39.4728897572102
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 1734.1836764705881,
+      "landmark_count": 320926,
+      "index_payload_bytes": 37710768,
+      "average_congestion": 4.437623422240191,
+      "partition_metrics": {
+        "count": 320926,
+        "cv": 2.0714161846669974,
+        "max": 854,
+        "mean": 2.666664589344584,
+        "p99": 13.0,
+        "size_biased_mean": 14.108695702978025
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 3267.3564705882354,
+      "landmark_count": 153200,
+      "index_payload_bytes": 28987856,
+      "average_congestion": 2.4006370632459375,
+      "partition_metrics": {
+        "count": 153200,
+        "cv": 3.763308201106502,
+        "max": 2320,
+        "mean": 5.5861749347258485,
+        "p99": 36.0,
+        "size_biased_mean": 84.70031385764464
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 2406.2208823529413,
+      "landmark_count": 212524,
+      "index_payload_bytes": 32558676,
+      "average_congestion": 3.1244435044554697,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.920708227673261,
+        "max": 1102,
+        "mean": 4.026848732378461,
+        "p99": 23.0,
+        "size_biased_mean": 38.37802903007939
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 1728.403088235294,
+      "landmark_count": 320926,
+      "index_payload_bytes": 37724932,
+      "average_congestion": 4.454353927660837,
+      "partition_metrics": {
+        "count": 320926,
+        "cv": 2.058898818012091,
+        "max": 854,
+        "mean": 2.666664589344584,
+        "p99": 13.0,
+        "size_biased_mean": 13.970827364273513
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 3276.248382352941,
+      "landmark_count": 153990,
+      "index_payload_bytes": 29014604,
+      "average_congestion": 2.4139777658850994,
+      "partition_metrics": {
+        "count": 153990,
+        "cv": 3.6370280716370575,
+        "max": 1599,
+        "mean": 5.557516721865056,
+        "p99": 36.0,
+        "size_biased_mean": 79.0721989432135
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 2433.831176470588,
+      "landmark_count": 212524,
+      "index_payload_bytes": 32546040,
+      "average_congestion": 3.127653359071374,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.8850314816182023,
+        "max": 1182,
+        "mean": 4.026848732378461,
+        "p99": 23.0,
+        "size_biased_mean": 37.54394824971197
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 1736.5680882352942,
+      "landmark_count": 320926,
+      "index_payload_bytes": 37714552,
+      "average_congestion": 4.451017875630111,
+      "partition_metrics": {
+        "count": 320926,
+        "cv": 2.0280830795239053,
+        "max": 585,
+        "mean": 2.666664589344584,
+        "p99": 13.0,
+        "size_biased_mean": 13.634978651603992
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 3242.120735294118,
+      "landmark_count": 153571,
+      "index_payload_bytes": 29001776,
+      "average_congestion": 2.401130167959411,
+      "partition_metrics": {
+        "count": 153571,
+        "cv": 3.730879398597734,
+        "max": 2335,
+        "mean": 5.572679737710896,
+        "p99": 36.0,
+        "size_biased_mean": 83.14137849642792
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 2400.389705882353,
+      "landmark_count": 212524,
+      "index_payload_bytes": 32550624,
+      "average_congestion": 3.118765789283035,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.9153088629596726,
+        "max": 1125,
+        "mean": 4.026848732378461,
+        "p99": 23.0,
+        "size_biased_mean": 38.25113986646444
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 1721.8788235294119,
+      "landmark_count": 320926,
+      "index_payload_bytes": 37704480,
+      "average_congestion": 4.447514728874202,
+      "partition_metrics": {
+        "count": 320926,
+        "cv": 2.0483407241868523,
+        "max": 852,
+        "mean": 2.666664589344584,
+        "p99": 13.0,
+        "size_biased_mean": 13.85518846649108
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "ratio",
+      "mean_candidates": 1731.7476470588235,
+      "landmark_count": 212524,
+      "index_payload_bytes": 29172272,
+      "average_congestion": 1.4942790505280428,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 3.009686491521353,
+        "max": 1584,
+        "mean": 4.026848732378461,
+        "p99": 31.0,
+        "size_biased_mean": 40.50290137204634
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 2189.783676470588,
+      "landmark_count": 212524,
+      "index_payload_bytes": 30612336,
+      "average_congestion": 1.9213065639014633,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 3.5830425884964647,
+        "max": 3344,
+        "mean": 4.026848732378461,
+        "p99": 27.0,
+        "size_biased_mean": 55.72431473635257
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "degree",
+      "mean_candidates": 2184.5516176470587,
+      "landmark_count": 212524,
+      "index_payload_bytes": 33108548,
+      "average_congestion": 3.4836749621992005,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.444060903364687,
+        "max": 969,
+        "mean": 4.026848732378461,
+        "p99": 22.0,
+        "size_biased_mean": 28.08096265257618
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "cc2fs",
+      "mean_candidates": 2341.322205882353,
+      "landmark_count": 212524,
+      "index_payload_bytes": 33041376,
+      "average_congestion": 3.3109434191553655,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.830621203715657,
+        "max": 1328,
+        "mean": 4.026848732378461,
+        "p99": 21.0,
+        "size_biased_mean": 36.29163755167667
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 2364.8717647058825,
+      "landmark_count": 212524,
+      "index_payload_bytes": 32559292,
+      "average_congestion": 3.122041079595514,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.880380240766818,
+        "max": 1089,
+        "mean": 4.026848732378461,
+        "p99": 23.0,
+        "size_biased_mean": 37.43596299143961
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 2475.9138235294117,
+      "landmark_count": 212524,
+      "index_payload_bytes": 32532400,
+      "average_congestion": 3.1043477346395543,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.966888396307444,
+        "max": 1145,
+        "mean": 4.026848732378461,
+        "p99": 23.0,
+        "size_biased_mean": 39.4728897572102
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 2406.2208823529413,
+      "landmark_count": 212524,
+      "index_payload_bytes": 32558676,
+      "average_congestion": 3.1244435044554697,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.920708227673261,
+        "max": 1102,
+        "mean": 4.026848732378461,
+        "p99": 23.0,
+        "size_biased_mean": 38.37802903007939
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 2433.831176470588,
+      "landmark_count": 212524,
+      "index_payload_bytes": 32546040,
+      "average_congestion": 3.127653359071374,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.8850314816182023,
+        "max": 1182,
+        "mean": 4.026848732378461,
+        "p99": 23.0,
+        "size_biased_mean": 37.54394824971197
+      }
+    },
+    {
+      "dataset_id": "web-Google",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 2400.389705882353,
+      "landmark_count": 212524,
+      "index_payload_bytes": 32550624,
+      "average_congestion": 3.118765789283035,
+      "partition_metrics": {
+        "count": 212524,
+        "cv": 2.9153088629596726,
+        "max": 1125,
+        "mean": 4.026848732378461,
+        "p99": 23.0,
+        "size_biased_mean": 38.25113986646444
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "ratio",
+      "mean_candidates": 4129.2275,
+      "landmark_count": 194605,
+      "index_payload_bytes": 44303024,
+      "average_congestion": 1.285576673760788,
+      "partition_metrics": {
+        "count": 194605,
+        "mean": 6.956157344364225,
+        "cv": 14.159124669683711,
+        "p99": 70.0,
+        "max": 9752,
+        "size_biased_mean": 1401.532226049584
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 5742.5275,
+      "landmark_count": 161195,
+      "index_payload_bytes": 43560056,
+      "average_congestion": 1.2275476969468193,
+      "partition_metrics": {
+        "count": 161195,
+        "mean": 8.397921771767114,
+        "cv": 17.397704460850914,
+        "p99": 76.0,
+        "max": 21245,
+        "size_biased_mean": 2550.281895659535
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "degree",
+      "mean_candidates": 5365.259558823529,
+      "landmark_count": 81310,
+      "index_payload_bytes": 43301116,
+      "average_congestion": 1.8400306418763939,
+      "partition_metrics": {
+        "count": 81310,
+        "mean": 16.648665600787112,
+        "cv": 10.139894672261414,
+        "p99": 154.0,
+        "max": 18283,
+        "size_biased_mean": 1728.4222410676493
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "cc2fs",
+      "mean_candidates": 5687.321911764706,
+      "landmark_count": 81213,
+      "index_payload_bytes": 42893704,
+      "average_congestion": 1.484194834465167,
+      "partition_metrics": {
+        "count": 81213,
+        "mean": 16.668550601504684,
+        "cv": 11.586679887581786,
+        "p99": 142.0,
+        "max": 20115,
+        "size_biased_mean": 2254.440651309778
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 5258.650882352941,
+      "landmark_count": 113704,
+      "index_payload_bytes": 43432600,
+      "average_congestion": 1.6736632776908968,
+      "partition_metrics": {
+        "count": 113704,
+        "mean": 11.90550024625343,
+        "cv": 11.944956627556042,
+        "p99": 111.0,
+        "max": 17066,
+        "size_biased_mean": 1710.6059534476913
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 5094.347647058824,
+      "landmark_count": 112344,
+      "index_payload_bytes": 43254824,
+      "average_congestion": 1.6694939731979614,
+      "partition_metrics": {
+        "count": 112344,
+        "mean": 12.049624368012532,
+        "cv": 11.823263312582407,
+        "p99": 114.56999999999243,
+        "max": 13386,
+        "size_biased_mean": 1696.4612570113238
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 4924.4880882352945,
+      "landmark_count": 111706,
+      "index_payload_bytes": 43220368,
+      "average_congestion": 1.674130883953127,
+      "partition_metrics": {
+        "count": 111706,
+        "mean": 12.118444846292947,
+        "cv": 11.90065574956221,
+        "p99": 115.0,
+        "max": 18005,
+        "size_biased_mean": 1728.4005553655418
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 5124.493235294118,
+      "landmark_count": 113085,
+      "index_payload_bytes": 43396352,
+      "average_congestion": 1.6575526537209417,
+      "partition_metrics": {
+        "count": 113085,
+        "mean": 11.970668081531592,
+        "cv": 11.9225318844006,
+        "p99": 112.0,
+        "max": 18231,
+        "size_biased_mean": 1713.56242912958
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 5088.301470588235,
+      "landmark_count": 111986,
+      "index_payload_bytes": 43408232,
+      "average_congestion": 1.6757782172308107,
+      "partition_metrics": {
+        "count": 111986,
+        "mean": 12.088144946689765,
+        "cv": 11.592487088040976,
+        "p99": 115.0,
+        "max": 16775,
+        "size_biased_mean": 1636.5626529600659
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "ratio",
+      "mean_candidates": 4000.4427941176473,
+      "landmark_count": 198305,
+      "index_payload_bytes": 49482996,
+      "average_congestion": 1.339345484201483,
+      "partition_metrics": {
+        "count": 198305,
+        "mean": 6.826368472807039,
+        "cv": 13.77815119983756,
+        "p99": 69.0,
+        "max": 9651,
+        "size_biased_mean": 1302.7267554256732
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 5486.800882352941,
+      "landmark_count": 169213,
+      "index_payload_bytes": 48648040,
+      "average_congestion": 1.355193125818588,
+      "partition_metrics": {
+        "count": 169213,
+        "mean": 7.999994090288571,
+        "cv": 16.68908727454611,
+        "p99": 73.0,
+        "max": 20168,
+        "size_biased_mean": 2236.2034205435016
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "degree",
+      "mean_candidates": 5149.973088235294,
+      "landmark_count": 95182,
+      "index_payload_bytes": 49070816,
+      "average_congestion": 2.042654112460414,
+      "partition_metrics": {
+        "count": 95182,
+        "mean": 14.22225841020361,
+        "cv": 10.088237077237283,
+        "p99": 131.0,
+        "max": 16864,
+        "size_biased_mean": 1461.6574411078352
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "cc2fs",
+      "mean_candidates": 5438.121470588235,
+      "landmark_count": 95182,
+      "index_payload_bytes": 48820944,
+      "average_congestion": 1.6887965824113562,
+      "partition_metrics": {
+        "count": 95182,
+        "mean": 14.22225841020361,
+        "cv": 11.474769562961818,
+        "p99": 120.0,
+        "max": 18255,
+        "size_biased_mean": 1886.8718093998461
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 5012.69,
+      "landmark_count": 126238,
+      "index_payload_bytes": 49649284,
+      "average_congestion": 1.8673401772766995,
+      "partition_metrics": {
+        "count": 126238,
+        "mean": 10.72341925569163,
+        "cv": 11.654819348720942,
+        "p99": 98.0,
+        "max": 15762,
+        "size_biased_mean": 1467.3370798469089
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 4885.967205882353,
+      "landmark_count": 125185,
+      "index_payload_bytes": 49605020,
+      "average_congestion": 1.8613122671664317,
+      "partition_metrics": {
+        "count": 125185,
+        "mean": 10.813619842632903,
+        "cv": 11.511992135481872,
+        "p99": 101.0,
+        "max": 12202,
+        "size_biased_mean": 1443.8990022183596
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 4739.068823529412,
+      "landmark_count": 124691,
+      "index_payload_bytes": 49565812,
+      "average_congestion": 1.87611536651688,
+      "partition_metrics": {
+        "count": 124691,
+        "mean": 10.856461172017227,
+        "cv": 11.5538865553619,
+        "p99": 100.0,
+        "max": 16457,
+        "size_biased_mean": 1460.1103735457482
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 4922.320588235294,
+      "landmark_count": 125759,
+      "index_payload_bytes": 49666436,
+      "average_congestion": 1.847914202746097,
+      "partition_metrics": {
+        "count": 125759,
+        "mean": 10.764263392679648,
+        "cv": 11.68892200320899,
+        "p99": 98.0,
+        "max": 16869,
+        "size_biased_mean": 1481.49523270614
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 4908.639264705882,
+      "landmark_count": 124908,
+      "index_payload_bytes": 49824268,
+      "average_congestion": 1.8745020141050142,
+      "partition_metrics": {
+        "count": 124908,
+        "mean": 10.837600473948827,
+        "cv": 11.21979498223894,
+        "p99": 100.0,
+        "max": 15130,
+        "size_biased_mean": 1375.1159249850225
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "ratio",
+      "mean_candidates": 3822.564705882353,
+      "landmark_count": 224212,
+      "index_payload_bytes": 57531224,
+      "average_congestion": 1.7576750587093328,
+      "partition_metrics": {
+        "count": 224212,
+        "mean": 6.037602804488609,
+        "cv": 12.499369043468079,
+        "p99": 59.0,
+        "max": 9415,
+        "size_biased_mean": 949.3178067862744
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 4898.767205882353,
+      "landmark_count": 190364,
+      "index_payload_bytes": 55021604,
+      "average_congestion": 1.6765221027064283,
+      "partition_metrics": {
+        "count": 190364,
+        "mean": 7.111129205101805,
+        "cv": 15.431988434427197,
+        "p99": 64.0,
+        "max": 17656,
+        "size_biased_mean": 1700.6000038413154
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "degree",
+      "mean_candidates": 4708.975294117647,
+      "landmark_count": 126910,
+      "index_payload_bytes": 56126872,
+      "average_congestion": 2.5167433329171907,
+      "partition_metrics": {
+        "count": 126910,
+        "mean": 10.66663777480104,
+        "cv": 9.691950544986307,
+        "p99": 95.0,
+        "max": 14667,
+        "size_biased_mean": 1012.6255810912734
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "cc2fs",
+      "mean_candidates": 4904.851176470588,
+      "landmark_count": 126910,
+      "index_payload_bytes": 55949244,
+      "average_congestion": 2.1739679974115447,
+      "partition_metrics": {
+        "count": 126910,
+        "mean": 10.66663777480104,
+        "cv": 10.790181537458436,
+        "p99": 91.0,
+        "max": 15916,
+        "size_biased_mean": 1252.562128472789
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 4704.657352941176,
+      "landmark_count": 154888,
+      "index_payload_bytes": 56387532,
+      "average_congestion": 2.3077248111291766,
+      "partition_metrics": {
+        "count": 154888,
+        "mean": 8.739883012241103,
+        "cv": 11.109169373019048,
+        "p99": 80.0,
+        "max": 13524,
+        "size_biased_mean": 1087.360695071223
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 4594.698676470588,
+      "landmark_count": 154537,
+      "index_payload_bytes": 56457468,
+      "average_congestion": 2.3069255220679867,
+      "partition_metrics": {
+        "count": 154537,
+        "mean": 8.759733914855342,
+        "cv": 10.949728590276623,
+        "p99": 81.0,
+        "max": 10554,
+        "size_biased_mean": 1059.0216635406732
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 4412.786764705882,
+      "landmark_count": 154372,
+      "index_payload_bytes": 56554240,
+      "average_congestion": 2.339837468041365,
+      "partition_metrics": {
+        "count": 154372,
+        "mean": 8.769096727385795,
+        "cv": 10.94527546926771,
+        "p99": 81.0,
+        "max": 14230,
+        "size_biased_mean": 1059.2985987325137
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 4599.083676470588,
+      "landmark_count": 154728,
+      "index_payload_bytes": 56501596,
+      "average_congestion": 2.2808710625595126,
+      "partition_metrics": {
+        "count": 154728,
+        "mean": 8.74892068662427,
+        "cv": 11.29425608420945,
+        "p99": 79.0,
+        "max": 14519,
+        "size_biased_mean": 1124.763172571827
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 4582.253382352941,
+      "landmark_count": 154444,
+      "index_payload_bytes": 56652212,
+      "average_congestion": 2.332446629726018,
+      "partition_metrics": {
+        "count": 154444,
+        "mean": 8.76500867628396,
+        "cv": 10.56335043549073,
+        "p99": 81.0,
+        "max": 13030,
+        "size_biased_mean": 986.8030011014233
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "ratio",
+      "mean_candidates": 4129.2275,
+      "landmark_count": 194605,
+      "index_payload_bytes": 44303024,
+      "average_congestion": 1.285576673760788,
+      "partition_metrics": {
+        "count": 194605,
+        "mean": 6.956157344364225,
+        "cv": 14.159124669683711,
+        "p99": 70.0,
+        "max": 9752,
+        "size_biased_mean": 1401.532226049584
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 4842.844411764706,
+      "landmark_count": 194605,
+      "index_payload_bytes": 56009340,
+      "average_congestion": 1.7642245012384548,
+      "partition_metrics": {
+        "count": 194605,
+        "mean": 6.956157344364225,
+        "cv": 15.052855704304042,
+        "p99": 63.0,
+        "max": 17433,
+        "size_biased_mean": 1583.1411712908962
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "degree",
+      "mean_candidates": 4178.479852941176,
+      "landmark_count": 194605,
+      "index_payload_bytes": 66051196,
+      "average_congestion": 3.5166214450289317,
+      "partition_metrics": {
+        "count": 194605,
+        "mean": 6.956157344364225,
+        "cv": 8.984745499360068,
+        "p99": 59.0,
+        "max": 11481,
+        "size_biased_mean": 568.4964922143188
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "cc2fs",
+      "mean_candidates": 4285.783088235294,
+      "landmark_count": 194605,
+      "index_payload_bytes": 65951820,
+      "average_congestion": 3.194277474453407,
+      "partition_metrics": {
+        "count": 194605,
+        "mean": 6.956157344364225,
+        "cv": 9.693438376674818,
+        "p99": 57.0,
+        "max": 12580,
+        "size_biased_mean": 660.5758138971399
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 4325.009705882353,
+      "landmark_count": 194605,
+      "index_payload_bytes": 63011656,
+      "average_congestion": 2.928745817952682,
+      "partition_metrics": {
+        "count": 194605,
+        "mean": 6.956157344364225,
+        "cv": 10.096985122886249,
+        "p99": 61.0,
+        "max": 11667,
+        "size_biased_mean": 716.1301976873805
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 4238.0025,
+      "landmark_count": 194605,
+      "index_payload_bytes": 63046640,
+      "average_congestion": 2.9372277375465665,
+      "partition_metrics": {
+        "count": 194605,
+        "mean": 6.956157344364225,
+        "cv": 9.814346217916,
+        "p99": 61.0,
+        "max": 8301,
+        "size_biased_mean": 676.9829135342095
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 4084.709705882353,
+      "landmark_count": 194605,
+      "index_payload_bytes": 63167992,
+      "average_congestion": 2.967756590625861,
+      "partition_metrics": {
+        "count": 194605,
+        "mean": 6.956157344364225,
+        "cv": 10.146290282286355,
+        "p99": 61.0,
+        "max": 12247,
+        "size_biased_mean": 723.0731238683818
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 4228.921323529412,
+      "landmark_count": 194605,
+      "index_payload_bytes": 63046216,
+      "average_congestion": 2.9060938773128226,
+      "partition_metrics": {
+        "count": 194605,
+        "mean": 6.956157344364225,
+        "cv": 10.255288854702002,
+        "p99": 60.0,
+        "max": 12537,
+        "size_biased_mean": 738.5418300764643
+      }
+    },
+    {
+      "dataset_id": "in-2004",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 4179.984558823529,
+      "landmark_count": 194605,
+      "index_payload_bytes": 63198800,
+      "average_congestion": 2.957125750626245,
+      "partition_metrics": {
+        "count": 194605,
+        "mean": 6.956157344364225,
+        "cv": 9.694808453348454,
+        "p99": 61.0,
+        "max": 11072,
+        "size_biased_mean": 660.7605929808828
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "ratio",
+      "mean_candidates": 28949.00338235294,
+      "landmark_count": 86563,
+      "index_payload_bytes": 59304760,
+      "average_congestion": 1.4865741470607328,
+      "partition_metrics": {
+        "count": 86563,
+        "mean": 9.965735937987361,
+        "cv": 13.590609777497985,
+        "p99": 114.0,
+        "max": 23984,
+        "size_biased_mean": 1850.6837447720086
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 56945.905441176474,
+      "landmark_count": 72860,
+      "index_payload_bytes": 57306588,
+      "average_congestion": 1.4058660150417777,
+      "partition_metrics": {
+        "count": 72860,
+        "mean": 11.84002195992314,
+        "cv": 28.91004089427045,
+        "p99": 88.0,
+        "max": 66662,
+        "size_biased_mean": 9907.617475633619
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "degree",
+      "mean_candidates": 55619.345588235294,
+      "landmark_count": 38136,
+      "index_payload_bytes": 58993572,
+      "average_congestion": 3.082606901412369,
+      "partition_metrics": {
+        "count": 38136,
+        "mean": 22.620725823368996,
+        "cv": 14.385222787884475,
+        "p99": 287.0,
+        "max": 25849,
+        "size_biased_mean": 4703.632359759999
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "cc2fs",
+      "mean_candidates": 71075.95382352942,
+      "landmark_count": 38666,
+      "index_payload_bytes": 57685656,
+      "average_congestion": 1.963378557584413,
+      "partition_metrics": {
+        "count": 38666,
+        "mean": 22.310660528629803,
+        "cv": 21.564558424224565,
+        "p99": 158.0,
+        "max": 64735,
+        "size_biased_mean": 10397.441142785603
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 51168.22544117647,
+      "landmark_count": 46792,
+      "index_payload_bytes": 57457464,
+      "average_congestion": 2.6991864735285116,
+      "partition_metrics": {
+        "count": 46792,
+        "mean": 18.436142930415457,
+        "cv": 15.634099348727409,
+        "p99": 212.0,
+        "max": 26605,
+        "size_biased_mean": 4524.691529958362
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 56234.79514705882,
+      "landmark_count": 40147,
+      "index_payload_bytes": 57125760,
+      "average_congestion": 2.6136873684308144,
+      "partition_metrics": {
+        "count": 40147,
+        "mean": 21.487632948912747,
+        "cv": 16.1029805421776,
+        "p99": 235.0,
+        "max": 29714,
+        "size_biased_mean": 5593.359402965697
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 55881.80602941177,
+      "landmark_count": 43273,
+      "index_payload_bytes": 58859464,
+      "average_congestion": 2.663810011777471,
+      "partition_metrics": {
+        "count": 43273,
+        "mean": 19.93538696184688,
+        "cv": 16.738965986819913,
+        "p99": 216.0,
+        "max": 32285,
+        "size_biased_mean": 5605.6909132640285
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 54547.76852941176,
+      "landmark_count": 40588,
+      "index_payload_bytes": 57739884,
+      "average_congestion": 2.584076766852448,
+      "partition_metrics": {
+        "count": 40588,
+        "mean": 21.25416379225387,
+        "cv": 15.887838475084514,
+        "p99": 244.12999999999738,
+        "max": 29878,
+        "size_biased_mean": 5386.302694907867
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 1,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 55027.298970588236,
+      "landmark_count": 43267,
+      "index_payload_bytes": 58447292,
+      "average_congestion": 2.742044411265568,
+      "partition_metrics": {
+        "count": 43267,
+        "mean": 19.938151478031756,
+        "cv": 15.430658077552994,
+        "p99": 218.3399999999965,
+        "max": 28738,
+        "size_biased_mean": 4767.3158703736335
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "ratio",
+      "mean_candidates": 25674.465294117646,
+      "landmark_count": 91880,
+      "index_payload_bytes": 67508684,
+      "average_congestion": 1.7318782283716487,
+      "partition_metrics": {
+        "count": 91880,
+        "mean": 9.389029168480628,
+        "cv": 13.240804440315587,
+        "p99": 101.0,
+        "max": 23201,
+        "size_biased_mean": 1655.4633159607913
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 48017.34720588235,
+      "landmark_count": 80757,
+      "index_payload_bytes": 66525304,
+      "average_congestion": 1.7518442869993416,
+      "partition_metrics": {
+        "count": 80757,
+        "mean": 10.682219498000173,
+        "cv": 27.68782591118341,
+        "p99": 82.0,
+        "max": 63317,
+        "size_biased_mean": 8199.839436907068
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "degree",
+      "mean_candidates": 48807.273970588234,
+      "landmark_count": 48656,
+      "index_payload_bytes": 66107476,
+      "average_congestion": 3.5065506384872904,
+      "partition_metrics": {
+        "count": 48656,
+        "mean": 17.729858599145018,
+        "cv": 14.673835338934177,
+        "p99": 192.0,
+        "max": 23414,
+        "size_biased_mean": 3835.348606178072
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "cc2fs",
+      "mean_candidates": 56563.23926470588,
+      "landmark_count": 53917,
+      "index_payload_bytes": 68050228,
+      "average_congestion": 2.5993156083944617,
+      "partition_metrics": {
+        "count": 53917,
+        "mean": 15.999851623792125,
+        "cv": 21.992674227985184,
+        "p99": 112.0,
+        "max": 58178,
+        "size_biased_mean": 7754.77160053045
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 42552.18955882353,
+      "landmark_count": 60656,
+      "index_payload_bytes": 67580428,
+      "average_congestion": 3.262209852271568,
+      "partition_metrics": {
+        "count": 60656,
+        "mean": 14.222236876813506,
+        "cv": 15.512724735942424,
+        "p99": 137.0,
+        "max": 23328,
+        "size_biased_mean": 3436.7271498520863
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 46902.39102941177,
+      "landmark_count": 53917,
+      "index_payload_bytes": 67302480,
+      "average_congestion": 3.194534604434635,
+      "partition_metrics": {
+        "count": 53917,
+        "mean": 15.999851623792125,
+        "cv": 16.295653784053357,
+        "p99": 142.8399999999965,
+        "max": 26868,
+        "size_biased_mean": 4264.733766564967
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 49885.893382352944,
+      "landmark_count": 53917,
+      "index_payload_bytes": 66293116,
+      "average_congestion": 3.11330946927193,
+      "partition_metrics": {
+        "count": 53917,
+        "mean": 15.999851623792125,
+        "cv": 16.963841881212005,
+        "p99": 148.0,
+        "max": 28630,
+        "size_biased_mean": 4620.308055048084
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 46759.97632352941,
+      "landmark_count": 53917,
+      "index_payload_bytes": 67227916,
+      "average_congestion": 3.147886083109994,
+      "partition_metrics": {
+        "count": 53917,
+        "mean": 15.999851623792125,
+        "cv": 16.16264738925777,
+        "p99": 151.0,
+        "max": 26699,
+        "size_biased_mean": 4195.659821205011
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 2,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 47865.550294117646,
+      "landmark_count": 53917,
+      "index_payload_bytes": 66183168,
+      "average_congestion": 3.175221175335936,
+      "partition_metrics": {
+        "count": 53917,
+        "mean": 15.999851623792125,
+        "cv": 15.565057273216578,
+        "p99": 152.8399999999965,
+        "max": 26461,
+        "size_biased_mean": 3892.3000310665566
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "ratio",
+      "mean_candidates": 24185.70794117647,
+      "landmark_count": 107833,
+      "index_payload_bytes": 75503812,
+      "average_congestion": 2.4398665065425242,
+      "partition_metrics": {
+        "count": 107833,
+        "mean": 8.0,
+        "cv": 12.454018718214577,
+        "p99": 79.0,
+        "max": 18958,
+        "size_biased_mean": 1248.8206578691124
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 40618.184411764705,
+      "landmark_count": 98807,
+      "index_payload_bytes": 75185268,
+      "average_congestion": 2.537203360752274,
+      "partition_metrics": {
+        "count": 98807,
+        "mean": 8.730798425212788,
+        "cv": 26.252829470348928,
+        "p99": 62.0,
+        "max": 56123,
+        "size_biased_mean": 6026.093593797817
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "degree",
+      "mean_candidates": 41050.40176470588,
+      "landmark_count": 67396,
+      "index_payload_bytes": 73939888,
+      "average_congestion": 4.270576956961227,
+      "partition_metrics": {
+        "count": 67396,
+        "mean": 12.799928779156033,
+        "cv": 14.800605955646795,
+        "p99": 107.05000000000291,
+        "max": 21070,
+        "size_biased_mean": 2816.72591646342
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "cc2fs",
+      "mean_candidates": 48415.92014705882,
+      "landmark_count": 67396,
+      "index_payload_bytes": 73415432,
+      "average_congestion": 3.1650306492446654,
+      "partition_metrics": {
+        "count": 67396,
+        "mean": 12.799928779156033,
+        "cv": 22.03563834907151,
+        "p99": 86.05000000000291,
+        "max": 54279,
+        "size_biased_mean": 6228.053121493421
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 35913.21294117647,
+      "landmark_count": 80875,
+      "index_payload_bytes": 75485336,
+      "average_congestion": 4.101155258594308,
+      "partition_metrics": {
+        "count": 80875,
+        "mean": 10.666633693972178,
+        "cv": 15.196170653322044,
+        "p99": 85.0,
+        "max": 19625,
+        "size_biased_mean": 2473.8441131193604
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 39355.00544117647,
+      "landmark_count": 74135,
+      "index_payload_bytes": 75263472,
+      "average_congestion": 4.029473815993248,
+      "partition_metrics": {
+        "count": 74135,
+        "mean": 11.636393066702636,
+        "cv": 16.18431268828548,
+        "p99": 90.0,
+        "max": 23918,
+        "size_biased_mean": 3059.579836413714
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 38511.156029411766,
+      "landmark_count": 80875,
+      "index_payload_bytes": 76610640,
+      "average_congestion": 4.215844175716153,
+      "partition_metrics": {
+        "count": 80875,
+        "mean": 10.666633693972178,
+        "cv": 16.403002857707126,
+        "p99": 78.0,
+        "max": 22583,
+        "size_biased_mean": 2880.6151247762746
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 37728.344264705884,
+      "landmark_count": 80875,
+      "index_payload_bytes": 76999388,
+      "average_congestion": 4.248061817810874,
+      "partition_metrics": {
+        "count": 80875,
+        "mean": 10.666633693972178,
+        "cv": 15.416565323332499,
+        "p99": 78.0,
+        "max": 19072,
+        "size_biased_mean": 2545.810651655801
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-budget",
+      "budget_index": 3,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 37866.531764705884,
+      "landmark_count": 80875,
+      "index_payload_bytes": 76597316,
+      "average_congestion": 4.281155815010247,
+      "partition_metrics": {
+        "count": 80875,
+        "mean": 10.666633693972178,
+        "cv": 14.787401721719286,
+        "p99": 76.0,
+        "max": 19237,
+        "size_biased_mean": 2343.1100868936223
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "ratio",
+      "mean_candidates": 28949.00338235294,
+      "landmark_count": 86563,
+      "index_payload_bytes": 59304760,
+      "average_congestion": 1.4865741470607328,
+      "partition_metrics": {
+        "count": 86563,
+        "mean": 9.965735937987361,
+        "cv": 13.590609777497985,
+        "p99": 114.0,
+        "max": 23984,
+        "size_biased_mean": 1850.6837447720086
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "ratio-plus",
+      "mean_candidates": 44214.26147058824,
+      "landmark_count": 86563,
+      "index_payload_bytes": 69841452,
+      "average_congestion": 2.0199822874259272,
+      "partition_metrics": {
+        "count": 86563,
+        "mean": 9.965735937987361,
+        "cv": 27.06011041678886,
+        "p99": 77.0,
+        "max": 60249,
+        "size_biased_mean": 7307.371648753165
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "degree",
+      "mean_candidates": 34903.71705882353,
+      "landmark_count": 86563,
+      "index_payload_bytes": 79204088,
+      "average_congestion": 5.234433104893678,
+      "partition_metrics": {
+        "count": 86563,
+        "mean": 9.965735937987361,
+        "cv": 12.651603575584334,
+        "p99": 75.0,
+        "max": 13975,
+        "size_biased_mean": 1605.1120552150085
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "cc2fs",
+      "mean_candidates": 37843.851029411766,
+      "landmark_count": 86563,
+      "index_payload_bytes": 78922040,
+      "average_congestion": 4.134933183719269,
+      "partition_metrics": {
+        "count": 86563,
+        "mean": 9.965735937987361,
+        "cv": 16.059993378639746,
+        "p99": 63.38000000000466,
+        "max": 25138,
+        "size_biased_mean": 2580.3621062198026
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261013",
+      "mean_candidates": 34077.48720588235,
+      "landmark_count": 86563,
+      "index_payload_bytes": 77165540,
+      "average_congestion": 4.370934686042306,
+      "partition_metrics": {
+        "count": 86563,
+        "mean": 9.965735937987361,
+        "cv": 14.411368421210867,
+        "p99": 75.38000000000466,
+        "max": 18835,
+        "size_biased_mean": 2079.724914914729
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261014",
+      "mean_candidates": 35089.689264705885,
+      "landmark_count": 86563,
+      "index_payload_bytes": 78724760,
+      "average_congestion": 4.683489748036315,
+      "partition_metrics": {
+        "count": 86563,
+        "mean": 9.965735937987361,
+        "cv": 13.880248857987876,
+        "p99": 71.38000000000466,
+        "max": 14494,
+        "size_biased_mean": 1929.9774605176524
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261015",
+      "mean_candidates": 35775.8675,
+      "landmark_count": 86563,
+      "index_payload_bytes": 78199588,
+      "average_congestion": 4.628019715671455,
+      "partition_metrics": {
+        "count": 86563,
+        "mean": 9.965735937987361,
+        "cv": 14.349538167403574,
+        "p99": 71.0,
+        "max": 21850,
+        "size_biased_mean": 2062.002904954884
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261016",
+      "mean_candidates": 35499.00882352941,
+      "landmark_count": 86563,
+      "index_payload_bytes": 78495576,
+      "average_congestion": 4.662067734367031,
+      "partition_metrics": {
+        "count": 86563,
+        "mean": 9.965735937987361,
+        "cv": 13.519751516975267,
+        "p99": 71.0,
+        "max": 14548,
+        "size_biased_mean": 1831.5396353620877
+      }
+    },
+    {
+      "dataset_id": "eu-2005",
+      "control": "matched-count",
+      "budget_index": 0,
+      "selection_method": "random-prune-s20261017",
+      "mean_candidates": 35388.95705882353,
+      "landmark_count": 86563,
+      "index_payload_bytes": 78191564,
+      "average_congestion": 4.689579024973802,
+      "partition_metrics": {
+        "count": 86563,
+        "mean": 9.965735937987361,
+        "cv": 13.096104740133146,
+        "p99": 70.0,
+        "max": 14755,
+        "size_biased_mean": 1719.1687702280378
+      }
+    }
+  ],
+  "query_count_per_graph": 6800,
+  "distribution_note": "Summaries of all 144 index configurations."
+}

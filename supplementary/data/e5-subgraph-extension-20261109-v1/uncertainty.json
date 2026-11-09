@@ -1,0 +1,2594 @@
+[
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8440889946886109,
+        "ci95": [
+          0.8195500883101704,
+          0.8671880234551964
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8946139538627925,
+        "ci95": [
+          0.8277370057114039,
+          0.9659531689387248
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6170830016999284,
+        "ci95": [
+          0.5886171428784291,
+          0.6465343282631073
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8416551264282893,
+        "ci95": [
+          0.8069750621703144,
+          0.8717493958217617
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8722168152134698,
+        "ci95": [
+          0.7877833139909853,
+          0.9519468603125547
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6162366601344326,
+        "ci95": [
+          0.5757036719055536,
+          0.6578337197098308
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8466040801473271,
+        "ci95": [
+          0.8120396794474585,
+          0.8769798130567724
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.9161416505346023,
+        "ci95": [
+          0.8167236167236509,
+          1.0244262731543659
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6179584052964882,
+        "ci95": [
+          0.5760831371168446,
+          0.6607132375885444
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8248050416407268,
+        "ci95": [
+          0.7996144566982877,
+          0.847215270622224
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.7511417862892927,
+        "ci95": [
+          0.6957178921043705,
+          0.8068561215653691
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.5776932128688134,
+        "ci95": [
+          0.5483351970930127,
+          0.6058203937127938
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8249456727225306,
+        "ci95": [
+          0.789151151124021,
+          0.8564346386979979
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.7396504244637798,
+        "ci95": [
+          0.6717238179316724,
+          0.8118573522310715
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.5744228871441763,
+        "ci95": [
+          0.5347590259717881,
+          0.6146532294806667
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8246606171920146,
+        "ci95": [
+          0.7933142357742891,
+          0.853303464974792
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.76197487992276,
+        "ci95": [
+          0.6743953788763847,
+          0.857379310027928
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.5811056551977193,
+        "ci95": [
+          0.5375387589701102,
+          0.6223648868936225
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8269661245014625,
+        "ci95": [
+          0.8036559554504873,
+          0.8493630266358634
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8268772035279064,
+        "ci95": [
+          0.7579055395649483,
+          0.8974663819515417
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.5718321324539735,
+        "ci95": [
+          0.5426964277950169,
+          0.6011382672419273
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8253262067191087,
+        "ci95": [
+          0.7898333121021022,
+          0.8563071270590663
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8083117887694243,
+        "ci95": [
+          0.7237377525096931,
+          0.894060045510096
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.5725975049787293,
+        "ci95": [
+          0.5305641487839596,
+          0.6137050412056312
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8286576598730931,
+        "ci95": [
+          0.7936829698376238,
+          0.858552441193734
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8446296795799049,
+        "ci95": [
+          0.7396915398319611,
+          0.9579008499774327
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.5710448246433941,
+        "ci95": [
+          0.5298853303848914,
+          0.6119505381070567
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8736096536805378,
+        "ci95": [
+          0.850274388800703,
+          0.896244795964253
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8838780079585999,
+        "ci95": [
+          0.8361946621927628,
+          0.9328751642458022
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6706687845018408,
+        "ci95": [
+          0.6364603232844889,
+          0.7062820551104871
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8656814599153687,
+        "ci95": [
+          0.8319944148260604,
+          0.8947802817168101
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8587378361277597,
+        "ci95": [
+          0.7949746615962019,
+          0.9175098750462082
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6580679007657543,
+        "ci95": [
+          0.61161376739116,
+          0.7052050024416758
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8819071775702438,
+        "ci95": [
+          0.8491055100475613,
+          0.9118658827395857
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.9082090277522447,
+        "ci95": [
+          0.8310318209987206,
+          0.9772993554760876
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6841818153328316,
+        "ci95": [
+          0.6348809940681321,
+          0.733879987174777
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.4373851732745186,
+        "ci95": [
+          1.366834052673801,
+          1.5239176931463865
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.9510967628044087,
+        "ci95": [
+          2.6896737139344014,
+          3.232838667432839
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 90.58116255589212,
+        "ci95": [
+          78.20299447690685,
+          104.52375564329753
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.4412858421679737,
+        "ci95": [
+          1.3445439238334478,
+          1.5646784208868287
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.708990008134644,
+        "ci95": [
+          2.471742889128333,
+          2.9499446161900926
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 97.42187595478156,
+        "ci95": [
+          81.29159170537403,
+          117.53514241447503
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.4333998293134445,
+        "ci95": [
+          1.342695649373166,
+          1.5595705512687799
+        ]
+      },
+      "requested_bytes": {
+        "point": 3.213944821316505,
+        "ci95": [
+          2.7108635309574707,
+          3.762381043557728
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 84.46377049180327,
+        "ci95": [
+          68.38128072728725,
+          104.7710097606804
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.4396986275079853,
+        "ci95": [
+          1.3655019196057607,
+          1.5276814988489056
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.9510967628044087,
+        "ci95": [
+          2.6857524446995513,
+          3.2383562530439978
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 90.58116255589212,
+        "ci95": [
+          78.09044684861307,
+          104.43963224909079
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.4400858955634728,
+        "ci95": [
+          1.3438311142986072,
+          1.565365798668157
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.708990008134644,
+        "ci95": [
+          2.4587341156750746,
+          2.9545821086289683
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 97.42187595478156,
+        "ci95": [
+          80.8758702251722,
+          116.81463573086809
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.4393009926968685,
+        "ci95": [
+          1.3493815163644254,
+          1.5643414147984858
+        ]
+      },
+      "requested_bytes": {
+        "point": 3.213944821316505,
+        "ci95": [
+          2.7356399856046942,
+          3.751447482923014
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 84.46377049180327,
+        "ci95": [
+          68.13752771536387,
+          105.56921716643765
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "degree",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8317711706417381,
+        "ci95": [
+          0.7788337397484396,
+          0.8870407065211001
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8946139538627925,
+        "ci95": [
+          0.820989571338288,
+          0.9665080318196649
+        ]
+      },
+      "read_calls": {
+        "point": 1.3669994128009395,
+        "ci95": [
+          1.3262647795299118,
+          1.409269579969168
+        ]
+      },
+      "candidates": {
+        "point": 0.6170830016999284,
+        "ci95": [
+          0.587354627137871,
+          0.6476854396956296
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "degree",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8469687780047275,
+        "ci95": [
+          0.770314988843778,
+          0.9263965424067153
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8722168152134698,
+        "ci95": [
+          0.7861222695242321,
+          0.9615539580503448
+        ]
+      },
+      "read_calls": {
+        "point": 1.3577267419229273,
+        "ci95": [
+          1.299164000385447,
+          1.4177686304831167
+        ]
+      },
+      "candidates": {
+        "point": 0.6162366601344326,
+        "ci95": [
+          0.5711700413436359,
+          0.6577365206206853
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "degree",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8164831733131178,
+        "ci95": [
+          0.7464191383269717,
+          0.8937843172908364
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.9161416505346023,
+        "ci95": [
+          0.8101311954982163,
+          1.0286400941069611
+        ]
+      },
+      "read_calls": {
+        "point": 1.3763779527559055,
+        "ci95": [
+          1.3179783790734072,
+          1.439891321656051
+        ]
+      },
+      "candidates": {
+        "point": 0.6179584052964882,
+        "ci95": [
+          0.5737794721852718,
+          0.6616483577414399
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7937372149038752,
+        "ci95": [
+          0.7496888768708876,
+          0.8408937738105038
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.7511417862892927,
+        "ci95": [
+          0.6959983068731398,
+          0.813036036110906
+        ]
+      },
+      "read_calls": {
+        "point": 1.1905898397545176,
+        "ci95": [
+          1.1602406244717614,
+          1.2196573898675953
+        ]
+      },
+      "candidates": {
+        "point": 0.5776932128688134,
+        "ci95": [
+          0.5485965983621366,
+          0.6060293487733386
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8123869719896032,
+        "ci95": [
+          0.7425273905391009,
+          0.8810915040598479
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.7396504244637798,
+        "ci95": [
+          0.670017384441749,
+          0.8152649317914932
+        ]
+      },
+      "read_calls": {
+        "point": 1.1653859004343468,
+        "ci95": [
+          1.1293728808463708,
+          1.202942334963156
+        ]
+      },
+      "candidates": {
+        "point": 0.5744228871441763,
+        "ci95": [
+          0.5322735884028593,
+          0.61746454763766
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7751676632970016,
+        "ci95": [
+          0.7131208377568367,
+          0.8397589907515568
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.76197487992276,
+        "ci95": [
+          0.6736134210104804,
+          0.8515208234117662
+        ]
+      },
+      "read_calls": {
+        "point": 1.216846501914375,
+        "ci95": [
+          1.1707311079500047,
+          1.2647794907128926
+        ]
+      },
+      "candidates": {
+        "point": 0.5811056551977193,
+        "ci95": [
+          0.5414213086764863,
+          0.6251529923951974
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7529562022131778,
+        "ci95": [
+          0.7022948586984918,
+          0.8072175660517636
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8268772035279064,
+        "ci95": [
+          0.7574468756311241,
+          0.8988801149969791
+        ]
+      },
+      "read_calls": {
+        "point": 1.319229316207027,
+        "ci95": [
+          1.2803250336473295,
+          1.3608012299927206
+        ]
+      },
+      "candidates": {
+        "point": 0.5718321324539735,
+        "ci95": [
+          0.5437128861616465,
+          0.6001043366710913
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7671694511808708,
+        "ci95": [
+          0.6974754579283006,
+          0.844105500777648
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8083117887694243,
+        "ci95": [
+          0.7246248974824475,
+          0.8971590519902577
+        ]
+      },
+      "read_calls": {
+        "point": 1.3102930127723516,
+        "ci95": [
+          1.2573747276986804,
+          1.3634071927168958
+        ]
+      },
+      "candidates": {
+        "point": 0.5725975049787293,
+        "ci95": [
+          0.5350658521964758,
+          0.6147326837636039
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7386754440455995,
+        "ci95": [
+          0.6670630920875918,
+          0.8152167583974818
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8446296795799049,
+        "ci95": [
+          0.7392481228785975,
+          0.9545695733719541
+        ]
+      },
+      "read_calls": {
+        "point": 1.3282674772036474,
+        "ci95": [
+          1.274089775922748,
+          1.3841446111789466
+        ]
+      },
+      "candidates": {
+        "point": 0.5710448246433941,
+        "ci95": [
+          0.5282417560155661,
+          0.6099251974458171
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.9074169691583903,
+        "ci95": [
+          0.8587278887691976,
+          0.9550569326590725
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8838780079585999,
+        "ci95": [
+          0.836968944617692,
+          0.9317121783794594
+        ]
+      },
+      "read_calls": {
+        "point": 1.2814208652893517,
+        "ci95": [
+          1.2449632779651387,
+          1.3194343689112535
+        ]
+      },
+      "candidates": {
+        "point": 0.6706687845018408,
+        "ci95": [
+          0.6386977466387137,
+          0.7063292726030048
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.9099234603838896,
+        "ci95": [
+          0.8437005358874023,
+          0.9775965752647551
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8587378361277597,
+        "ci95": [
+          0.7926634817556264,
+          0.9176405552692107
+        ]
+      },
+      "read_calls": {
+        "point": 1.2613003543791148,
+        "ci95": [
+          1.2138438521810244,
+          1.3123280898750007
+        ]
+      },
+      "candidates": {
+        "point": 0.6580679007657543,
+        "ci95": [
+          0.6095654442838954,
+          0.7062854652678744
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.9048161078746704,
+        "ci95": [
+          0.8386785434036271,
+          0.9693051655151388
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.9082090277522447,
+        "ci95": [
+          0.8326972008019018,
+          0.9805169232714485
+        ]
+      },
+      "read_calls": {
+        "point": 1.3021454112038156,
+        "ci95": [
+          1.2472059692928308,
+          1.3606594836005799
+        ]
+      },
+      "candidates": {
+        "point": 0.6841818153328316,
+        "ci95": [
+          0.6384524765687689,
+          0.7338995135480731
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.551119522862224,
+        "ci95": [
+          2.372802551049123,
+          2.7318344077780843
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.9510967628044087,
+        "ci95": [
+          2.682297954494349,
+          3.259983936170591
+        ]
+      },
+      "read_calls": {
+        "point": 0.6845716526171339,
+        "ci95": [
+          0.63928943819304,
+          0.7306480003943194
+        ]
+      },
+      "candidates": {
+        "point": 90.58116255589212,
+        "ci95": [
+          77.85269374812917,
+          104.9566464393095
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.567514366033965,
+        "ci95": [
+          2.3537798002114863,
+          2.7970882298743143
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.708990008134644,
+        "ci95": [
+          2.4582687413440256,
+          2.9387910873818752
+        ]
+      },
+      "read_calls": {
+        "point": 0.6946823341963753,
+        "ci95": [
+          0.6289961030334874,
+          0.7627952238350052
+        ]
+      },
+      "candidates": {
+        "point": 97.42187595478156,
+        "ci95": [
+          81.41531976449059,
+          116.24395492829487
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.5342331454543237,
+        "ci95": [
+          2.2457494257127983,
+          2.845184097502445
+        ]
+      },
+      "requested_bytes": {
+        "point": 3.213944821316505,
+        "ci95": [
+          2.730550600173907,
+          3.8050157736200068
+        ]
+      },
+      "read_calls": {
+        "point": 0.674773209805057,
+        "ci95": [
+          0.615214578119095,
+          0.735180256521368
+        ]
+      },
+      "candidates": {
+        "point": 84.46377049180327,
+        "ci95": [
+          68.15395109653988,
+          106.0878390442637
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.2447745535285923,
+        "ci95": [
+          2.0944390774516375,
+          2.3970464845571757
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.9510967628044087,
+        "ci95": [
+          2.6770093525434993,
+          3.2717024666222962
+        ]
+      },
+      "read_calls": {
+        "point": 0.5029163966299417,
+        "ci95": [
+          0.4801913497973462,
+          0.5236872143886968
+        ]
+      },
+      "candidates": {
+        "point": 90.58116255589212,
+        "ci95": [
+          77.86894720421219,
+          103.84540534694787
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.276912547587429,
+        "ci95": [
+          2.0943462873572942,
+          2.4757623469092604
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.708990008134644,
+        "ci95": [
+          2.460029148613744,
+          2.943347603433674
+        ]
+      },
+      "read_calls": {
+        "point": 0.5048487480098423,
+        "ci95": [
+          0.4719491107353648,
+          0.5346368416194407
+        ]
+      },
+      "candidates": {
+        "point": 97.42187595478156,
+        "ci95": [
+          80.96792711317535,
+          117.3727026840395
+        ]
+      }
+    }
+  },
+  {
+    "graph": "in-2004",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.2121915818193196,
+        "ci95": [
+          1.9852796142905877,
+          2.4683146641295157
+        ]
+      },
+      "requested_bytes": {
+        "point": 3.213944821316505,
+        "ci95": [
+          2.7363454528065128,
+          3.775741950635873
+        ]
+      },
+      "read_calls": {
+        "point": 0.5010031527658355,
+        "ci95": [
+          0.4714054123503713,
+          0.5263849326500848
+        ]
+      },
+      "candidates": {
+        "point": 84.46377049180327,
+        "ci95": [
+          67.8447580696459,
+          104.63977235081524
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6023402351132477,
+        "ci95": [
+          0.5841360527943634,
+          0.6227715994800287
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5413460050328011,
+        "ci95": [
+          0.524438568073914,
+          0.5573709307065347
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.26534660665376814,
+        "ci95": [
+          0.2467870001433231,
+          0.2836724000389579
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6168176276312558,
+        "ci95": [
+          0.5880025768186442,
+          0.6502040669579011
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5588910411683985,
+        "ci95": [
+          0.5361498154535423,
+          0.5829078650597816
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.28116705872554376,
+        "ci95": [
+          0.25562956918243973,
+          0.30858674554567916
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.587786758286091,
+        "ci95": [
+          0.5678541417324346,
+          0.6088722071367352
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5240167507697813,
+        "ci95": [
+          0.4997319576160046,
+          0.5473776161412884
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.2502788243120142,
+        "ci95": [
+          0.22430548730474478,
+          0.2762556780073139
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.5215911814103478,
+        "ci95": [
+          0.49810270266180967,
+          0.5449515507777147
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.42232726076572374,
+        "ci95": [
+          0.40260446872981864,
+          0.44328874034760646
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.21832044463481542,
+        "ci95": [
+          0.20168421596645436,
+          0.23573441417980603
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.5331748404665068,
+        "ci95": [
+          0.5017062434341358,
+          0.5666485128906379
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.4472997369597928,
+        "ci95": [
+          0.41995814202216103,
+          0.4792272130372485
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.23108831755639161,
+        "ci95": [
+          0.206946869580082,
+          0.25799695938926315
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.509904838128896,
+        "ci95": [
+          0.4815963606797205,
+          0.5405808513654077
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.39886874366110664,
+        "ci95": [
+          0.37303256391659656,
+          0.4280280871877686
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.2061344251666103,
+        "ci95": [
+          0.1846499979783389,
+          0.23119136542198684
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.46171209962644705,
+        "ci95": [
+          0.4396036568001394,
+          0.48504549746445047
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.4033459167811847,
+        "ci95": [
+          0.3871599684335673,
+          0.42045861975713256
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.17334996687188833,
+        "ci95": [
+          0.16117381663277397,
+          0.18622056475321325
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.4736643762330287,
+        "ci95": [
+          0.4393087388850635,
+          0.5122960992078902
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.415773176489681,
+        "ci95": [
+          0.394131997625935,
+          0.4400535570828083
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.18256856186897769,
+        "ci95": [
+          0.16463831835492396,
+          0.20106890065585023
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.4497404163738245,
+        "ci95": [
+          0.4248911919204483,
+          0.47653049587195756
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.39103357835731845,
+        "ci95": [
+          0.36853544791055354,
+          0.41310761567439147
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.1644644720833332,
+        "ci95": [
+          0.14784488638706533,
+          0.18298911683083283
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6230418010915079,
+        "ci95": [
+          0.5748722750750298,
+          0.6697265640314798
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5666379548136338,
+        "ci95": [
+          0.5154956549839742,
+          0.6167655355942682
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.2796060831395162,
+        "ci95": [
+          0.24468763384634692,
+          0.3219140148125554
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6377587877344512,
+        "ci95": [
+          0.5848052497485418,
+          0.6925793681359704
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5838851509000665,
+        "ci95": [
+          0.5305332499736314,
+          0.6428583082862815
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.29576335173451557,
+        "ci95": [
+          0.2522271135465773,
+          0.3452255587599559
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6082354660551925,
+        "ci95": [
+          0.5586644414249414,
+          0.6573162220394367
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5495379457189088,
+        "ci95": [
+          0.4954303556210112,
+          0.6080351792401812
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.2641652727395174,
+        "ci95": [
+          0.22444681485038145,
+          0.31261687727292087
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3162165270588182,
+        "ci95": [
+          1.277539073928614,
+          1.3553348056337273
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.0349062231246213,
+        "ci95": [
+          1.943786099229524,
+          2.12887247729394
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 91.02470616454787,
+        "ci95": [
+          68.06784859538114,
+          115.87824052756001
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3203055925466913,
+        "ci95": [
+          1.2601719871828363,
+          1.3845032800606072
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.1078046315870775,
+        "ci95": [
+          1.9718962099175839,
+          2.2523438545464805
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 79.68646568313021,
+        "ci95": [
+          50.417261526062426,
+          119.16312014494196
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3119303139691105,
+        "ci95": [
+          1.2598339383536414,
+          1.3653114337798127
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.9633745418455333,
+        "ci95": [
+          1.8458418413471454,
+          2.0953960611401743
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 107.3709811658087,
+        "ci95": [
+          90.91731977545747,
+          125.44046234009265
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3136106800485172,
+        "ci95": [
+          1.2717500005057316,
+          1.3557299303126156
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.0349062231246213,
+        "ci95": [
+          1.9499713554761786,
+          2.133895140996209
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 91.02470616454787,
+        "ci95": [
+          68.17001304860597,
+          115.61498825995537
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3176597867773585,
+        "ci95": [
+          1.2589635918023248,
+          1.3814137290069355
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.1078046315870775,
+        "ci95": [
+          1.9830336610782047,
+          2.252180879678324
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 79.68646568313021,
+        "ci95": [
+          51.486577913885206,
+          119.38126277461201
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3093661420404037,
+        "ci95": [
+          1.2533849717592676,
+          1.3634356129847733
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.9633745418455333,
+        "ci95": [
+          1.8436095417653762,
+          2.0926430281808024
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 107.3709811658087,
+        "ci95": [
+          91.53558634625166,
+          126.36580133005218
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "degree",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.46066542491210666,
+        "ci95": [
+          0.439885544189946,
+          0.4829443449443412
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5413460050328011,
+        "ci95": [
+          0.5241741268191304,
+          0.5577839551853457
+        ]
+      },
+      "read_calls": {
+        "point": 1.2238452427951045,
+        "ci95": [
+          1.193066642034624,
+          1.2548077708358392
+        ]
+      },
+      "candidates": {
+        "point": 0.26534660665376814,
+        "ci95": [
+          0.24621894871358085,
+          0.28527631201381976
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "degree",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.4786462471313103,
+        "ci95": [
+          0.4484545437022017,
+          0.512886624180922
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5588910411683985,
+        "ci95": [
+          0.5351590652284488,
+          0.5833723734633305
+        ]
+      },
+      "read_calls": {
+        "point": 1.2160259275815823,
+        "ci95": [
+          1.1764215148653299,
+          1.2589070500345962
+        ]
+      },
+      "candidates": {
+        "point": 0.28116705872554376,
+        "ci95": [
+          0.25498630693221874,
+          0.30840382580009745
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "degree",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.4428883675647653,
+        "ci95": [
+          0.41428441633148,
+          0.4722938029373281
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5240167507697813,
+        "ci95": [
+          0.5018399782874053,
+          0.5479056508363251
+        ]
+      },
+      "read_calls": {
+        "point": 1.2318114539451215,
+        "ci95": [
+          1.1889869615414663,
+          1.2791675718673052
+        ]
+      },
+      "candidates": {
+        "point": 0.2502788243120142,
+        "ci95": [
+          0.22586077186440212,
+          0.27657462004701877
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.3182458719806193,
+        "ci95": [
+          0.2957015886222016,
+          0.34294410047567897
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.42232726076572374,
+        "ci95": [
+          0.40259332864729697,
+          0.44296064262109464
+        ]
+      },
+      "read_calls": {
+        "point": 1.1046067701705269,
+        "ci95": [
+          1.0850710859510788,
+          1.1246122123591393
+        ]
+      },
+      "candidates": {
+        "point": 0.21832044463481542,
+        "ci95": [
+          0.2009026953805656,
+          0.23660834961811578
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.33972646142254487,
+        "ci95": [
+          0.3055435091321164,
+          0.3796906647455669
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.4472997369597928,
+        "ci95": [
+          0.41850741003530995,
+          0.47880611911217097
+        ]
+      },
+      "read_calls": {
+        "point": 1.1188688946015424,
+        "ci95": [
+          1.0902511856666557,
+          1.1486933282930178
+        ]
+      },
+      "candidates": {
+        "point": 0.23108831755639161,
+        "ci95": [
+          0.20630479472178975,
+          0.25821563611975396
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.2981059330471162,
+        "ci95": [
+          0.2707293291635952,
+          0.3288016074742335
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.39886874366110664,
+        "ci95": [
+          0.3724384990319246,
+          0.4270116311187531
+        ]
+      },
+      "read_calls": {
+        "point": 1.0906250000000002,
+        "ci95": [
+          1.066356993800224,
+          1.1163757465835327
+        ]
+      },
+      "candidates": {
+        "point": 0.2061344251666103,
+        "ci95": [
+          0.18464839799488847,
+          0.22991172489474593
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.2607496393203689,
+        "ci95": [
+          0.24571118577281828,
+          0.2774347565217282
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.4033459167811847,
+        "ci95": [
+          0.3876656592031288,
+          0.4190550097336164
+        ]
+      },
+      "read_calls": {
+        "point": 1.175960548420311,
+        "ci95": [
+          1.1473790144231144,
+          1.2043032870128332
+        ]
+      },
+      "candidates": {
+        "point": 0.17334996687188833,
+        "ci95": [
+          0.1613389140576142,
+          0.18613519067937415
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.2698189200657588,
+        "ci95": [
+          0.24642881870408348,
+          0.29523878489170485
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.415773176489681,
+        "ci95": [
+          0.39375904583645105,
+          0.43995855785070315
+        ]
+      },
+      "read_calls": {
+        "point": 1.177469970782383,
+        "ci95": [
+          1.1372855959087407,
+          1.2183826349558993
+        ]
+      },
+      "candidates": {
+        "point": 0.18256856186897769,
+        "ci95": [
+          0.16500860684907204,
+          0.20121508878456754
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.2517095876013799,
+        "ci95": [
+          0.23101403537235646,
+          0.27408878987815927
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.39103357835731845,
+        "ci95": [
+          0.3689507467899172,
+          0.4146129646576531
+        ]
+      },
+      "read_calls": {
+        "point": 1.1744463742943987,
+        "ci95": [
+          1.1359303789831958,
+          1.213978708157702
+        ]
+      },
+      "candidates": {
+        "point": 0.1644644720833332,
+        "ci95": [
+          0.1473659192219193,
+          0.1820841294815893
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.4541656631971046,
+        "ci95": [
+          0.4161573087856883,
+          0.5063291832807126
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5666379548136338,
+        "ci95": [
+          0.5171736321578215,
+          0.6182079808339398
+        ]
+      },
+      "read_calls": {
+        "point": 1.2174869274445124,
+        "ci95": [
+          1.1830370895351991,
+          1.2519364365860643
+        ]
+      },
+      "candidates": {
+        "point": 0.2796060831395162,
+        "ci95": [
+          0.24445940242736527,
+          0.31948340369040923
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.47167529972648065,
+        "ci95": [
+          0.42501978557630654,
+          0.5340857704658685
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5838851509000665,
+        "ci95": [
+          0.528551807028529,
+          0.6428774979029414
+        ]
+      },
+      "read_calls": {
+        "point": 1.2230789982464845,
+        "ci95": [
+          1.182635144698354,
+          1.2705576347611167
+        ]
+      },
+      "candidates": {
+        "point": 0.29576335173451557,
+        "ci95": [
+          0.2543952617603516,
+          0.3459267653811406
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.4368385710344216,
+        "ci95": [
+          0.3961113576651646,
+          0.48913992053315014
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5495379457189088,
+        "ci95": [
+          0.4963953730835231,
+          0.6020615913075544
+        ]
+      },
+      "read_calls": {
+        "point": 1.2119141500134438,
+        "ci95": [
+          1.1611720706693416,
+          1.2623353466670821
+        ]
+      },
+      "candidates": {
+        "point": 0.2641652727395174,
+        "ci95": [
+          0.22411033752225126,
+          0.31065163090705167
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.0194235980072435,
+        "ci95": [
+          1.9030198934959712,
+          2.1399430615102046
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.0349062231246213,
+        "ci95": [
+          1.9430638589033755,
+          2.131751036745691
+        ]
+      },
+      "read_calls": {
+        "point": 0.9319704518124033,
+        "ci95": [
+          0.8307323341082565,
+          1.0215172587106378
+        ]
+      },
+      "candidates": {
+        "point": 91.02470616454787,
+        "ci95": [
+          67.95775884118446,
+          115.72708939438192
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.078339807534339,
+        "ci95": [
+          1.924286848502525,
+          2.2378699358806236
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.1078046315870775,
+        "ci95": [
+          1.9745497064677595,
+          2.2502487786539733
+        ]
+      },
+      "read_calls": {
+        "point": 0.9620689655172413,
+        "ci95": [
+          0.9045863905933264,
+          1.022971522314279
+        ]
+      },
+      "candidates": {
+        "point": 79.68646568313021,
+        "ci95": [
+          50.87877863285099,
+          118.62649969033318
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.9600549445828404,
+        "ci95": [
+          1.8003919495714882,
+          2.1359191601568126
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.9633745418455333,
+        "ci95": [
+          1.844182846453771,
+          2.084502951632008
+        ]
+      },
+      "read_calls": {
+        "point": 0.9035410055119426,
+        "ci95": [
+          0.7359590815463157,
+          1.0755514608035626
+        ]
+      },
+      "candidates": {
+        "point": 107.3709811658087,
+        "ci95": [
+          91.42701068912797,
+          126.92226602447826
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.786668576967451,
+        "ci95": [
+          1.7001692318444246,
+          1.8707118445158464
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.0349062231246213,
+        "ci95": [
+          1.9453519310910914,
+          2.1254292964895947
+        ]
+      },
+      "read_calls": {
+        "point": 0.6220438583918589,
+        "ci95": [
+          0.6076341762074189,
+          0.635914785389859
+        ]
+      },
+      "candidates": {
+        "point": 91.02470616454787,
+        "ci95": [
+          68.88204386940367,
+          115.0154909998292
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.811402856753664,
+        "ci95": [
+          1.6746598299462516,
+          1.950123557469668
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.1078046315870775,
+        "ci95": [
+          1.979890499421563,
+          2.2555652259026435
+        ]
+      },
+      "read_calls": {
+        "point": 0.6158940397350993,
+        "ci95": [
+          0.5958516242193787,
+          0.6350553476035844
+        ]
+      },
+      "candidates": {
+        "point": 79.68646568313021,
+        "ci95": [
+          50.04488606993419,
+          118.94818489459053
+        ]
+      }
+    }
+  },
+  {
+    "graph": "eu-2005",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.7609759590452128,
+        "ci95": [
+          1.6607863377325953,
+          1.8649951879391076
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.9633745418455333,
+        "ci95": [
+          1.8424831781641569,
+          2.0945342486253087
+        ]
+      },
+      "read_calls": {
+        "point": 0.628354048089209,
+        "ci95": [
+          0.6057551622646971,
+          0.6492442219004718
+        ]
+      },
+      "candidates": {
+        "point": 107.3709811658087,
+        "ci95": [
+          90.62653318382708,
+          125.51673041231402
+        ]
+      }
+    }
+  }
+]

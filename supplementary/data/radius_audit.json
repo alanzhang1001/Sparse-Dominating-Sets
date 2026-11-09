@@ -1,0 +1,9 @@
+{
+  "state": "passed",
+  "formal_runs": 36,
+  "conditions": 12,
+  "all_sequences_identical": true,
+  "all_independent_coverage_cost_checks": true,
+  "original_sources_and_binaries_unchanged": true,
+  "finished": "2026-11-07T12:24:05.846405+08:00"
+}

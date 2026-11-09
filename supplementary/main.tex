@@ -1,0 +1,81 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,graphicx,booktabs,array,xcolor,float,caption,fancyhdr}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\usepackage{url}
+\hypersetup{pdftitle={Sparse Dominating Sets Revisited: Supplementary Technical Report},pdfauthor={},pdfsubject={Supplementary experimental evidence, lightweight artifact version 0.3}}
+\graphicspath{{figures/}}
+\renewcommand{\thesection}{\Alph{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\captionsetup{font=small,labelfont=bf}
+\setlength{\parskip}{2pt}
+\setlength{\parindent}{1em}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small Sparse Dominating Sets Revisited}
+\rhead{\small Supplementary report v0.3}
+\cfoot{\thepage}
+\newcommand{\Ratio}{\textsf{Ratio}}
+\newcommand{\Rplus}{\textsf{Ratio+}}
+\newcommand{\Degree}{\textsf{Degree}}
+\newcommand{\Random}{\textsf{Random-Prune}}
+\newcommand{\CC}{CC$^2$FS}
+\newcommand{\tablefont}{\fontsize{9}{11}\selectfont}
+\newcommand{\smalltablefont}{\fontsize{8.5}{10.5}\selectfont}
+\newcommand{\sourceid}[1]{\nolinkurl{#1}}
+\begin{document}
+\thispagestyle{plain}
+\begin{center}
+{\Large\bfseries Sparse Dominating Sets Revisited:\\[3pt]
+Supplementary Technical Report}\par
+\vspace{7pt}
+{\small Companion to \emph{Sparse Dominating Sets Revisited: Logarithmic Approximation and Tight Congestion Bounds}}\par
+\vspace{6pt}
+{\small Lightweight artifact v0.3 \quad 9 November 2026}
+\end{center}
+
+\section*{Scope and reading guide}
+This report provides additional evidence and experimental detail for the companion manuscript. It develops three aspects of the evaluation: the costs of computing the same greedy landmark sequence, the behavior of landmark partitions under controlled resources, and the complete latency of exact neighborhood-subgraph extraction. The principal theorems and their complete proofs appear in Sections IV--VI of the companion manuscript.
+
+The report follows the manuscript's graph cohorts. Implementation measurements use its five large SNAP networks and uk-2002; retrieval measurements use Stanford, Google, in-2004 and eu-2005. The four retrieval graphs are evaluated with the competing selectors, random seeds, query strata and BFS controls described in the following sections.
+
+\begin{table}[H]
+\centering\small
+\caption{Relationship to the companion manuscript.}
+\begin{tabular}{@{}p{.06\linewidth}p{.32\linewidth}p{.54\linewidth}@{}}
+\toprule
+Part & Manuscript topic & Additional material in this report\\
+\midrule
+A & Efficient implementation & Phase costs and all twelve conditions in the completed multi-radius rerun cohort.\\
+B & Candidate selectivity & Budget utilization, fixed-count index and partition statistics, and query-stratum comparisons.\\
+C & Neighborhood retrieval & Complete extraction results, uncertainty, secondary queries and BFS controls for four graphs.\\
+D & Robustness & Full final-tie sensitivity table for the five main SNAP graphs.\\
+E & Experimental setup & Measurement contracts, evidence provenance and display-reproduction instructions.\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Notation and methods.}
+Let $G=(V,E)$ be a simple undirected graph. A landmark set $D$ covers every vertex within landmark radius $r$, and its average congestion is
+\[
+\kappa_r(D)=\frac{1}{|V|}\sum_{u\in D}|N_r[u]|.
+\]
+\Ratio\ selects the vertex maximizing newly covered vertices divided by neighborhood size; \Degree\ maximizes the newly covered count. \Rplus\ breaks equal ratios by larger newly covered counts, while Degree+ uses the ratio as its secondary priority. Final ties use vertex IDs unless the experiment explicitly varies this order. \Random\ deletes landmarks while preserving coverage, and \CC\ is the weighted local-search baseline described in the manuscript. Query radius $h$ and query seed-set size $|Q|$ are distinct from the landmark radius $r$.
+
+\paragraph{Two retrieval experiments.}
+Section~\ref{sec:structure} uses the existing candidate-selectivity cohort, with 6,800 queries per graph. Section~\ref{sec:query} uses fresh queries and returns an exact induced subgraph, including sorted vertex and undirected-edge buffers. Candidate retrieval and exact-subgraph extraction are measured as separate tasks. The two completed exact-subgraph batches contain 8,000 primary queries and 3,200 secondary queries across four graphs, with three timing repetitions per configuration. The source audits cover 1,276,800 timed query records in total.
+
+\clearpage
+\input{sections/A_Implementation}
+\clearpage
+\input{sections/B_Retrieval}
+\clearpage
+\input{sections/C_ExactSubgraphs}
+\input{sections/D_Stability}
+\clearpage
+\input{sections/E_Reproduction}
+\end{document}

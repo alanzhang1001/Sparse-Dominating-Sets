@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "graph": "Stanford r=2",
+      "radius": 2,
+      "whole_seconds": [
+        2243.17358354,
+        62.542267036
+      ],
+      "rss_mib": [
+        109817.55859375,
+        9655.5
+      ],
+      "selection_seconds": [
+        2054.036320725,
+        39.330720456
+      ],
+      "repeats": 3,
+      "sequence_identical": true
+    },
+    {
+      "graph": "Stanford r=3",
+      "radius": 3,
+      "whole_seconds": [
+        6205.358382465,
+        221.275812637
+      ],
+      "rss_mib": [
+        257495.0078125,
+        22179.0
+      ],
+      "selection_seconds": [
+        5607.807903265,
+        59.491590105
+      ],
+      "repeats": 3,
+      "sequence_identical": true
+    }
+  ],
+  "sources": {
+    "inputs/records/experiments/records/radius-scale-20261105-v1/condition_results.json": "f95ffd2d53c143fb78d0a7d2b58fc71233593fab7d7ae157798534a7349d3bdd",
+    "inputs/records/experiments/records/radius-old-unlimited-20261106-v1/runs.json": "72ae72e29018f7aabc26f58180a12d89b340de0a137f6c68b479a2d95a2b3b39"
+  }
+}

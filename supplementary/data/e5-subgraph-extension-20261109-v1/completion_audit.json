@@ -1,0 +1,14 @@
+{
+  "state": "passed",
+  "formal_jobs": 228,
+  "records": 638400,
+  "queries_per_graph": 2800,
+  "primary_per_graph": 2000,
+  "context_per_graph": 800,
+  "repeats": 3,
+  "all_exact_vertices_edges": true,
+  "all_record_hashes": true,
+  "io_audit": true,
+  "source_unchanged": true,
+  "finished": "2026-11-09T13:35:39.122085+08:00"
+}

@@ -1,0 +1,6 @@
+{
+  "cpu": "AMD EPYC 7A23 48-Core Processor",
+  "sockets": 2,
+  "logical_cpus": 192,
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
+}

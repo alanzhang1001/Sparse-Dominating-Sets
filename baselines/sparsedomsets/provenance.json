@@ -1,0 +1,53 @@
+{
+  "repository": "https://github.com/TheoryInPractice/sparsedomsets",
+  "revision": "15b1ca0fe2d7e49f0edb16461bf95bb6691a3819",
+  "source_path": "sparsedomsets/cpp/algorithms/c_dominating.cpp",
+  "source_url": "https://raw.githubusercontent.com/TheoryInPractice/sparsedomsets/15b1ca0fe2d7e49f0edb16461bf95bb6691a3819/sparsedomsets/cpp/algorithms/c_dominating.cpp",
+  "retrieved_date": "2026-10-05",
+  "sha256": "0890116c13b4a006e76f17f63580eaff1a6c55ce966a46ce9f8bb8b45ccc6a0a",
+  "read_only_snapshot": true,
+  "compiled": false,
+  "executed": false,
+  "observations": [
+    {
+      "line": 189,
+      "text": "for (auto u : undoms[v]) {"
+    },
+    {
+      "line": 191,
+      "text": "for (auto w : cnbrs[u]) {"
+    },
+    {
+      "line": 192,
+      "text": "if (w != v) undoms[w].erase(u);"
+    },
+    {
+      "line": 199,
+      "text": "static std::vector<int> find_dominating_set_with_reordering(std::vector<VertexState>& vstates,"
+    },
+    {
+      "line": 222,
+      "text": "if (vd != vstates[v].vol - undoms[v].size()) continue;  // outdated information"
+    },
+    {
+      "line": 233,
+      "text": "for (auto u : undoms[v]) {"
+    },
+    {
+      "line": 237,
+      "text": "for (auto w : cnbrs[u]) {"
+    },
+    {
+      "line": 239,
+      "text": "if (w != v) undoms[w].erase(u);"
+    },
+    {
+      "line": 265,
+      "text": "q.push(VertexState({a, vstates[a].vol, d, vstates[a].has_leaf, vstates[a].weight, vstates[a].salt}));"
+    },
+    {
+      "line": 301,
+      "text": "return find_dominating_set_with_reordering(vstates, cnbrs, undoms, comp, has_bit(st, dominating::Strategy::AGGRESSIVE_DELETION),"
+    }
+  ]
+}

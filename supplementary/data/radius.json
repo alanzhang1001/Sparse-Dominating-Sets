@@ -1,0 +1,122 @@
+[
+  {
+    "condition": {
+      "graph": "web-Stanford",
+      "radius": 2
+    },
+    "old_seconds": 2243.17358354,
+    "old_peak_rss_gib": 107.24370956420898,
+    "new_seconds": 62.542267036,
+    "new_peak_rss_gib": 9.42919921875
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford",
+      "radius": 3
+    },
+    "old_seconds": 6205.358382465,
+    "old_peak_rss_gib": 251.45996856689453,
+    "new_seconds": 221.275812637,
+    "new_peak_rss_gib": 21.6591796875
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford-bfs50000-s20261105",
+      "radius": 2
+    },
+    "old_seconds": 886.910849867,
+    "old_peak_rss_gib": 63.572837829589844,
+    "new_seconds": 40.641936037,
+    "new_peak_rss_gib": 5.77001953125
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford-bfs50000-s20261107",
+      "radius": 2
+    },
+    "old_seconds": 969.662170909,
+    "old_peak_rss_gib": 68.0842514038086,
+    "new_seconds": 50.927251478,
+    "new_peak_rss_gib": 6.1318359375
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford-bfs100000-s20261107",
+      "radius": 2
+    },
+    "old_seconds": 1547.121578266,
+    "old_peak_rss_gib": 73.5382080078125,
+    "new_seconds": 41.829302774,
+    "new_peak_rss_gib": 6.5419921875
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford-bfs100000-s20261105",
+      "radius": 2
+    },
+    "old_seconds": 1567.134485897,
+    "old_peak_rss_gib": 74.19280242919922,
+    "new_seconds": 41.632810212,
+    "new_peak_rss_gib": 6.5947265625
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford-bfs50000-s20261105",
+      "radius": 3
+    },
+    "old_seconds": 1458.628450695,
+    "old_peak_rss_gib": 101.74951171875,
+    "new_seconds": 106.17320298,
+    "new_peak_rss_gib": 8.3056640625
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford-bfs100000-s20261106",
+      "radius": 2
+    },
+    "old_seconds": 1946.979002552,
+    "old_peak_rss_gib": 95.9531021118164,
+    "new_seconds": 59.224553708,
+    "new_peak_rss_gib": 8.52685546875
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford-bfs50000-s20261107",
+      "radius": 3
+    },
+    "old_seconds": 1599.997246036,
+    "old_peak_rss_gib": 109.81787109375,
+    "new_seconds": 202.111243387,
+    "new_peak_rss_gib": 8.98828125
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford-bfs100000-s20261106",
+      "radius": 3
+    },
+    "old_seconds": 3386.786792314,
+    "old_peak_rss_gib": 171.08346939086914,
+    "new_seconds": 159.201881049,
+    "new_peak_rss_gib": 14.3876953125
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford-bfs100000-s20261105",
+      "radius": 3
+    },
+    "old_seconds": 4718.690860356,
+    "old_peak_rss_gib": 204.32830429077148,
+    "new_seconds": 179.590782018,
+    "new_peak_rss_gib": 17.79931640625
+  },
+  {
+    "condition": {
+      "graph": "web-Stanford-bfs100000-s20261107",
+      "radius": 3
+    },
+    "old_seconds": 4627.99255075,
+    "old_peak_rss_gib": 205.78403091430664,
+    "new_seconds": 185.550162725,
+    "new_peak_rss_gib": 17.87548828125
+  }
+]

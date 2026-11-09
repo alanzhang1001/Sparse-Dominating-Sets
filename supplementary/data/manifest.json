@@ -1,0 +1,148 @@
+{
+  "version": "0.3-light",
+  "date": "2026-11-09",
+  "sources": [
+    {
+      "source": "paper/experiments/data/v1/evidence.json",
+      "sha256": "49a917c5dd84225924ccc74457ea76f20424c1fdc26d1ed0a3baa1c6a7af60f2"
+    },
+    {
+      "source": "paper/experiments/data/uk2002_20261014/greedy/summary.csv",
+      "sha256": "cd7e225db0afdd1796917824710c55518205c9d3a34e3c454a72faf437a429a1"
+    },
+    {
+      "source": "radius-old-unlimited-20261106-v1/completion_audit.json",
+      "sha256": "b4218c8753c78ac1d9c4e03f76cab80fac94eb34bbe4e230dd5b11be27af5c21"
+    },
+    {
+      "source": "radius-old-unlimited-20261106-v1/summary.json",
+      "sha256": "1043b79c758f5e98449a0e773a7b659e707b052ed48be0a0597c28039a1c4ce5"
+    },
+    {
+      "source": "radius-old-unlimited-20261106-v1/protocol.json",
+      "sha256": "f3ac993041a916f60ea33cf347ad20806b0bc036b32bce55e61aea0a74863cef"
+    },
+    {
+      "source": "paper/experiments/data/e5_web_20261031/analysis.json",
+      "sha256": "c930ca1300f78e07a7df6f13cb506d4c1d178f8d0b47e8d1c283d323dc89a2b2"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/completion_audit.json",
+      "sha256": "1e6f19c9cc74002efa306694053fdc489b07a47cc621faf419bca09315fa49df"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/summary.json",
+      "sha256": "f96716ff1fcd7497dc287b107c6841f3441325584443d9d5020eefe78b14e274"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/uncertainty.json",
+      "sha256": "2a1332230cd6e9ca8b0b2782fce0bc194e5420d4167b8904d3972b5519d08424"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/protocol.json",
+      "sha256": "458728bde0f44f4b460784cb8c4daf1563752828297563be1fc8994dde1fe89b"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/decision.json",
+      "sha256": "1284d1cbebcc56548449e7c131afbfef8ea5dbcdc112f1b469df87c3dcc6d274"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/io_audit.json",
+      "sha256": "1ed7560cc45898b0ddd88cfb7013c99b6c251c3278ebd4dd58d4a7c25e5536a6"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/source/audit_io.py",
+      "sha256": "90fc0d887fc1a6b1b56edb5c6a226f3f303298ea3f959335c974eeb14095f93d"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/source/engine.cpp",
+      "sha256": "6053d5e20db84f487abd6cbccffa7fb19c0621e4f562fa0d0c561cf01d02cb86"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/source/run.py",
+      "sha256": "02a2b369194879083a8c5b24c4a94c9b6a2385542dbd737baf4ea6d0fa0d2c11"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/source/summarize.py",
+      "sha256": "a22294591b293745449b19ff9ea61742bf0985b45c17ded7bd6c9121900277e4"
+    },
+    {
+      "source": "e5-subgraph-formal-20261108-v1/source/support.py",
+      "sha256": "fdf01a79afffba93b8f0ac01115ab81116c388c7c6037bbf6b0c98f4f80d28b9"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/completion_audit.json",
+      "sha256": "1e0f458dad9e6fc04e90b63dd5e3b3c172b437dfab8647e7619bba1e634c782d"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/summary.json",
+      "sha256": "ef1ca1a0feb9371cb9d9a72a338726f7aebee66293498db7318ca339538876b1"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/uncertainty.json",
+      "sha256": "bff4c7db16b4c202ce2bc1dad04bc40a9749d0875f29592aa24e623157f96e28"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/protocol.json",
+      "sha256": "4fdd5b659daa0445aef3096e021f47ebc559ac51fc16fa7a27f21dcf78661d2b"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/decision.json",
+      "sha256": "1284d1cbebcc56548449e7c131afbfef8ea5dbcdc112f1b469df87c3dcc6d274"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/io_audit.json",
+      "sha256": "1ed7560cc45898b0ddd88cfb7013c99b6c251c3278ebd4dd58d4a7c25e5536a6"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/source/audit_io.py",
+      "sha256": "c08ed9ae9513f3a1ba51b109b2063f237858fdbb5efc9b5d6a04922d6daae080"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/source/engine.cpp",
+      "sha256": "6053d5e20db84f487abd6cbccffa7fb19c0621e4f562fa0d0c561cf01d02cb86"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/source/run.py",
+      "sha256": "33754f8a9dd702bb0c091ebe7ed6e86d5bc64d1ad4f33d761310fe913566c7e8"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/source/summarize.py",
+      "sha256": "0e56f9f702cdc41e5b3c36866af5829a99b7d09290fb6230ff9b9dbe64837961"
+    },
+    {
+      "source": "e5-subgraph-extension-20261109-v1/source/support.py",
+      "sha256": "fdf01a79afffba93b8f0ac01115ab81116c388c7c6037bbf6b0c98f4f80d28b9"
+    }
+  ],
+  "snapshot_sha256": {
+    "data/e5-subgraph-extension-20261109-v1/completion_audit.json": "1e0f458dad9e6fc04e90b63dd5e3b3c172b437dfab8647e7619bba1e634c782d",
+    "data/e5-subgraph-extension-20261109-v1/decision.json": "1284d1cbebcc56548449e7c131afbfef8ea5dbcdc112f1b469df87c3dcc6d274",
+    "data/e5-subgraph-extension-20261109-v1/io_audit.json": "1ed7560cc45898b0ddd88cfb7013c99b6c251c3278ebd4dd58d4a7c25e5536a6",
+    "data/e5-subgraph-extension-20261109-v1/protocol.json": "9e1a20ab0972036c2c8fae5ce0acbddb1e4e6a95817759eea80bf1f365206481",
+    "data/e5-subgraph-extension-20261109-v1/summary.json": "ef1ca1a0feb9371cb9d9a72a338726f7aebee66293498db7318ca339538876b1",
+    "data/e5-subgraph-extension-20261109-v1/uncertainty.json": "bff4c7db16b4c202ce2bc1dad04bc40a9749d0875f29592aa24e623157f96e28",
+    "data/e5-subgraph-formal-20261108-v1/completion_audit.json": "1e6f19c9cc74002efa306694053fdc489b07a47cc621faf419bca09315fa49df",
+    "data/e5-subgraph-formal-20261108-v1/decision.json": "1284d1cbebcc56548449e7c131afbfef8ea5dbcdc112f1b469df87c3dcc6d274",
+    "data/e5-subgraph-formal-20261108-v1/io_audit.json": "1ed7560cc45898b0ddd88cfb7013c99b6c251c3278ebd4dd58d4a7c25e5536a6",
+    "data/e5-subgraph-formal-20261108-v1/protocol.json": "21cad4a342944c74e493db5c4991cfaa99885077cf592712c3b5135b30817948",
+    "data/e5-subgraph-formal-20261108-v1/summary.json": "f96716ff1fcd7497dc287b107c6841f3441325584443d9d5020eefe78b14e274",
+    "data/e5-subgraph-formal-20261108-v1/uncertainty.json": "2a1332230cd6e9ca8b0b2782fce0bc194e5420d4167b8904d3972b5519d08424",
+    "data/hardware.json": "f0b51c575d1436f3c3fb7fdebed6883055568beacfc1a37067f447fd1ddb0efd",
+    "data/implementation.json": "b42bcf1cc25208f7bb85320913c21e80dcf6fd60e8e06da692badad652dbc610",
+    "data/radius.json": "1043b79c758f5e98449a0e773a7b659e707b052ed48be0a0597c28039a1c4ce5",
+    "data/radius_audit.json": "b4218c8753c78ac1d9c4e03f76cab80fac94eb34bbe4e230dd5b11be27af5c21",
+    "data/radius_protocol.json": "56f3919d7c6063029e915705a1bd34ae4b2f1f122fbdeeea25f78d9f2eaabcb5",
+    "data/retrieval.json": "4d246da8c55a763112694f5b629f98e103965366efe2f10f2b35060a7efd46af",
+    "data/stability.json": "ee67c7b6cbda923443be7eaaca5f900b902d714190e1119ac6f3a41b83d9a46e"
+  },
+  "transformations": [
+    "Implementation: independent medians of five raw r=1 Ratio runs per implementation on five main SNAP graphs; uk-2002 uses the frozen three-run summary.",
+    "Retrieval: all configurations on the four manuscript hyperlink graphs, with candidate-selectivity metrics.",
+    "Retrieval: where the legacy summary omits n, recover it as mean piece size times piece count; missing query counts are summed over strata.",
+    "Stability: retain all four strategies on the five main SNAP graphs, ten final-tie orders each.",
+    "Exact subgraphs: copy both completed formal cohorts, all methods, modes and workload strata; no latency selection.",
+    "Multi-radius: retain all twelve conditions in the completed old-implementation rerun cohort."
+  ],
+  "scope": "Supplementary display inputs, native algorithms and experiment input generation."
+}

@@ -1,0 +1,19 @@
+{
+  "started": "2026-11-06T10:11:50.594088+08:00",
+  "base": "workspace/results/radius-scale-20261105-v1",
+  "cpu": 48,
+  "memory_address_space_bytes": 343597383680,
+  "time_limit_seconds": null,
+  "cpu_time_limit_seconds": null,
+  "verification_time_limit_seconds": null,
+  "serial": true,
+  "formal_conditions": 12,
+  "formal_repeats": 3,
+  "pilot_excluded": true,
+  "only_old_implementation": true,
+  "same_original_binary": true,
+  "new_results_reused_from_original": true,
+  "clock": "native process start to exit, same wait4 wrapper with alarm disabled; includes input/preprocess/greedy/output/destruction; independent verification excluded",
+  "resource_difference_disclosed": true,
+  "original_64GiB_failures_retained": true
+}

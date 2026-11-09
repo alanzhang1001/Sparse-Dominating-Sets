@@ -1,0 +1,102 @@
+{
+  "paper_radius_quality": [
+    {
+      "graph": "com-Amazon-bfs10000-s20261010",
+      "radius": 2
+    },
+    {
+      "graph": "com-Amazon-bfs10000-s20261010",
+      "radius": 3
+    },
+    {
+      "graph": "com-Amazon-bfs10000-s20261011",
+      "radius": 2
+    },
+    {
+      "graph": "com-Amazon-bfs10000-s20261011",
+      "radius": 3
+    },
+    {
+      "graph": "com-Amazon-bfs10000-s20261012",
+      "radius": 2
+    },
+    {
+      "graph": "com-Amazon-bfs10000-s20261012",
+      "radius": 3
+    },
+    {
+      "graph": "web-Stanford-bfs10000-s20261010",
+      "radius": 2
+    },
+    {
+      "graph": "web-Stanford-bfs10000-s20261010",
+      "radius": 3
+    },
+    {
+      "graph": "web-Stanford-bfs10000-s20261011",
+      "radius": 2
+    },
+    {
+      "graph": "web-Stanford-bfs10000-s20261011",
+      "radius": 3
+    },
+    {
+      "graph": "web-Stanford-bfs10000-s20261012",
+      "radius": 2
+    },
+    {
+      "graph": "web-Stanford-bfs10000-s20261012",
+      "radius": 3
+    }
+  ],
+  "report_radius_implementation": [
+    {
+      "graph": "web-Stanford",
+      "radius": 2
+    },
+    {
+      "graph": "web-Stanford",
+      "radius": 3
+    },
+    {
+      "graph": "web-Stanford-bfs50000-s20261105",
+      "radius": 2
+    },
+    {
+      "graph": "web-Stanford-bfs50000-s20261107",
+      "radius": 2
+    },
+    {
+      "graph": "web-Stanford-bfs100000-s20261107",
+      "radius": 2
+    },
+    {
+      "graph": "web-Stanford-bfs100000-s20261105",
+      "radius": 2
+    },
+    {
+      "graph": "web-Stanford-bfs50000-s20261105",
+      "radius": 3
+    },
+    {
+      "graph": "web-Stanford-bfs100000-s20261106",
+      "radius": 2
+    },
+    {
+      "graph": "web-Stanford-bfs50000-s20261107",
+      "radius": 3
+    },
+    {
+      "graph": "web-Stanford-bfs100000-s20261106",
+      "radius": 3
+    },
+    {
+      "graph": "web-Stanford-bfs100000-s20261105",
+      "radius": 3
+    },
+    {
+      "graph": "web-Stanford-bfs100000-s20261107",
+      "radius": 3
+    }
+  ]
+}

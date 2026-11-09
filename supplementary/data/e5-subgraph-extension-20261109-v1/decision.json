@@ -1,0 +1,6 @@
+{
+  "primary_rule_passed": true,
+  "interpretation": "warm-file single-seed one-hop only; no disk-I/O or other-query generalization",
+  "physical_read_batches": 0,
+  "physical_read_bytes": 0
+}

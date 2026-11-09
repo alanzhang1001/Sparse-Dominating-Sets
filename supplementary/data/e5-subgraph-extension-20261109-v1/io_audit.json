@@ -1,0 +1,8 @@
+{
+  "state": "passed",
+  "records": 638400,
+  "logical_bytes_equal_independent_degree_sums": true,
+  "candidates_equal_independent_piece_union": true,
+  "all_layout_and_original_index_hashes_valid": true,
+  "all_augmented_budgets_matched": true
+}

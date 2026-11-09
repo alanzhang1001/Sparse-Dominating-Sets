@@ -1,0 +1,3 @@
+# Historical experiment environment; keep separate from the display environment.
+numpy==2.2.6
+scipy==1.15.3

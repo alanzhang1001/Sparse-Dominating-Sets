@@ -1,0 +1,302 @@
+[
+  {
+    "dataset_id": "com-Amazon",
+    "method": "degree-plus-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.5887780973114378,
+      "median": 1.589450013886276,
+      "mean": 1.5893995454857657,
+      "max": 1.589805383096968
+    },
+    "relative_range": 0.0006463357740650877,
+    "relative_std": 0.00016961111491189886,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "com-Amazon",
+    "method": "degree-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.7607767952864306,
+      "median": 1.7631464210736927,
+      "mean": 1.763046678791028,
+      "max": 1.765743005348456
+    },
+    "relative_range": 0.002816834132509089,
+    "relative_std": 0.000829033171843629,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "com-Amazon",
+    "method": "ratio-plus-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.4562462857944891,
+      "median": 1.4569182023693272,
+      "mean": 1.4570525856842946,
+      "max": 1.4579902825931799
+    },
+    "relative_range": 0.001196934699423833,
+    "relative_std": 0.0003480391753209174,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "com-Amazon",
+    "method": "ratio-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.5775555973636979,
+      "median": 1.5806897148983317,
+      "mean": 1.5804812714453376,
+      "max": 1.582832382198093
+    },
+    "relative_range": 0.003338720255488703,
+    "relative_std": 0.0008271880476085214,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "com-Youtube",
+    "method": "degree-plus-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 2.984280414841967,
+      "median": 2.9845540096397007,
+      "mean": 2.984531892958789,
+      "max": 2.9847324410295273
+    },
+    "relative_range": 0.00015145630999175287,
+    "relative_std": 4.756463893092164e-05,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "com-Youtube",
+    "method": "degree-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 3.2627549806589187,
+      "median": 3.2666535963837906,
+      "mean": 3.266295147547339,
+      "max": 3.2693353540871803
+    },
+    "relative_range": 0.0020146291535236426,
+    "relative_std": 0.0006330346058038002,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "com-Youtube",
+    "method": "ratio-plus-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.7080624553921526,
+      "median": 1.7086127289869504,
+      "mean": 1.7086063847597566,
+      "max": 1.7089779626219281
+    },
+    "relative_range": 0.000535821028144081,
+    "relative_std": 0.00014655613429542816,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "com-Youtube",
+    "method": "ratio-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.7231132532668365,
+      "median": 1.7239349188027036,
+      "mean": 1.724100661738142,
+      "max": 1.7254879327511918
+    },
+    "relative_range": 0.0013773438738555468,
+    "relative_std": 0.00049529949882905,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "soc-Epinions1",
+    "method": "degree-plus-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 6.514240151824664,
+      "median": 6.515189055972165,
+      "mean": 6.514954465780145,
+      "max": 6.515584432700291
+    },
+    "relative_range": 0.00020633772387636167,
+    "relative_std": 7.636779935686646e-05,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "soc-Epinions1",
+    "method": "degree-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 7.240006853196621,
+      "median": 7.262569685148332,
+      "mean": 7.263546265666802,
+      "max": 7.2967434136826705
+    },
+    "relative_range": 0.007811137757080286,
+    "relative_std": 0.0023012923835271115,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "soc-Epinions1",
+    "method": "ratio-plus-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.8938545277224983,
+      "median": 1.8949681721733858,
+      "mean": 1.894848241232521,
+      "max": 1.8960686374000026
+    },
+    "relative_range": 0.0011684891852152565,
+    "relative_std": 0.00037950922588798197,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "soc-Epinions1",
+    "method": "ratio-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.9093401162407582,
+      "median": 1.9124504131686808,
+      "mean": 1.9118797527577527,
+      "max": 1.9134256757647246
+    },
+    "relative_range": 0.0021369333076901166,
+    "relative_std": 0.0007056972270200495,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "web-Google",
+    "method": "degree-plus-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.7047354411417595,
+      "median": 1.705193491017782,
+      "mean": 1.7051849610073357,
+      "max": 1.7053746076779441
+    },
+    "relative_range": 0.00037483707093398816,
+    "relative_std": 0.00010184031653380034,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "web-Google",
+    "method": "degree-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.9201579337276613,
+      "median": 1.923539557047074,
+      "mean": 1.9235019315215436,
+      "max": 1.9263252481298245
+    },
+    "relative_range": 0.0032062948838760506,
+    "relative_std": 0.0010193326296221484,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "web-Google",
+    "method": "ratio-plus-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.4003040422901558,
+      "median": 1.4012960941900112,
+      "mean": 1.4012361504179704,
+      "max": 1.4019831690040454
+    },
+    "relative_range": 0.001198318151718201,
+    "relative_std": 0.00037661080814400396,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "web-Google",
+    "method": "ratio-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.4917142049212317,
+      "median": 1.4936299517879137,
+      "mean": 1.4943804758577335,
+      "max": 1.4993514855071617
+    },
+    "relative_range": 0.00511066673401655,
+    "relative_std": 0.0016630575852522034,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "web-Stanford",
+    "method": "degree-plus-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.7204552132098017,
+      "median": 1.7207568605175014,
+      "mean": 1.7207466750239946,
+      "max": 1.7209997453626624
+    },
+    "relative_range": 0.0003164510853133992,
+    "relative_std": 9.492850092870932e-05,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "web-Stanford",
+    "method": "degree-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.8037098701349579,
+      "median": 1.8440052494466537,
+      "mean": 1.8378261806358096,
+      "max": 1.8564472215148964
+    },
+    "relative_range": 0.028695505557382817,
+    "relative_std": 0.008234135349431418,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "web-Stanford",
+    "method": "ratio-plus-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.1727146298944235,
+      "median": 1.1730495759308952,
+      "mean": 1.1730644624214053,
+      "max": 1.1735960668325074
+    },
+    "relative_range": 0.0007513968467379958,
+    "relative_std": 0.0002245853480250321,
+    "full_coverage": true
+  },
+  {
+    "dataset_id": "web-Stanford",
+    "method": "ratio-random-tie",
+    "seeds": 10,
+    "congestion": {
+      "count": 10,
+      "min": 1.2596713219595324,
+      "median": 1.2673398233208626,
+      "mean": 1.2682435899947113,
+      "max": 1.2844534111609505
+    },
+    "relative_range": 0.019540480548789096,
+    "relative_std": 0.005182239275461222,
+    "full_coverage": true
+  }
+]

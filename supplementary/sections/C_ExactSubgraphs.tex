@@ -1,0 +1,52 @@
+\section{Exact neighborhood-subgraph extraction}
+\label{sec:query}
+\subsection{Task, cohorts and measurement}
+The new task returns the exact induced subgraph on the vertices within $h$ hops of an input seed set $Q$. Every method must produce the same sorted vertex and undirected-edge buffers. The partition path first uses the existing boundary index to obtain candidates and then performs the exact work needed to construct the output. Two BFS controls return the same output: one uses the original graph layout and the other uses each selector's physical layout. Original vertex IDs are preserved when layouts change.
+
+The primary workload fixes $h=1$ and $|Q|=1$, with 1,000 uniform-start and 1,000 degree-stratified-start queries per graph. Each of the eight remaining strata has 100 queries and is reported separately as context. The Stanford/Google batch completed on 8 November 2026; the in-2004/eu-2005 extension completed on 9 November using the same engine and settings. Starts exclude the earlier development, test and pilot starts. Query sets and minimum-budget configurations were fixed before timing. A common $8n$-byte mapping is added to the original minimum-budget accounting for all selectors.
+
+\begin{table}[H]
+\centering\tablefont\setlength{\tabcolsep}{5pt}
+\caption{Primary workload: all partition selectors. Times are in microseconds, requested bytes in KiB ($2^{10}$ bytes). Random-P averages five seed-specific means; its P95 entry is the mean of five seed-specific P95 values, not the percentile of a pooled distribution.}
+\label{tab:query-methods}
+\input{tables/query_methods}
+\end{table}
+
+Timing starts with the native query seeds and ends after complete sorted output buffers. It includes scratch reset, candidate/frontier reads, exact processing and output construction; independent correctness checks and warmup are excluded. Each configuration has three repetitions, collapsed to a median per query before aggregation. Table~\ref{tab:query-methods} gives means over those query-level values, while P95 describes their latency distribution. Memory and warm-file measurements are kept separate.
+
+\clearpage
+\subsection{Primary comparisons and BFS controls}
+In the warm-file primary workload, Ratio reduces mean complete time by $16.8$--$53.9\%$ relative to Degree and $9.3$--$54.6\%$ relative to the Random-Prune mean across the four graphs. All eight corresponding 95\% time-ratio intervals lie below one (Table~\ref{tab:query-ci}). Requested adjacency bytes also decrease in all eight comparisons. The result supports the practical value of landmark choice within the shared partition-extraction pipeline.
+
+\begin{table}[H]
+\centering\tablefont\setlength{\tabcolsep}{5pt}
+\caption{Primary warm-file comparisons. Ratios are Ratio/reference, so values below one favor Ratio. Confidence intervals are paired stratified bootstrap percentile intervals with 2,000 resamples; random configurations are resampled as well as queries.}
+\label{tab:query-ci}
+\input{tables/query_ci}
+\end{table}
+
+\paragraph{Uncertainty and aggregation.}
+Uniform and degree-stratified queries receive equal weight in the primary aggregate. The bootstrap resamples queries within each stratum, keeping method observations paired. The random reference additionally resamples the five seed configurations. The intervals quantify sampling variation within the evaluated graph/workload configurations. Ratios divide the mean times of the compared methods. Separate workload-specific comparisons are retained in the frozen uncertainty files; all primary point estimates against Degree and Random-Prune are below one for both start distributions.
+
+\begin{table}[H]
+\centering\tablefont\setlength{\tabcolsep}{5pt}
+\caption{Primary workload BFS controls. Times are mean microseconds. Same-layout BFS uses Ratio's physical layout. The last column divides Ratio partition time by same-layout BFS time.}
+\label{tab:bfs}
+\input{tables/bfs}
+\end{table}
+
+Google's warm-file Ratio partition path is faster than both BFS controls. For Stanford, in-2004 and eu-2005, BFS remains faster; in memory, BFS is faster on all four graphs. The results compare landmark selection within the partition pipeline alongside direct traversal.
+
+\clearpage
+\subsection{Secondary workloads and cache scope}
+Figure~\ref{fig:context} retains all eight secondary query strata on each graph. Each cell uses 100 newly generated queries. Warm-file mean time decreases in 24 of the 64 graph--reference--stratum comparisons. The figure reports each secondary stratum separately to show how performance varies with query size, radius and start distribution.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{query_context.pdf}
+\caption{Secondary strata: $100(1-T_{\mathrm{Ratio}}/T_{\mathrm{reference}})$ for complete warm-file query time. Labels are $h/|Q|/$start distribution, with U uniform and S degree-stratified. Positive values favor Ratio; negative values indicate additional time. Random denotes the five-seed mean.}
+\label{fig:context}
+\end{figure}
+
+\paragraph{Reading volume and cache state.}
+The shared reader deduplicates adjacency rows, coalesces contiguous reads and reuses rows within a query. Files are prewarmed before each process, with the same per-query warmup rule for every method. Requested bytes count unique adjacency-row requests, including frontier reads. Timed batches use warm files and recorded zero physical read bytes. Both formal batches pass exact-vertex, exact-edge, logical-reading and record-hash checks for all partition and BFS methods; validation is outside timing.

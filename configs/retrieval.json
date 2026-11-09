@@ -1,0 +1,1408 @@
+{
+  "augmentation_seed": 20261111,
+  "random_seeds": [
+    20261013,
+    20261014,
+    20261015,
+    20261016,
+    20261017
+  ],
+  "partition_strategy": 1,
+  "partition_seed": 0,
+  "published_controls": [
+    {
+      "budget_bytes": 8156156,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 28534,
+      "partition_reused": true,
+      "random_seed": null,
+      "selection_method": "ratio"
+    },
+    {
+      "budget_bytes": 9379579,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 30221,
+      "native_landmark_count": 28534,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "ratio"
+    },
+    {
+      "budget_bytes": 10603002,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 35897,
+      "native_landmark_count": 28534,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "ratio"
+    },
+    {
+      "budget_bytes": 8156156,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 19052,
+      "native_landmark_count": 18638,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "ratio-plus"
+    },
+    {
+      "budget_bytes": 9379579,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 21955,
+      "native_landmark_count": 18638,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "ratio-plus"
+    },
+    {
+      "budget_bytes": 10603002,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 31909,
+      "native_landmark_count": 18638,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "ratio-plus"
+    },
+    {
+      "budget_bytes": 8156156,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 9976,
+      "native_landmark_count": 9122,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "degree"
+    },
+    {
+      "budget_bytes": 9379579,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 15955,
+      "native_landmark_count": 9122,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "degree"
+    },
+    {
+      "budget_bytes": 10603002,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 23932,
+      "native_landmark_count": 9122,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "degree"
+    },
+    {
+      "budget_bytes": 8156156,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 14681,
+      "native_landmark_count": 13407,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "cc2fs"
+    },
+    {
+      "budget_bytes": 9379579,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 19943,
+      "native_landmark_count": 13407,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "cc2fs"
+    },
+    {
+      "budget_bytes": 10603002,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 27920,
+      "native_landmark_count": 13407,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "cc2fs"
+    },
+    {
+      "budget_bytes": 8156156,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 14797,
+      "native_landmark_count": 14596,
+      "random_seed": 20261013,
+      "selection_method": "random-prune-s20261013"
+    },
+    {
+      "budget_bytes": 9379579,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 17683,
+      "native_landmark_count": 14596,
+      "random_seed": 20261013,
+      "selection_method": "random-prune-s20261013"
+    },
+    {
+      "budget_bytes": 10603002,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 14596,
+      "random_seed": 20261013,
+      "selection_method": "random-prune-s20261013"
+    },
+    {
+      "budget_bytes": 8156156,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 15015,
+      "native_landmark_count": 14793,
+      "random_seed": 20261014,
+      "selection_method": "random-prune-s20261014"
+    },
+    {
+      "budget_bytes": 9379579,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 19663,
+      "native_landmark_count": 14793,
+      "random_seed": 20261014,
+      "selection_method": "random-prune-s20261014"
+    },
+    {
+      "budget_bytes": 10603002,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 14793,
+      "random_seed": 20261014,
+      "selection_method": "random-prune-s20261014"
+    },
+    {
+      "budget_bytes": 8156156,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 14948,
+      "native_landmark_count": 14661,
+      "random_seed": 20261015,
+      "selection_method": "random-prune-s20261015"
+    },
+    {
+      "budget_bytes": 9379579,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 19312,
+      "native_landmark_count": 14661,
+      "random_seed": 20261015,
+      "selection_method": "random-prune-s20261015"
+    },
+    {
+      "budget_bytes": 10603002,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 14661,
+      "random_seed": 20261015,
+      "selection_method": "random-prune-s20261015"
+    },
+    {
+      "budget_bytes": 8156156,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 15100,
+      "native_landmark_count": 14744,
+      "random_seed": 20261016,
+      "selection_method": "random-prune-s20261016"
+    },
+    {
+      "budget_bytes": 9379579,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 19862,
+      "native_landmark_count": 14744,
+      "random_seed": 20261016,
+      "selection_method": "random-prune-s20261016"
+    },
+    {
+      "budget_bytes": 10603002,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 30221,
+      "native_landmark_count": 14744,
+      "random_seed": 20261016,
+      "selection_method": "random-prune-s20261016"
+    },
+    {
+      "budget_bytes": 8156156,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 15048,
+      "native_landmark_count": 14763,
+      "random_seed": 20261017,
+      "selection_method": "random-prune-s20261017"
+    },
+    {
+      "budget_bytes": 9379579,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 19525,
+      "native_landmark_count": 14763,
+      "random_seed": 20261017,
+      "selection_method": "random-prune-s20261017"
+    },
+    {
+      "budget_bytes": 10603002,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 14763,
+      "random_seed": 20261017,
+      "selection_method": "random-prune-s20261017"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 28534,
+      "partition_reused": true,
+      "random_seed": null,
+      "selection_method": "ratio"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 18638,
+      "random_seed": null,
+      "selection_method": "ratio-plus"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 9122,
+      "random_seed": null,
+      "selection_method": "degree"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 13407,
+      "random_seed": null,
+      "selection_method": "cc2fs"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 14596,
+      "random_seed": 20261013,
+      "selection_method": "random-prune-s20261013"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 14793,
+      "random_seed": 20261014,
+      "selection_method": "random-prune-s20261014"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 14661,
+      "random_seed": 20261015,
+      "selection_method": "random-prune-s20261015"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 14744,
+      "random_seed": 20261016,
+      "selection_method": "random-prune-s20261016"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Stanford",
+      "landmark_count": 28534,
+      "native_landmark_count": 14763,
+      "random_seed": 20261017,
+      "selection_method": "random-prune-s20261017"
+    },
+    {
+      "budget_bytes": 29172272,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 212524,
+      "partition_reused": true,
+      "random_seed": null,
+      "selection_method": "ratio"
+    },
+    {
+      "budget_bytes": 33548112,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 267439,
+      "native_landmark_count": 212524,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "ratio"
+    },
+    {
+      "budget_bytes": 37923953,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 320926,
+      "native_landmark_count": 212524,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "ratio"
+    },
+    {
+      "budget_bytes": 29172272,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 185891,
+      "native_landmark_count": 176538,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "ratio-plus"
+    },
+    {
+      "budget_bytes": 33548112,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 240695,
+      "native_landmark_count": 176538,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "ratio-plus"
+    },
+    {
+      "budget_bytes": 37923953,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 320926,
+      "native_landmark_count": 176538,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "ratio-plus"
+    },
+    {
+      "budget_bytes": 29172272,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 133719,
+      "native_landmark_count": 77796,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "degree"
+    },
+    {
+      "budget_bytes": 33548112,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 213951,
+      "native_landmark_count": 77796,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "degree"
+    },
+    {
+      "budget_bytes": 37923953,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 294182,
+      "native_landmark_count": 77796,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "degree"
+    },
+    {
+      "budget_bytes": 29172272,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 133719,
+      "native_landmark_count": 78092,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "cc2fs"
+    },
+    {
+      "budget_bytes": 33548112,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 213951,
+      "native_landmark_count": 78092,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "cc2fs"
+    },
+    {
+      "budget_bytes": 37923953,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 294182,
+      "native_landmark_count": 78092,
+      "partition_reused": false,
+      "random_seed": null,
+      "selection_method": "cc2fs"
+    },
+    {
+      "budget_bytes": 29172272,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 145605,
+      "native_landmark_count": 104650,
+      "random_seed": 20261013,
+      "selection_method": "random-prune-s20261013"
+    },
+    {
+      "budget_bytes": 33548112,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 104650,
+      "random_seed": 20261013,
+      "selection_method": "random-prune-s20261013"
+    },
+    {
+      "budget_bytes": 37923953,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 320926,
+      "native_landmark_count": 104650,
+      "random_seed": 20261013,
+      "selection_method": "random-prune-s20261013"
+    },
+    {
+      "budget_bytes": 29172272,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 153906,
+      "native_landmark_count": 105743,
+      "random_seed": 20261014,
+      "selection_method": "random-prune-s20261014"
+    },
+    {
+      "budget_bytes": 33548112,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 105743,
+      "random_seed": 20261014,
+      "selection_method": "random-prune-s20261014"
+    },
+    {
+      "budget_bytes": 37923953,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 320926,
+      "native_landmark_count": 105743,
+      "random_seed": 20261014,
+      "selection_method": "random-prune-s20261014"
+    },
+    {
+      "budget_bytes": 29172272,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 153200,
+      "native_landmark_count": 105124,
+      "random_seed": 20261015,
+      "selection_method": "random-prune-s20261015"
+    },
+    {
+      "budget_bytes": 33548112,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 105124,
+      "random_seed": 20261015,
+      "selection_method": "random-prune-s20261015"
+    },
+    {
+      "budget_bytes": 37923953,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 320926,
+      "native_landmark_count": 105124,
+      "random_seed": 20261015,
+      "selection_method": "random-prune-s20261015"
+    },
+    {
+      "budget_bytes": 29172272,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 153990,
+      "native_landmark_count": 105228,
+      "random_seed": 20261016,
+      "selection_method": "random-prune-s20261016"
+    },
+    {
+      "budget_bytes": 33548112,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 105228,
+      "random_seed": 20261016,
+      "selection_method": "random-prune-s20261016"
+    },
+    {
+      "budget_bytes": 37923953,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 320926,
+      "native_landmark_count": 105228,
+      "random_seed": 20261016,
+      "selection_method": "random-prune-s20261016"
+    },
+    {
+      "budget_bytes": 29172272,
+      "budget_index": 1,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 153571,
+      "native_landmark_count": 105430,
+      "random_seed": 20261017,
+      "selection_method": "random-prune-s20261017"
+    },
+    {
+      "budget_bytes": 33548112,
+      "budget_index": 2,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 105430,
+      "random_seed": 20261017,
+      "selection_method": "random-prune-s20261017"
+    },
+    {
+      "budget_bytes": 37923953,
+      "budget_index": 3,
+      "control": "matched-budget",
+      "dataset_id": "web-Google",
+      "landmark_count": 320926,
+      "native_landmark_count": 105430,
+      "random_seed": 20261017,
+      "selection_method": "random-prune-s20261017"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 212524,
+      "partition_reused": true,
+      "random_seed": null,
+      "selection_method": "ratio"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 176538,
+      "random_seed": null,
+      "selection_method": "ratio-plus"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 77796,
+      "random_seed": null,
+      "selection_method": "degree"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 78092,
+      "random_seed": null,
+      "selection_method": "cc2fs"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 104650,
+      "random_seed": 20261013,
+      "selection_method": "random-prune-s20261013"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 105743,
+      "random_seed": 20261014,
+      "selection_method": "random-prune-s20261014"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 105124,
+      "random_seed": 20261015,
+      "selection_method": "random-prune-s20261015"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 105228,
+      "random_seed": 20261016,
+      "selection_method": "random-prune-s20261016"
+    },
+    {
+      "budget_bytes": null,
+      "budget_index": 0,
+      "control": "matched-count",
+      "dataset_id": "web-Google",
+      "landmark_count": 212524,
+      "native_landmark_count": 105430,
+      "random_seed": 20261017,
+      "selection_method": "random-prune-s20261017"
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "ratio",
+      "landmark_count": 194605,
+      "native_landmark_count": 194605,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 44303024
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "ratio-plus",
+      "landmark_count": 161195,
+      "native_landmark_count": 159345,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 44303024
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "degree",
+      "landmark_count": 81310,
+      "native_landmark_count": 78013,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 44303024
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "cc2fs",
+      "landmark_count": 81213,
+      "native_landmark_count": 77819,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 44303024
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261013",
+      "landmark_count": 113704,
+      "native_landmark_count": 111914,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 44303024
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261014",
+      "landmark_count": 112344,
+      "native_landmark_count": 110510,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 44303024
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261015",
+      "landmark_count": 111706,
+      "native_landmark_count": 109851,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 44303024
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261016",
+      "landmark_count": 113085,
+      "native_landmark_count": 111275,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 44303024
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261017",
+      "landmark_count": 111986,
+      "native_landmark_count": 110140,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 44303024
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "ratio",
+      "landmark_count": 198305,
+      "native_landmark_count": 194605,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 50948477
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "ratio-plus",
+      "landmark_count": 169213,
+      "native_landmark_count": 159345,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 50948477
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "degree",
+      "landmark_count": 95182,
+      "native_landmark_count": 78013,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 50948477
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "cc2fs",
+      "landmark_count": 95182,
+      "native_landmark_count": 77819,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 50948477
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261013",
+      "landmark_count": 126238,
+      "native_landmark_count": 111914,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 50948477
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261014",
+      "landmark_count": 125185,
+      "native_landmark_count": 110510,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 50948477
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261015",
+      "landmark_count": 124691,
+      "native_landmark_count": 109851,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 50948477
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261016",
+      "landmark_count": 125759,
+      "native_landmark_count": 111275,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 50948477
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261017",
+      "landmark_count": 124908,
+      "native_landmark_count": 110140,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 50948477
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "ratio",
+      "landmark_count": 224212,
+      "native_landmark_count": 194605,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 57593931
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "ratio-plus",
+      "landmark_count": 190364,
+      "native_landmark_count": 159345,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 57593931
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "degree",
+      "landmark_count": 126910,
+      "native_landmark_count": 78013,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 57593931
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "cc2fs",
+      "landmark_count": 126910,
+      "native_landmark_count": 77819,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 57593931
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261013",
+      "landmark_count": 154888,
+      "native_landmark_count": 111914,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 57593931
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261014",
+      "landmark_count": 154537,
+      "native_landmark_count": 110510,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 57593931
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261015",
+      "landmark_count": 154372,
+      "native_landmark_count": 109851,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 57593931
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261016",
+      "landmark_count": 154728,
+      "native_landmark_count": 111275,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 57593931
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261017",
+      "landmark_count": 154444,
+      "native_landmark_count": 110140,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 57593931
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "ratio",
+      "landmark_count": 194605,
+      "native_landmark_count": 194605,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "ratio-plus",
+      "landmark_count": 194605,
+      "native_landmark_count": 159345,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "degree",
+      "landmark_count": 194605,
+      "native_landmark_count": 78013,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "cc2fs",
+      "landmark_count": 194605,
+      "native_landmark_count": 77819,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261013",
+      "landmark_count": 194605,
+      "native_landmark_count": 111914,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261014",
+      "landmark_count": 194605,
+      "native_landmark_count": 110510,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261015",
+      "landmark_count": 194605,
+      "native_landmark_count": 109851,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261016",
+      "landmark_count": 194605,
+      "native_landmark_count": 111275,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "in-2004",
+      "selection_method": "random-prune-s20261017",
+      "landmark_count": 194605,
+      "native_landmark_count": 110140,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "ratio",
+      "landmark_count": 86563,
+      "native_landmark_count": 86563,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 59304760
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "ratio-plus",
+      "landmark_count": 72860,
+      "native_landmark_count": 71732,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 59304760
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "degree",
+      "landmark_count": 38136,
+      "native_landmark_count": 32876,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 59304760
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "cc2fs",
+      "landmark_count": 38666,
+      "native_landmark_count": 33583,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 59304760
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261013",
+      "landmark_count": 46792,
+      "native_landmark_count": 44417,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 59304760
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261014",
+      "landmark_count": 40147,
+      "native_landmark_count": 38180,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 59304760
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261015",
+      "landmark_count": 43273,
+      "native_landmark_count": 39726,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 59304760
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261016",
+      "landmark_count": 40588,
+      "native_landmark_count": 38684,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 59304760
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261017",
+      "landmark_count": 43267,
+      "native_landmark_count": 39718,
+      "control": "matched-budget",
+      "budget_index": 1,
+      "budget_bytes": 59304760
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "ratio",
+      "landmark_count": 91880,
+      "native_landmark_count": 86563,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 68200474
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "ratio-plus",
+      "landmark_count": 80757,
+      "native_landmark_count": 71732,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 68200474
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "degree",
+      "landmark_count": 48656,
+      "native_landmark_count": 32876,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 68200474
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "cc2fs",
+      "landmark_count": 53917,
+      "native_landmark_count": 33583,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 68200474
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261013",
+      "landmark_count": 60656,
+      "native_landmark_count": 44417,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 68200474
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261014",
+      "landmark_count": 53917,
+      "native_landmark_count": 38180,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 68200474
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261015",
+      "landmark_count": 53917,
+      "native_landmark_count": 39726,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 68200474
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261016",
+      "landmark_count": 53917,
+      "native_landmark_count": 38684,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 68200474
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261017",
+      "landmark_count": 53917,
+      "native_landmark_count": 39718,
+      "control": "matched-budget",
+      "budget_index": 2,
+      "budget_bytes": 68200474
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "ratio",
+      "landmark_count": 107833,
+      "native_landmark_count": 86563,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 77096188
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "ratio-plus",
+      "landmark_count": 98807,
+      "native_landmark_count": 71732,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 77096188
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "degree",
+      "landmark_count": 67396,
+      "native_landmark_count": 32876,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 77096188
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "cc2fs",
+      "landmark_count": 67396,
+      "native_landmark_count": 33583,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 77096188
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261013",
+      "landmark_count": 80875,
+      "native_landmark_count": 44417,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 77096188
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261014",
+      "landmark_count": 74135,
+      "native_landmark_count": 38180,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 77096188
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261015",
+      "landmark_count": 80875,
+      "native_landmark_count": 39726,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 77096188
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261016",
+      "landmark_count": 80875,
+      "native_landmark_count": 38684,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 77096188
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261017",
+      "landmark_count": 80875,
+      "native_landmark_count": 39718,
+      "control": "matched-budget",
+      "budget_index": 3,
+      "budget_bytes": 77096188
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "ratio",
+      "landmark_count": 86563,
+      "native_landmark_count": 86563,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "ratio-plus",
+      "landmark_count": 86563,
+      "native_landmark_count": 71732,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "degree",
+      "landmark_count": 86563,
+      "native_landmark_count": 32876,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "cc2fs",
+      "landmark_count": 86563,
+      "native_landmark_count": 33583,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261013",
+      "landmark_count": 86563,
+      "native_landmark_count": 44417,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261014",
+      "landmark_count": 86563,
+      "native_landmark_count": 38180,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261015",
+      "landmark_count": 86563,
+      "native_landmark_count": 39726,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261016",
+      "landmark_count": 86563,
+      "native_landmark_count": 38684,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    },
+    {
+      "dataset_id": "eu-2005",
+      "selection_method": "random-prune-s20261017",
+      "landmark_count": 86563,
+      "native_landmark_count": 39718,
+      "control": "matched-count",
+      "budget_index": 0,
+      "budget_bytes": null
+    }
+  ]
+}

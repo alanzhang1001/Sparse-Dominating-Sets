@@ -1,0 +1,1806 @@
+{
+  "main": [
+    {
+      "dataset": "er-n128-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s0",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s1",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s2",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s3",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s4",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n256-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s0",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s1",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s2",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s3",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s4",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n32-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 32
+    },
+    {
+      "dataset": "er-n32-s0",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 32
+    },
+    {
+      "dataset": "er-n32-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 32
+    },
+    {
+      "dataset": "er-n32-s1",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 32
+    },
+    {
+      "dataset": "er-n32-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 32
+    },
+    {
+      "dataset": "er-n32-s2",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 32
+    },
+    {
+      "dataset": "er-n32-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 32
+    },
+    {
+      "dataset": "er-n32-s3",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 32
+    },
+    {
+      "dataset": "er-n32-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 32
+    },
+    {
+      "dataset": "er-n32-s4",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 32
+    },
+    {
+      "dataset": "er-n64-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s0",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s1",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s2",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s3",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s4",
+      "radius": 2,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "pa-m3-n128-s0",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 128
+    },
+    {
+      "dataset": "pa-m3-n128-s0",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 128
+    },
+    {
+      "dataset": "pa-m3-n128-s1",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 128
+    },
+    {
+      "dataset": "pa-m3-n128-s1",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 128
+    },
+    {
+      "dataset": "pa-m3-n128-s2",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 128
+    },
+    {
+      "dataset": "pa-m3-n128-s2",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 128
+    },
+    {
+      "dataset": "pa-m3-n128-s3",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 128
+    },
+    {
+      "dataset": "pa-m3-n128-s3",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 128
+    },
+    {
+      "dataset": "pa-m3-n128-s4",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 128
+    },
+    {
+      "dataset": "pa-m3-n128-s4",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 128
+    },
+    {
+      "dataset": "pa-m3-n256-s0",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 256
+    },
+    {
+      "dataset": "pa-m3-n256-s0",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 256
+    },
+    {
+      "dataset": "pa-m3-n256-s1",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 256
+    },
+    {
+      "dataset": "pa-m3-n256-s1",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 256
+    },
+    {
+      "dataset": "pa-m3-n256-s2",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 256
+    },
+    {
+      "dataset": "pa-m3-n256-s2",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 256
+    },
+    {
+      "dataset": "pa-m3-n256-s3",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 256
+    },
+    {
+      "dataset": "pa-m3-n256-s3",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 256
+    },
+    {
+      "dataset": "pa-m3-n256-s4",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 256
+    },
+    {
+      "dataset": "pa-m3-n256-s4",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 256
+    },
+    {
+      "dataset": "pa-m3-n32-s0",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 32
+    },
+    {
+      "dataset": "pa-m3-n32-s0",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 32
+    },
+    {
+      "dataset": "pa-m3-n32-s1",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 32
+    },
+    {
+      "dataset": "pa-m3-n32-s1",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 32
+    },
+    {
+      "dataset": "pa-m3-n32-s2",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 32
+    },
+    {
+      "dataset": "pa-m3-n32-s2",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 32
+    },
+    {
+      "dataset": "pa-m3-n32-s3",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 32
+    },
+    {
+      "dataset": "pa-m3-n32-s3",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 32
+    },
+    {
+      "dataset": "pa-m3-n32-s4",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 32
+    },
+    {
+      "dataset": "pa-m3-n32-s4",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 32
+    },
+    {
+      "dataset": "pa-m3-n64-s0",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 64
+    },
+    {
+      "dataset": "pa-m3-n64-s0",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 64
+    },
+    {
+      "dataset": "pa-m3-n64-s1",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 64
+    },
+    {
+      "dataset": "pa-m3-n64-s1",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 64
+    },
+    {
+      "dataset": "pa-m3-n64-s2",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 64
+    },
+    {
+      "dataset": "pa-m3-n64-s2",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 64
+    },
+    {
+      "dataset": "pa-m3-n64-s3",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 64
+    },
+    {
+      "dataset": "pa-m3-n64-s3",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 64
+    },
+    {
+      "dataset": "pa-m3-n64-s4",
+      "radius": 1,
+      "family": "preferential_attachment",
+      "n": 64
+    },
+    {
+      "dataset": "pa-m3-n64-s4",
+      "radius": 2,
+      "family": "preferential_attachment",
+      "n": 64
+    },
+    {
+      "dataset": "soc-Epinions1-bfs100-s0",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "soc-Epinions1-bfs100-s0",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "soc-Epinions1-bfs100-s1",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "soc-Epinions1-bfs100-s1",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "soc-Epinions1-bfs100-s2",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "soc-Epinions1-bfs100-s2",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "soc-Epinions1-bfs100-s3",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "soc-Epinions1-bfs100-s3",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "soc-Epinions1-bfs100-s4",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "soc-Epinions1-bfs100-s4",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "soc-Epinions1-bfs300-s0",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "soc-Epinions1-bfs300-s0",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "soc-Epinions1-bfs300-s1",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "soc-Epinions1-bfs300-s1",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "soc-Epinions1-bfs300-s2",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "soc-Epinions1-bfs300-s2",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "soc-Epinions1-bfs300-s3",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "soc-Epinions1-bfs300-s3",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "soc-Epinions1-bfs300-s4",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "soc-Epinions1-bfs300-s4",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "web-Stanford-bfs100-s0",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "web-Stanford-bfs100-s0",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "web-Stanford-bfs100-s1",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "web-Stanford-bfs100-s1",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "web-Stanford-bfs100-s2",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "web-Stanford-bfs100-s2",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "web-Stanford-bfs100-s3",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "web-Stanford-bfs100-s3",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "web-Stanford-bfs100-s4",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "web-Stanford-bfs100-s4",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 100
+    },
+    {
+      "dataset": "web-Stanford-bfs300-s0",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "web-Stanford-bfs300-s0",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "web-Stanford-bfs300-s1",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "web-Stanford-bfs300-s1",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "web-Stanford-bfs300-s2",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "web-Stanford-bfs300-s2",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "web-Stanford-bfs300-s3",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "web-Stanford-bfs300-s3",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "web-Stanford-bfs300-s4",
+      "radius": 1,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "web-Stanford-bfs300-s4",
+      "radius": 2,
+      "family": "real_graph_sample",
+      "n": 300
+    },
+    {
+      "dataset": "rr-d6-n128-s0",
+      "radius": 1,
+      "family": "regular",
+      "n": 128
+    },
+    {
+      "dataset": "rr-d6-n128-s0",
+      "radius": 2,
+      "family": "regular",
+      "n": 128
+    },
+    {
+      "dataset": "rr-d6-n128-s1",
+      "radius": 1,
+      "family": "regular",
+      "n": 128
+    },
+    {
+      "dataset": "rr-d6-n128-s1",
+      "radius": 2,
+      "family": "regular",
+      "n": 128
+    },
+    {
+      "dataset": "rr-d6-n128-s2",
+      "radius": 1,
+      "family": "regular",
+      "n": 128
+    },
+    {
+      "dataset": "rr-d6-n128-s2",
+      "radius": 2,
+      "family": "regular",
+      "n": 128
+    },
+    {
+      "dataset": "rr-d6-n128-s3",
+      "radius": 1,
+      "family": "regular",
+      "n": 128
+    },
+    {
+      "dataset": "rr-d6-n128-s3",
+      "radius": 2,
+      "family": "regular",
+      "n": 128
+    },
+    {
+      "dataset": "rr-d6-n128-s4",
+      "radius": 1,
+      "family": "regular",
+      "n": 128
+    },
+    {
+      "dataset": "rr-d6-n128-s4",
+      "radius": 2,
+      "family": "regular",
+      "n": 128
+    },
+    {
+      "dataset": "rr-d6-n256-s0",
+      "radius": 1,
+      "family": "regular",
+      "n": 256
+    },
+    {
+      "dataset": "rr-d6-n256-s0",
+      "radius": 2,
+      "family": "regular",
+      "n": 256
+    },
+    {
+      "dataset": "rr-d6-n256-s1",
+      "radius": 1,
+      "family": "regular",
+      "n": 256
+    },
+    {
+      "dataset": "rr-d6-n256-s1",
+      "radius": 2,
+      "family": "regular",
+      "n": 256
+    },
+    {
+      "dataset": "rr-d6-n256-s2",
+      "radius": 1,
+      "family": "regular",
+      "n": 256
+    },
+    {
+      "dataset": "rr-d6-n256-s2",
+      "radius": 2,
+      "family": "regular",
+      "n": 256
+    },
+    {
+      "dataset": "rr-d6-n256-s3",
+      "radius": 1,
+      "family": "regular",
+      "n": 256
+    },
+    {
+      "dataset": "rr-d6-n256-s3",
+      "radius": 2,
+      "family": "regular",
+      "n": 256
+    },
+    {
+      "dataset": "rr-d6-n256-s4",
+      "radius": 1,
+      "family": "regular",
+      "n": 256
+    },
+    {
+      "dataset": "rr-d6-n256-s4",
+      "radius": 2,
+      "family": "regular",
+      "n": 256
+    },
+    {
+      "dataset": "rr-d6-n32-s0",
+      "radius": 1,
+      "family": "regular",
+      "n": 32
+    },
+    {
+      "dataset": "rr-d6-n32-s0",
+      "radius": 2,
+      "family": "regular",
+      "n": 32
+    },
+    {
+      "dataset": "rr-d6-n32-s1",
+      "radius": 1,
+      "family": "regular",
+      "n": 32
+    },
+    {
+      "dataset": "rr-d6-n32-s1",
+      "radius": 2,
+      "family": "regular",
+      "n": 32
+    },
+    {
+      "dataset": "rr-d6-n32-s2",
+      "radius": 1,
+      "family": "regular",
+      "n": 32
+    },
+    {
+      "dataset": "rr-d6-n32-s2",
+      "radius": 2,
+      "family": "regular",
+      "n": 32
+    },
+    {
+      "dataset": "rr-d6-n32-s3",
+      "radius": 1,
+      "family": "regular",
+      "n": 32
+    },
+    {
+      "dataset": "rr-d6-n32-s3",
+      "radius": 2,
+      "family": "regular",
+      "n": 32
+    },
+    {
+      "dataset": "rr-d6-n32-s4",
+      "radius": 1,
+      "family": "regular",
+      "n": 32
+    },
+    {
+      "dataset": "rr-d6-n32-s4",
+      "radius": 2,
+      "family": "regular",
+      "n": 32
+    },
+    {
+      "dataset": "rr-d6-n64-s0",
+      "radius": 1,
+      "family": "regular",
+      "n": 64
+    },
+    {
+      "dataset": "rr-d6-n64-s0",
+      "radius": 2,
+      "family": "regular",
+      "n": 64
+    },
+    {
+      "dataset": "rr-d6-n64-s1",
+      "radius": 1,
+      "family": "regular",
+      "n": 64
+    },
+    {
+      "dataset": "rr-d6-n64-s1",
+      "radius": 2,
+      "family": "regular",
+      "n": 64
+    },
+    {
+      "dataset": "rr-d6-n64-s2",
+      "radius": 1,
+      "family": "regular",
+      "n": 64
+    },
+    {
+      "dataset": "rr-d6-n64-s2",
+      "radius": 2,
+      "family": "regular",
+      "n": 64
+    },
+    {
+      "dataset": "rr-d6-n64-s3",
+      "radius": 1,
+      "family": "regular",
+      "n": 64
+    },
+    {
+      "dataset": "rr-d6-n64-s3",
+      "radius": 2,
+      "family": "regular",
+      "n": 64
+    },
+    {
+      "dataset": "rr-d6-n64-s4",
+      "radius": 1,
+      "family": "regular",
+      "n": 64
+    },
+    {
+      "dataset": "rr-d6-n64-s4",
+      "radius": 2,
+      "family": "regular",
+      "n": 64
+    }
+  ],
+  "theory": [
+    {
+      "dataset": "client-hub-Delta1023",
+      "radius": 1,
+      "family": "client_hub",
+      "n": 2048
+    },
+    {
+      "dataset": "client-hub-Delta120",
+      "radius": 1,
+      "family": "client_hub",
+      "n": 244
+    },
+    {
+      "dataset": "client-hub-Delta15",
+      "radius": 1,
+      "family": "client_hub",
+      "n": 32
+    },
+    {
+      "dataset": "client-hub-Delta24",
+      "radius": 1,
+      "family": "client_hub",
+      "n": 52
+    },
+    {
+      "dataset": "client-hub-Delta255",
+      "radius": 1,
+      "family": "client_hub",
+      "n": 512
+    },
+    {
+      "dataset": "client-hub-Delta3",
+      "radius": 1,
+      "family": "client_hub",
+      "n": 8
+    },
+    {
+      "dataset": "client-hub-Delta48",
+      "radius": 1,
+      "family": "client_hub",
+      "n": 100
+    },
+    {
+      "dataset": "client-hub-Delta511",
+      "radius": 1,
+      "family": "client_hub",
+      "n": 1024
+    },
+    {
+      "dataset": "client-hub-Delta8",
+      "radius": 1,
+      "family": "client_hub",
+      "n": 20
+    },
+    {
+      "dataset": "client-hub-Delta80",
+      "radius": 1,
+      "family": "client_hub",
+      "n": 164
+    },
+    {
+      "dataset": "er-n1024-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 1024
+    },
+    {
+      "dataset": "er-n1024-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 1024
+    },
+    {
+      "dataset": "er-n1024-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 1024
+    },
+    {
+      "dataset": "er-n1024-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 1024
+    },
+    {
+      "dataset": "er-n1024-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 1024
+    },
+    {
+      "dataset": "er-n1024-s5",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 1024
+    },
+    {
+      "dataset": "er-n1024-s6",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 1024
+    },
+    {
+      "dataset": "er-n1024-s7",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 1024
+    },
+    {
+      "dataset": "er-n1024-s8",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 1024
+    },
+    {
+      "dataset": "er-n1024-s9",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 1024
+    },
+    {
+      "dataset": "er-n128-s5",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s6",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s7",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s8",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s9",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n2048-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 2048
+    },
+    {
+      "dataset": "er-n2048-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 2048
+    },
+    {
+      "dataset": "er-n2048-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 2048
+    },
+    {
+      "dataset": "er-n2048-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 2048
+    },
+    {
+      "dataset": "er-n2048-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 2048
+    },
+    {
+      "dataset": "er-n2048-s5",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 2048
+    },
+    {
+      "dataset": "er-n2048-s6",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 2048
+    },
+    {
+      "dataset": "er-n2048-s7",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 2048
+    },
+    {
+      "dataset": "er-n2048-s8",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 2048
+    },
+    {
+      "dataset": "er-n2048-s9",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 2048
+    },
+    {
+      "dataset": "er-n256-s5",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s6",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s7",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s8",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s9",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n4096-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 4096
+    },
+    {
+      "dataset": "er-n4096-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 4096
+    },
+    {
+      "dataset": "er-n4096-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 4096
+    },
+    {
+      "dataset": "er-n4096-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 4096
+    },
+    {
+      "dataset": "er-n4096-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 4096
+    },
+    {
+      "dataset": "er-n4096-s5",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 4096
+    },
+    {
+      "dataset": "er-n4096-s6",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 4096
+    },
+    {
+      "dataset": "er-n4096-s7",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 4096
+    },
+    {
+      "dataset": "er-n4096-s8",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 4096
+    },
+    {
+      "dataset": "er-n4096-s9",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 4096
+    },
+    {
+      "dataset": "er-n512-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 512
+    },
+    {
+      "dataset": "er-n512-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 512
+    },
+    {
+      "dataset": "er-n512-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 512
+    },
+    {
+      "dataset": "er-n512-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 512
+    },
+    {
+      "dataset": "er-n512-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 512
+    },
+    {
+      "dataset": "er-n512-s5",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 512
+    },
+    {
+      "dataset": "er-n512-s6",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 512
+    },
+    {
+      "dataset": "er-n512-s7",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 512
+    },
+    {
+      "dataset": "er-n512-s8",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 512
+    },
+    {
+      "dataset": "er-n512-s9",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 512
+    },
+    {
+      "dataset": "er-n64-s5",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s6",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s7",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s8",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s9",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n64-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 64
+    },
+    {
+      "dataset": "er-n128-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n128-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 128
+    },
+    {
+      "dataset": "er-n256-s0",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s1",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s2",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s3",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "er-n256-s4",
+      "radius": 1,
+      "family": "dense_random",
+      "n": 256
+    },
+    {
+      "dataset": "near-regular-d16-n1024-s0",
+      "radius": 1,
+      "family": "near_regular",
+      "n": 1024
+    },
+    {
+      "dataset": "near-regular-d16-n1024-s1",
+      "radius": 1,
+      "family": "near_regular",
+      "n": 1024
+    },
+    {
+      "dataset": "near-regular-d16-n1024-s2",
+      "radius": 1,
+      "family": "near_regular",
+      "n": 1024
+    },
+    {
+      "dataset": "near-regular-d16-n1024-s3",
+      "radius": 1,
+      "family": "near_regular",
+      "n": 1024
+    },
+    {
+      "dataset": "near-regular-d16-n1024-s4",
+      "radius": 1,
+      "family": "near_regular",
+      "n": 1024
+    },
+    {
+      "dataset": "near-regular-d16-n1024-s5",
+      "radius": 1,
+      "family": "near_regular",
+      "n": 1024
+    },
+    {
+      "dataset": "near-regular-d16-n1024-s6",
+      "radius": 1,
+      "family": "near_regular",
+      "n": 1024
+    },
+    {
+      "dataset": "near-regular-d16-n1024-s7",
+      "radius": 1,
+      "family": "near_regular",
+      "n": 1024
+    },
+    {
+      "dataset": "near-regular-d16-n1024-s8",
+      "radius": 1,
+      "family": "near_regular",
+      "n": 1024
+    },
+    {
+      "dataset": "near-regular-d16-n1024-s9",
+      "radius": 1,
+      "family": "near_regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d16-n1024-s0",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d16-n1024-s1",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d16-n1024-s2",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d16-n1024-s3",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d16-n1024-s4",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d16-n1024-s5",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d16-n1024-s6",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d16-n1024-s7",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d16-n1024-s8",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d16-n1024-s9",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d32-n1024-s0",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d32-n1024-s1",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d32-n1024-s2",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d32-n1024-s3",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d32-n1024-s4",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d32-n1024-s5",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d32-n1024-s6",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d32-n1024-s7",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d32-n1024-s8",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d32-n1024-s9",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d4-n1024-s0",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d4-n1024-s1",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d4-n1024-s2",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d4-n1024-s3",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d4-n1024-s4",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d4-n1024-s5",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d4-n1024-s6",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d4-n1024-s7",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d4-n1024-s8",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d4-n1024-s9",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d64-n1024-s0",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d64-n1024-s1",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d64-n1024-s2",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d64-n1024-s3",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d64-n1024-s4",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d64-n1024-s5",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d64-n1024-s6",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d64-n1024-s7",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d64-n1024-s8",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d64-n1024-s9",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d8-n1024-s0",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d8-n1024-s1",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d8-n1024-s2",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d8-n1024-s3",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d8-n1024-s4",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d8-n1024-s5",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d8-n1024-s6",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d8-n1024-s7",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d8-n1024-s8",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    },
+    {
+      "dataset": "rr-d8-n1024-s9",
+      "radius": 1,
+      "family": "regular",
+      "n": 1024
+    }
+  ]
+}

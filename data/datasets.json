@@ -1,0 +1,52 @@
+{
+  "preprocessing": "Remove self-loops; merge duplicate and reciprocal edges; largest undirected connected component; preserve vertex-ID mapping.",
+  "snap": {
+    "ego-Facebook": {
+      "url": "https://snap.stanford.edu/data/facebook_combined.txt.gz",
+      "expected_nodes": 4039,
+      "expected_edges": 88234,
+      "kind": "undirected social graph",
+      "contiguous_ids": true
+    },
+    "soc-Epinions1": {
+      "url": "https://snap.stanford.edu/data/soc-Epinions1.txt.gz",
+      "expected_nodes": 75879,
+      "expected_edges": 508837,
+      "kind": "directed trust graph; symmetrized for this paper's undirected method",
+      "contiguous_ids": false
+    },
+    "web-Stanford": {
+      "url": "https://snap.stanford.edu/data/web-Stanford.txt.gz",
+      "expected_nodes": 281903,
+      "expected_edges": 2312497,
+      "kind": "directed web graph; symmetrized for this paper's undirected method",
+      "contiguous_ids": true
+    },
+    "com-Amazon": {
+      "url": "https://snap.stanford.edu/data/bigdata/communities/com-amazon.ungraph.txt.gz",
+      "expected_nodes": 334863,
+      "expected_edges": 925872,
+      "kind": "undirected product graph",
+      "contiguous_ids": false
+    },
+    "web-Google": {
+      "url": "https://snap.stanford.edu/data/web-Google.txt.gz",
+      "expected_nodes": 875713,
+      "expected_edges": 5105039,
+      "kind": "directed web graph; symmetrized for this paper's undirected method",
+      "contiguous_ids": true
+    },
+    "com-Youtube": {
+      "url": "https://snap.stanford.edu/data/bigdata/communities/com-youtube.ungraph.txt.gz",
+      "expected_nodes": 1134890,
+      "expected_edges": 2987624,
+      "kind": "undirected online social graph",
+      "contiguous_ids": false
+    }
+  },
+  "webgraph": [
+    "uk-2002",
+    "in-2004",
+    "eu-2005"
+  ]
+}

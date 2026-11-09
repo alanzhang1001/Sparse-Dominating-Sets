@@ -1,0 +1,40 @@
+\section{Resource controls and query-stratum selectivity}
+\label{sec:structure}
+\subsection{Budget matching and fixed-count index footprints}
+All selectors use the same nearest-landmark partition and boundary-index code. Native landmarks are retained, and further landmarks follow a common augmentation order. Three caps are defined from the largest native index payload, with configurations chosen using bytes alone before query evaluation. Table~\ref{tab:budgets} audits the resulting 27 configurations per graph: four deterministic selectors and five random seeds at each of three caps. Graph adjacency is shared and excluded from these index-payload caps.
+
+\begin{table}[H]
+\centering\smalltablefont\setlength{\tabcolsep}{4pt}
+\caption{Index caps and actual utilization across all matched-budget configurations. MiB means $2^{20}$ bytes. The query counts belong to the original candidate-selectivity cohort.}
+\label{tab:budgets}
+\input{tables/budget_audit}
+\end{table}
+
+The separate fixed-count control makes the number and mean size of pieces identical across selectors. Table~\ref{tab:structure} supplements the manuscript's candidate comparison with index and partition statistics. Random-P reports the mean of five independently constructed indexes; its candidate SD is the sample standard deviation of the five per-seed candidate means.
+
+\begin{table}[H]
+\centering\smalltablefont\setlength{\tabcolsep}{6pt}
+\caption{Fixed-count index and partition statistics. Piece P99 and largest-piece size count vertices. For Random-P, each displayed statistic, including the maximum, is averaged over the five seed-specific values. Candidates are averaged over the 6,800 queries.}
+\label{tab:structure}
+\input{tables/fixed_count}
+\end{table}
+
+\clearpage
+\subsection{Interpreting the resource advantage}
+At the common landmark count, Ratio uses less index space than each competing selector in Table~\ref{tab:structure} on all four graphs. It also returns fewer mean candidates than each competing selector, with Random-P interpreted as the five-seed mean. The candidate advantage is present at the same piece count and a smaller index footprint.
+
+A query touches the union of pieces containing its answers, so candidate counts reflect both landmark placement and the resulting partition. Ratio's largest piece can exceed Degree's while its mean candidate count remains lower. The P99 and maximum piece sizes complement the query-level candidate measurements.
+
+\subsection{All query strata at the lowest matched budget}
+The original workload contains two start distributions: uniform starts (U) and degree-stratified starts (S). For each distribution, $h=1$ uses $|Q|=1,5,20$ with 1,000 queries per stratum; $h=2$ uses $|Q|=1,5$ with 200 queries per stratum. All selectors receive the same held-out queries and return candidates with complete recall.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{candidate_strata.pdf}
+\caption{Candidate reduction, $100(1-C_{\mathrm{Ratio}}/C_{\mathrm{reference}})$, in every query stratum at the lowest matched index budget. Column labels are $h/|Q|/$start distribution. Random denotes the five-seed mean; positive values favor Ratio. Each cell uses the stratum mean, not an unweighted average of per-query ratios.}
+\label{fig:candidate-strata}
+\end{figure}
+
+Ratio reduces mean candidates in all 80 graph--reference--stratum comparisons displayed in Figure~\ref{fig:candidate-strata}, by $5.5$--$83.5\%$. This is stronger evidence about consistency across query types than a single pooled mean: the lowest-budget advantage is present under both start distributions, both query radii and all tested query sizes. The range summarizes the stratum means displayed in the figure.
+
+The candidate counts measure the amount of material admitted by the shared partition index. Whether this reduction lowers complete query time depends on subsequent reads, exact processing and output construction. Section~\ref{sec:query} measures those costs with a separate exact-subgraph task and fresh queries.

@@ -1,0 +1,36 @@
+\section{Experimental setup and reproduction}
+\label{sec:reproduction}
+\subsection{Shared experimental setup}
+Graphs are processed as in the companion manuscript: self-loops are removed, duplicate and reciprocal edges are merged, and the largest undirected connected component is retained. Timed computations use one pinned core of an AMD EPYC 7A23 server. The implementation comparisons use GCC 11.4 with identical optimization flags. Section~\ref{sec:implementation} defines the whole-process and internal-phase timing scopes.
+
+The candidate cohort has 108 configurations under matched budgets and 36 at fixed landmark counts. The five Random-Prune seeds are 20261013--20261017; the shared augmentation seed is 20261111. Index payload includes landmark, partition and boundary-list data; graph adjacency is shared. Byte-based selection precedes query evaluation. Fixed-count comparisons control landmark count; matched-budget comparisons control index size.
+
+The exact-subgraph cohorts use query-generation seeds 202611082231 and 2026110901. Each graph/mode has nine partition configurations, nine same-layout BFS configurations and one original-layout BFS configuration. Three repetitions of 2,800 queries produce the audited counts. A shared 2\,ms warmup-based rule clamps inner repetitions to 1--32. Complete protocols and portable native engines are included.
+
+\subsection{Frozen inputs and display generation}
+The manifest records original-source and packaged-input hashes, extraction rules and the artifact version. The snapshot retains every configuration used in each displayed comparison. Candidate retrieval and exact-subgraph extraction have separate workload and measurement definitions.
+
+\begin{table}[H]
+\centering\tablefont
+\caption{Reproduction map. Paths are relative to the supplement directory.}
+\begin{tabular}{@{}p{.37\linewidth}p{.55\linewidth}@{}}
+\toprule
+Input or program & Purpose\\
+\midrule
+\path{data/implementation.json} & Phase medians for the six Ratio implementation comparisons.\\
+\path{data/radius.json} & All twelve completed multi-radius conditions; protocol and audit are adjacent files.\\
+\path{data/retrieval.json} & All 144 four-graph index configurations and candidate-stratum summaries.\\
+\path{data/e5-subgraph-*/} & Both formal cohorts: all method/mode/stratum summaries, uncertainty, protocols and audits.\\
+\path{data/stability.json} & All four strategies on five SNAP graphs, ten final-tie orders each.\\
+\path{data/manifest.json} & Source hashes, packaged-input hashes, artifact version and transformation descriptions.\\
+\path{render.py}, \path{build.py} & Validate inputs, regenerate tables/figures, and compile the standalone PDF.\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+From the repository root, run \texttt{python3 supplementary/render.py} to regenerate the displays, then \texttt{python3 supplementary/build.py} to compile the PDF. Dependencies are listed in \path{supplementary/requirements.txt}; pdfLaTeX is also required. CSV tables retain unrounded values, and \path{verification.json} records consistency checks.
+
+\paragraph{Experiment entry points.}
+The guide \path{../docs/reproduction.md} covers public-graph preparation and synthetic/BFS generation. The scripts \path{../scripts/reproduce.py} and \path{../scripts/query_pipeline.py} run selection/solver experiments and both query tasks. They generate partitions, indexes, queries, exact answers and layouts. The offline example retains all nine query selectors, both BFS controls and both access modes.
+
+The packaged summaries support figure and table generation. Experiment configurations specify graph families, sampling seeds, landmark strategies, query workloads and index budgets. The reproduction guide provides commands for each experiment family.

@@ -1,0 +1,178 @@
+{
+  "source_sha256": "0df3c57b80ac6bc160c5ebd97793fdd6dae80f16456c84d70a265698f0e03e5c",
+  "certified_instances": 150,
+  "unresolved_instances_excluded": 10,
+  "quality_rows": [
+    {
+      "family": "dense_random",
+      "radius": 1,
+      "count": 20,
+      "median": 1.2273694287840806,
+      "p90": 1.3525075363113193,
+      "maximum": 1.408163265306078
+    },
+    {
+      "family": "dense_random",
+      "radius": 2,
+      "count": 20,
+      "median": 1.0,
+      "p90": 1.0,
+      "maximum": 1.0
+    },
+    {
+      "family": "regular",
+      "radius": 1,
+      "count": 15,
+      "median": 1.1666666666666847,
+      "p90": 1.2031620553359685,
+      "maximum": 1.2727272727272736
+    },
+    {
+      "family": "regular",
+      "radius": 2,
+      "count": 15,
+      "median": 1.1500000000000048,
+      "p90": 1.3541035661944316,
+      "maximum": 1.5
+    },
+    {
+      "family": "preferential_attachment",
+      "radius": 1,
+      "count": 20,
+      "median": 1.1589153295610162,
+      "p90": 1.2017391304347826,
+      "maximum": 1.2954545454545454
+    },
+    {
+      "family": "preferential_attachment",
+      "radius": 2,
+      "count": 20,
+      "median": 1.3498093681917025,
+      "p90": 1.533125000000001,
+      "maximum": 1.6
+    },
+    {
+      "family": "real_graph_sample",
+      "radius": 1,
+      "count": 20,
+      "median": 1.145602605863192,
+      "p90": 2.1152936339774207,
+      "maximum": 2.9205298013245033
+    },
+    {
+      "family": "real_graph_sample",
+      "radius": 2,
+      "count": 20,
+      "median": 1.0133333333333332,
+      "p90": 1.299038461538462,
+      "maximum": 1.6479750778816205
+    }
+  ],
+  "p90_definition": "Linear interpolation at rank 1 + 0.9*(N-1) in the sorted certified ALG/OPT values; NumPy method=linear.",
+  "theory_bar_statistics": {
+    "ALG/OPT": [
+      {
+        "count": 10,
+        "median": 1.2410582789818227,
+        "min": 1.0000000000000004,
+        "max": 1.408163265306078
+      },
+      {
+        "count": 10,
+        "median": 1.2129258342341962,
+        "min": 1.0331950207469347,
+        "max": 1.2677824267783082
+      },
+      {
+        "count": 9,
+        "median": 1.16793893129771,
+        "min": 1.1480075901328273,
+        "max": 1.3653846153847216
+      }
+    ],
+    "OPT/LP": [
+      {
+        "count": 10,
+        "median": 1.47954681941117,
+        "min": 1.4115984834419644,
+        "max": 1.5928737858213569
+      },
+      {
+        "count": 10,
+        "median": 1.8010778524093891,
+        "min": 1.7841180176819047,
+        "max": 1.8418980355424484
+      },
+      {
+        "count": 9,
+        "median": 2.0064353345204715,
+        "min": 1.9791286438221691,
+        "max": 2.04002046432168
+      }
+    ],
+    "ALG/LP": [
+      {
+        "count": 10,
+        "median": 1.8372745260422554,
+        "min": 1.4885390109297483,
+        "max": 2.040748625226861
+      },
+      {
+        "count": 10,
+        "median": 2.1931505567193614,
+        "min": 1.9030398790460181,
+        "max": 2.283649404321181
+      },
+      {
+        "count": 9,
+        "median": 2.346211417107994,
+        "min": 2.3034029931401996,
+        "max": 2.750589390096647
+      }
+    ]
+  },
+  "theory_encoding": "Zero-based bars show medians; whiskers retain the full min/max. ALG/LP is a light-gray auxiliary series.",
+  "construction_certificates": [
+    {
+      "max_degree": 3,
+      "cost": 1.0
+    },
+    {
+      "max_degree": 8,
+      "cost": 1.5
+    },
+    {
+      "max_degree": 15,
+      "cost": 2.0
+    },
+    {
+      "max_degree": 24,
+      "cost": 2.5
+    },
+    {
+      "max_degree": 48,
+      "cost": 3.5
+    },
+    {
+      "max_degree": 80,
+      "cost": 4.5
+    },
+    {
+      "max_degree": 120,
+      "cost": 5.5
+    },
+    {
+      "max_degree": 255,
+      "cost": 8.0
+    },
+    {
+      "max_degree": 511,
+      "cost": 11.0
+    },
+    {
+      "max_degree": 1023,
+      "cost": 16.0
+    }
+  ],
+  "source_experiments_changed": false
+}

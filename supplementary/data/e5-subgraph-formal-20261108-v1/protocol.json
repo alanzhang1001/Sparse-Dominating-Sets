@@ -1,0 +1,52 @@
+{
+  "started": "2026-11-08T22:24:38.179762+08:00",
+  "phase": "formal single-seed one-hop confirmation",
+  "graphs": [
+    "web-Stanford",
+    "web-Google"
+  ],
+  "queries_per_graph": 2800,
+  "strata": 10,
+  "per_stratum": {
+    "primary": 1000,
+    "context": 100
+  },
+  "query_source": "new fixed seed; start vertices exclude all old dev/test and pilot starts; freeze before timing",
+  "budget": "original minimum budget plus common n*8 mapping bytes, frozen before queries",
+  "selectors": "four deterministic plus five Random-Prune seeds; original representatives and indexes unchanged",
+  "modes": [
+    "memory",
+    "file-warm"
+  ],
+  "cold_io": false,
+  "repeats": 3,
+  "inner": "per-query warmup; clamp(floor(2ms/warmup_time),1,32), same rule for every method",
+  "comparison": "partition plus original-layout BFS plus same-layout BFS for each partition layout",
+  "timing": "native input seeds through fully sorted exact vertex and undirected edge buffers; includes scratch reset, candidate/frontier graph reads, BFS, output; independent validation and warmup excluded",
+  "stages": "candidate_stage includes its reads; pread_ms overlaps candidate/refinement/output and is not additive",
+  "requested_bytes": "unique adjacency row bytes fetched per query, including candidate frontier; memory mode is logical access volume, not physical I/O",
+  "physical_bytes": "Linux /proc/self/io read_bytes delta over timed inner batch; warm page-cache reads must not be described as disk bytes",
+  "file_reads": "pread with deduplication, contiguous row coalescing and within-query row reuse; shared by BFS and partition",
+  "cache": "whole adjacency file prewarm before each process and identical per-query warmup",
+  "graph_ids": "original IDs, physical order only changes",
+  "cpu": 48,
+  "memory_gib": 64,
+  "serial": true,
+  "summary_weight": "primary two workload means equally weighted; context strata separate, no pooled overall headline",
+  "paper_github_unchanged": true,
+  "primary_per_graph": 2000,
+  "context_per_graph": 800,
+  "primary": "h=1, one seed; 1000 uniform starts and 1000 degree-stratified starts per graph",
+  "context": "eight remaining strata, 100 new queries each; secondary context only",
+  "seed": 202611082231,
+  "primary_comparisons": [
+    "Ratio vs five-seed Random-Prune mean",
+    "Ratio vs Degree"
+  ],
+  "primary_endpoint": "warm-file exact-subgraph total latency, separately by graph and workload, plus equal-weight primary aggregate",
+  "other_endpoints": "memory latency, requested adjacency bytes, read calls; all other methods and both BFS controls retained",
+  "decision": "continue only if the primary aggregate time-ratio CI upper bound is below 1 against both Random-Prune and Degree on both graphs, and all four graph/workload point estimates are below 1; report every stratum regardless",
+  "uncertainty": "paired stratified bootstrap with 2000 resamples of queries and random-seed configurations; three timing repeats collapsed by per-query median",
+  "no_tuning_after_lock": true,
+  "cache_state": "prewarmed"
+}

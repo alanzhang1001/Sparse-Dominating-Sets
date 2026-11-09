@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "run": "e5-subgraph-formal-20261108-v1",
+      "summary_sha256": "f96716ff1fcd7497dc287b107c6841f3441325584443d9d5020eefe78b14e274"
+    },
+    {
+      "run": "e5-subgraph-extension-20261109-v1",
+      "summary_sha256": "ef1ca1a0feb9371cb9d9a72a338726f7aebee66293498db7318ca339538876b1"
+    }
+  ],
+  "setting": "warm-file, lowest matched index budget, single vertex one hop",
+  "aggregation": "mean of per-query medians over three runs; Random-Prune averaged over five seeds",
+  "rows": [
+    {
+      "graph": "web-Stanford",
+      "mean_ms": {
+        "ratio": 0.28410459438089486,
+        "ratio-plus": 0.7579208812581144,
+        "degree": 0.3859226969798117,
+        "cc2fs": 0.7392231675680283,
+        "random-prune-mean": 0.3972578545871599
+      }
+    },
+    {
+      "graph": "web-Google",
+      "mean_ms": {
+        "ratio": 0.023218233644975585,
+        "ratio-plus": 0.027046145685003752,
+        "degree": 0.03230502993283166,
+        "cc2fs": 0.03554125893407102,
+        "random-prune-mean": 0.03448307495022704
+      }
+    },
+    {
+      "graph": "in-2004",
+      "mean_ms": {
+        "ratio": 0.1272856033743406,
+        "ratio-plus": 0.1603623982652188,
+        "degree": 0.1530295925935202,
+        "cc2fs": 0.1690478184523985,
+        "random-prune-mean": 0.14027245213674505
+      }
+    },
+    {
+      "graph": "eu-2005",
+      "mean_ms": {
+        "ratio": 0.3191768297843399,
+        "ratio-plus": 1.0029252784896363,
+        "degree": 0.6928603982928336,
+        "cc2fs": 1.2240739071250846,
+        "random-prune-mean": 0.7027762238507668
+      }
+    }
+  ]
+}

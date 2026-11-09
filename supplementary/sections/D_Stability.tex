@@ -1,0 +1,12 @@
+\section{Final-tie stability}
+\label{sec:stability}
+Ten final-tie orders preserve each strategy's primary and secondary priorities. Table~\ref{tab:stability} reports the congestion range (maximum minus minimum) divided by its mean, expressed as a percentage. All 200 solutions across the five graphs and four strategies pass coverage checks.
+
+\begin{table}[H]
+\centering\tablefont\setlength{\tabcolsep}{13pt}
+\caption{Congestion range across ten final-tie orders (\%). These values quantify sensitivity to final ties, rather than run-time variability.}
+\label{tab:stability}
+\input{tables/stability}
+\end{table}
+
+Ratio+ reduces this range relative to Ratio on every graph, with a maximum of $0.120\%$ after rounding. The table quantifies congestion stability under the tested final ties. Certified-quality summaries and construction certificates remain in the companion manuscript.

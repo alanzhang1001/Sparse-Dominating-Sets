@@ -1,0 +1,35 @@
+{
+  "sources_verified": 19,
+  "query_records_audited_in_source_batches": 1276800,
+  "query_primary_unique": 8000,
+  "query_context_unique": 3200,
+  "radius_conditions": 12,
+  "radius_speedup_range": [
+    7.916418796020892,
+    37.64181370214827
+  ],
+  "radius_memory_saved_range": [
+    90.92376598522026,
+    91.83714602438778
+  ],
+  "primary_time_reduction_pct": {
+    "web-Stanford/degree": 26.383030434782494,
+    "web-Stanford/random-mean": 28.48358034955828,
+    "web-Google/degree": 28.128115983019597,
+    "web-Google/random-mean": 32.66774010586685,
+    "in-2004/degree": 16.82288293582619,
+    "in-2004/random-mean": 9.258303084160968,
+    "eu-2005/degree": 53.93345750878933,
+    "eu-2005/random-mean": 54.58343368028954
+  },
+  "candidate_strata_reduction_range": [
+    5.517077006571913,
+    83.53461099715763
+  ],
+  "context_time_reduction_range": [
+    -51.38446978509261,
+    20.03433366507713
+  ],
+  "context_positive_cells": 24,
+  "context_total_cells": 64
+}

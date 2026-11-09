@@ -1,0 +1,2594 @@
+[
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.805511982772641,
+        "ci95": [
+          0.7857907315172646,
+          0.82509589474735
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.9036057798086183,
+        "ci95": [
+          0.8852863572701358,
+          0.9193305950590774
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6564692896569766,
+        "ci95": [
+          0.6348457418538122,
+          0.6765439008678065
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7944596818514151,
+        "ci95": [
+          0.7682690057883397,
+          0.8180119852067974
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8976984643707601,
+        "ci95": [
+          0.8724725616405822,
+          0.920926001651808
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6476144122805448,
+        "ci95": [
+          0.6153149418009145,
+          0.6776503249703477
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8153195444743099,
+        "ci95": [
+          0.7875941328236483,
+          0.8429440244936617
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.9092185483237439,
+        "ci95": [
+          0.88478051992644,
+          0.9302413174797977
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6645657332602474,
+        "ci95": [
+          0.6363589523375518,
+          0.6910098288684108
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.634449937193181,
+        "ci95": [
+          0.6036087529633742,
+          0.67262189648878
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5088571953455672,
+        "ci95": [
+          0.478319984634235,
+          0.5398243260768923
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.40817818918059473,
+        "ci95": [
+          0.3829435699016212,
+          0.43481829016769014
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6185074972014455,
+        "ci95": [
+          0.5790142724467836,
+          0.6575075317050235
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5058113340765803,
+        "ci95": [
+          0.4595675177382997,
+          0.5513566597264067
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.39909776829987265,
+        "ci95": [
+          0.360843850892295,
+          0.43835774935141086
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6489126042840805,
+        "ci95": [
+          0.5979026599698734,
+          0.7110760012180856
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5117480544590503,
+        "ci95": [
+          0.4671530635090463,
+          0.5544120082215324
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.4166243953948993,
+        "ci95": [
+          0.37867003315979275,
+          0.4546890113551375
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6641664845167065,
+        "ci95": [
+          0.631925704610942,
+          0.7032305204353478
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5749636394429788,
+        "ci95": [
+          0.5410327037131926,
+          0.6093152823032847
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.41906863252764015,
+        "ci95": [
+          0.3943153189657234,
+          0.4451355440773351
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6484565599182239,
+        "ci95": [
+          0.6108432073277716,
+          0.6858711239647381
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5700830384288933,
+        "ci95": [
+          0.5229731143181191,
+          0.6167835661909523
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.4097386804139382,
+        "ci95": [
+          0.3750929532928977,
+          0.44502699344910046
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6783772290156473,
+        "ci95": [
+          0.6290455326818789,
+          0.7378560025314287
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5796187151737988,
+        "ci95": [
+          0.5349613040907147,
+          0.6261301576413674
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.42774723847006474,
+        "ci95": [
+          0.3943529338643086,
+          0.463532481604688
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7658555650035286,
+        "ci95": [
+          0.7411324877996133,
+          0.7927533806287781
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8257972235440453,
+        "ci95": [
+          0.7954392577792915,
+          0.8535326059033481
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6138421577183677,
+        "ci95": [
+          0.5878943565694276,
+          0.6393787092962157
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7554154274723616,
+        "ci95": [
+          0.7287552386383036,
+          0.781749813625686
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8208707442658328,
+        "ci95": [
+          0.7828236030821606,
+          0.8546138701963671
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6055843340466233,
+        "ci95": [
+          0.5705734224082145,
+          0.638589162726476
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7751183319043029,
+        "ci95": [
+          0.7406452599206984,
+          0.817118218647984
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8304728140438248,
+        "ci95": [
+          0.797763511795584,
+          0.8609341881111795
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.6213921593795861,
+        "ci95": [
+          0.59090937119748,
+          0.6517261146938039
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.2094028830038464,
+        "ci95": [
+          2.024630721979676,
+          2.3424677589751863
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.839792392571969,
+        "ci95": [
+          2.7766733666891796,
+          2.898054006604285
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 192.05561840616696,
+        "ci95": [
+          119.1067076154937,
+          287.54894228587017
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.271506593891659,
+        "ci95": [
+          2.196620192583416,
+          2.3514049774218697
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.8393643759457845,
+        "ci95": [
+          2.7563032010136332,
+          2.9139611287527156
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 252.65072719259584,
+        "ci95": [
+          218.81398436914836,
+          287.18709377266305
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.1583778399360343,
+        "ci95": [
+          1.8938681024252684,
+          2.3836586245122855
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.8401940323195842,
+        "ci95": [
+          2.7524141423163195,
+          2.9241526099703843
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 158.23959827833573,
+        "ci95": [
+          86.61129649255207,
+          310.82536444548776
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.2585627109060766,
+        "ci95": [
+          2.172245168965994,
+          2.332978935788427
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.839792392571969,
+        "ci95": [
+          2.7767374283160504,
+          2.8984746368900813
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 192.05561840616696,
+        "ci95": [
+          120.93795751547871,
+          286.105531430444
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.2659429547192618,
+        "ci95": [
+          2.197254587693227,
+          2.3461923416536927
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.8393643759457845,
+        "ci95": [
+          2.746831515896015,
+          2.916027189397878
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 252.65072719259584,
+        "ci95": [
+          217.71405841001726,
+          286.5722956835676
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.2522198545419414,
+        "ci95": [
+          2.123530463163885,
+          2.386460107812661
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.8401940323195842,
+        "ci95": [
+          2.7515338154807356,
+          2.927060084874268
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 158.23959827833573,
+        "ci95": [
+          85.03013634174151,
+          312.18921766780966
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "degree",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.736169695652175,
+        "ci95": [
+          0.6915274188521742,
+          0.7830395921058037
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.9036057798086183,
+        "ci95": [
+          0.8862732433160972,
+          0.9207191586377591
+        ]
+      },
+      "read_calls": {
+        "point": 0.9792173560421735,
+        "ci95": [
+          0.9469469091451886,
+          1.010484096194783
+        ]
+      },
+      "candidates": {
+        "point": 0.6564692896569766,
+        "ci95": [
+          0.635835638692537,
+          0.6778978921481374
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "degree",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7591805380265919,
+        "ci95": [
+          0.6925597403122523,
+          0.8338100538666527
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8976984643707601,
+        "ci95": [
+          0.8709112629290011,
+          0.9206293362633221
+        ]
+      },
+      "read_calls": {
+        "point": 1.002460529013738,
+        "ci95": [
+          0.9558421761934381,
+          1.0520317492656726
+        ]
+      },
+      "candidates": {
+        "point": 0.6476144122805448,
+        "ci95": [
+          0.615623649729401,
+          0.6779795786954592
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "degree",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7162023516910196,
+        "ci95": [
+          0.6557207399233316,
+          0.779921073418436
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.9092185483237439,
+        "ci95": [
+          0.8859065618942091,
+          0.9302558407036059
+        ]
+      },
+      "read_calls": {
+        "point": 0.956486865851213,
+        "ci95": [
+          0.9136190411200849,
+          1.0008580299890804
+        ]
+      },
+      "candidates": {
+        "point": 0.6645657332602474,
+        "ci95": [
+          0.6368293612028242,
+          0.6907591446076073
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.374847297925469,
+        "ci95": [
+          0.353009358141409,
+          0.3994317529817976
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5088571953455672,
+        "ci95": [
+          0.479303516932072,
+          0.5392644145807021
+        ]
+      },
+      "read_calls": {
+        "point": 0.9756565656565657,
+        "ci95": [
+          0.9271816045038827,
+          1.0155527728529603
+        ]
+      },
+      "candidates": {
+        "point": 0.40817818918059473,
+        "ci95": [
+          0.38366777356390963,
+          0.434130071578282
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.3736325578615331,
+        "ci95": [
+          0.34201076608065045,
+          0.410987429370162
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5058113340765803,
+        "ci95": [
+          0.46038109370797775,
+          0.5499084528256544
+        ]
+      },
+      "read_calls": {
+        "point": 1.0076257213520197,
+        "ci95": [
+          0.9758477656554242,
+          1.042659084075098
+        ]
+      },
+      "candidates": {
+        "point": 0.39909776829987265,
+        "ci95": [
+          0.36344291626640235,
+          0.43756315811873187
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.37597162019148733,
+        "ci95": [
+          0.3458948228292971,
+          0.4092737111023277
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5117480544590503,
+        "ci95": [
+          0.4682328623902194,
+          0.5553412732628912
+        ]
+      },
+      "read_calls": {
+        "point": 0.9449286846275752,
+        "ci95": [
+          0.860683848731815,
+          1.0144733087958937
+        ]
+      },
+      "candidates": {
+        "point": 0.4166243953948993,
+        "ci95": [
+          0.3805332236509177,
+          0.4518599787656566
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.38432858552792754,
+        "ci95": [
+          0.36459443971024696,
+          0.40635853350127854
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5749636394429788,
+        "ci95": [
+          0.5416490897721791,
+          0.6089723074833258
+        ]
+      },
+      "read_calls": {
+        "point": 0.966866866866867,
+        "ci95": [
+          0.9376533294846849,
+          0.9964168362540682
+        ]
+      },
+      "candidates": {
+        "point": 0.41906863252764015,
+        "ci95": [
+          0.39456331620073376,
+          0.4456995907550504
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.38690666616119945,
+        "ci95": [
+          0.35631260316747915,
+          0.42017410006748596
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5700830384288933,
+        "ci95": [
+          0.5236817603285719,
+          0.6183893625803356
+        ]
+      },
+      "read_calls": {
+        "point": 0.9833065164923571,
+        "ci95": [
+          0.9428029675232619,
+          1.0240201257040211
+        ]
+      },
+      "candidates": {
+        "point": 0.4097386804139382,
+        "ci95": [
+          0.37462447350675293,
+          0.4475424018193092
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.3819873968056503,
+        "ci95": [
+          0.35456853897936946,
+          0.41124920554342975
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5796187151737988,
+        "ci95": [
+          0.5349422260510823,
+          0.6276082930374549
+        ]
+      },
+      "read_calls": {
+        "point": 0.9505779194898365,
+        "ci95": [
+          0.9085203497740858,
+          0.9961051692172592
+        ]
+      },
+      "candidates": {
+        "point": 0.42774723847006474,
+        "ci95": [
+          0.3945186251163852,
+          0.4640527809729285
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7151641965044172,
+        "ci95": [
+          0.6709365373662813,
+          0.7578917771094398
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8257972235440453,
+        "ci95": [
+          0.797806892667949,
+          0.8520301791862837
+        ]
+      },
+      "read_calls": {
+        "point": 0.9789791615989621,
+        "ci95": [
+          0.951104171001195,
+          1.0083394285105625
+        ]
+      },
+      "candidates": {
+        "point": 0.6138421577183677,
+        "ci95": [
+          0.5901505517335033,
+          0.6369490361942864
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.718408209037744,
+        "ci95": [
+          0.6699142088307133,
+          0.769016585656173
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8208707442658328,
+        "ci95": [
+          0.7796306086867633,
+          0.8540507691589326
+        ]
+      },
+      "read_calls": {
+        "point": 1.000450192354916,
+        "ci95": [
+          0.9597343619839444,
+          1.0419055559174548
+        ]
+      },
+      "candidates": {
+        "point": 0.6055843340466233,
+        "ci95": [
+          0.5695188793151241,
+          0.6384177021729945
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7122060885143511,
+        "ci95": [
+          0.6591195803926356,
+          0.76591986778053
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.8304728140438248,
+        "ci95": [
+          0.7968456191597829,
+          0.8614350766207535
+        ]
+      },
+      "read_calls": {
+        "point": 0.9579082657241554,
+        "ci95": [
+          0.9224363038346575,
+          0.9997892666358172
+        ]
+      },
+      "candidates": {
+        "point": 0.6213921593795861,
+        "ci95": [
+          0.5908855109474395,
+          0.6516011406899112
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.4887347640522415,
+        "ci95": [
+          1.847867153507668,
+          3.1653922939822516
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.839792392571969,
+        "ci95": [
+          2.7796047109362236,
+          2.9004815618463
+        ]
+      },
+      "read_calls": {
+        "point": 0.25575914844039616,
+        "ci95": [
+          0.16645382361316563,
+          0.3702179941271434
+        ]
+      },
+      "candidates": {
+        "point": 192.05561840616696,
+        "ci95": [
+          123.63447180473808,
+          286.7502531654339
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.9616083779455677,
+        "ci95": [
+          2.7303510746400614,
+          3.2108827098889305
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.8393643759457845,
+        "ci95": [
+          2.7544800857919336,
+          2.920815991496008
+        ]
+      },
+      "read_calls": {
+        "point": 0.3591683808404349,
+        "ci95": [
+          0.33790080310895526,
+          0.38173755115128327
+        ]
+      },
+      "candidates": {
+        "point": 252.65072719259584,
+        "ci95": [
+          220.12109270132905,
+          288.98490611489285
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 2.1700352859185674,
+        "ci95": [
+          1.385449059822786,
+          3.2771875249750573
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.8401940323195842,
+        "ci95": [
+          2.754297026204041,
+          2.926043700588642
+        ]
+      },
+      "read_calls": {
+        "point": 0.19748281858077335,
+        "ci95": [
+          0.10883106786355981,
+          0.3797467451336731
+        ]
+      },
+      "candidates": {
+        "point": 158.23959827833573,
+        "ci95": [
+          86.51946161114297,
+          310.670974807239
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 3.422942613860599,
+        "ci95": [
+          3.219541158762065,
+          3.6109450246068184
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.839792392571969,
+        "ci95": [
+          2.7774545645873037,
+          2.898866944396049
+        ]
+      },
+      "read_calls": {
+        "point": 0.45982100352280303,
+        "ci95": [
+          0.44109651893621354,
+          0.4790525957774125
+        ]
+      },
+      "candidates": {
+        "point": 192.05561840616696,
+        "ci95": [
+          123.06801756898106,
+          286.0622168003835
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 3.385455046551512,
+        "ci95": [
+          3.1538005486360507,
+          3.642861623710236
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.8393643759457845,
+        "ci95": [
+          2.7583791985383286,
+          2.918882340053551
+        ]
+      },
+      "read_calls": {
+        "point": 0.4595356706457374,
+        "ci95": [
+          0.43299910964151267,
+          0.4873015506216708
+        ]
+      },
+      "candidates": {
+        "point": 252.65072719259584,
+        "ci95": [
+          221.48988688090685,
+          289.5744103665524
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Stanford",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 3.458164528820602,
+        "ci95": [
+          3.151106176831456,
+          3.7759408635568823
+        ]
+      },
+      "requested_bytes": {
+        "point": 2.8401940323195842,
+        "ci95": [
+          2.751195936514126,
+          2.925825979632743
+        ]
+      },
+      "read_calls": {
+        "point": 0.4601138227066653,
+        "ci95": [
+          0.43277975689194054,
+          0.48795932086882365
+        ]
+      },
+      "candidates": {
+        "point": 158.23959827833573,
+        "ci95": [
+          87.54851954211905,
+          310.8929254614723
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.49683877937496573,
+        "ci95": [
+          0.47796861640875593,
+          0.5178430132043406
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.6148832495422684,
+        "ci95": [
+          0.5955876780754505,
+          0.6357516845456409
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.22492851147125306,
+        "ci95": [
+          0.20234734608266078,
+          0.2513423512399372
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.489934851684017,
+        "ci95": [
+          0.4615957819334669,
+          0.5216308794793125
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.6135199469247522,
+        "ci95": [
+          0.5842367967031791,
+          0.6493899284232375
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.21688157424953997,
+        "ci95": [
+          0.18519611580500997,
+          0.25430158159336114
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "degree",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.5037689194510022,
+        "ci95": [
+          0.48087894399838355,
+          0.5284517302077645
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.6162628005067505,
+        "ci95": [
+          0.5943604133373718,
+          0.638807598556786
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.23321316226628497,
+        "ci95": [
+          0.2039543490645465,
+          0.26472775172053
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7106037363216808,
+        "ci95": [
+          0.6704097644530049,
+          0.750300080459099
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.6855647661538425,
+        "ci95": [
+          0.641350280350164,
+          0.7322502033311555
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.3963567511500231,
+        "ci95": [
+          0.34618994639159983,
+          0.45112920208618074
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6891279281350434,
+        "ci95": [
+          0.6350776528950077,
+          0.7438134350703768
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.66599205463348,
+        "ci95": [
+          0.6105205686286523,
+          0.7246581818695427
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.36888572279413057,
+        "ci95": [
+          0.3071506543682857,
+          0.43729495983518757
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "ratio-plus",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7329007963170079,
+        "ci95": [
+          0.6764384088470016,
+          0.7953780395043799
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.7064813553387452,
+        "ci95": [
+          0.6451892360448024,
+          0.7755680201157414
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.4267871465162609,
+        "ci95": [
+          0.35299398174814045,
+          0.5218717919887241
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.4296708727651137,
+        "ci95": [
+          0.41377379299328104,
+          0.4475135807735181
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5196722377944143,
+        "ci95": [
+          0.5033358030560265,
+          0.5391393765513877
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.17751505314126517,
+        "ci95": [
+          0.16016084822955814,
+          0.1966089436323633
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.41802366925598144,
+        "ci95": [
+          0.3949153637696275,
+          0.4463567072907176
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5132443456977158,
+        "ci95": [
+          0.4867888180036209,
+          0.5464005105631362
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.16925290281789004,
+        "ci95": [
+          0.1455160657298696,
+          0.19912503360491016
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "cc2fs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.441684828175317,
+        "ci95": [
+          0.41974815183712305,
+          0.4651198088690403
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5263126714963089,
+        "ci95": [
+          0.5061181267965438,
+          0.5470814267276382
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.18621853577587058,
+        "ci95": [
+          0.16275328426710534,
+          0.21137377502995852
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.45626426328095226,
+        "ci95": [
+          0.43934295420585223,
+          0.4749061824507913
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5570705030129202,
+        "ci95": [
+          0.5401885521460343,
+          0.5754946062192446
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.19578738337236717,
+        "ci95": [
+          0.1772948239958359,
+          0.216744408357686
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.44764799887347373,
+        "ci95": [
+          0.4224519001322485,
+          0.47623973823060883
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5523693211725207,
+        "ci95": [
+          0.5268826410567493,
+          0.5823206571921928
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.18783154832659749,
+        "ci95": [
+          0.1604812285415162,
+          0.22020420451309744
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "random-mean",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.4650018150456888,
+        "ci95": [
+          0.4430872063942387,
+          0.4892635885492803
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5618881568703128,
+        "ci95": [
+          0.5406755854392871,
+          0.5841581280088709
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 0.2040628873554798,
+        "ci95": [
+          0.17794735587436883,
+          0.23322666549988208
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3816265049464718,
+        "ci95": [
+          1.344252959660612,
+          1.4272210298550085
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.3023267201326885,
+        "ci95": [
+          1.2685983019166442,
+          1.3443479522022281
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 5.90112852378124,
+        "ci95": [
+          5.335561057324483,
+          6.5489506650963385
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3901325028484386,
+        "ci95": [
+          1.3270601590357924,
+          1.4667150236708615
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.3141120417763603,
+        "ci95": [
+          1.257476254638998,
+          1.387092543776772
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 5.787906550618415,
+        "ci95": [
+          4.976189877088267,
+          6.682983225229322
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "direct-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3734224988507688,
+        "ci95": [
+          1.326319546393761,
+          1.4219865241322038
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.2906658468094545,
+        "ci95": [
+          1.251910070412576,
+          1.327948982064075
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 6.013762304046665,
+        "ci95": [
+          5.159134334245089,
+          7.010601824252664
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3840016132059494,
+        "ci95": [
+          1.3427501446826515,
+          1.429815834780592
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.3023267201326885,
+        "ci95": [
+          1.2663533099282456,
+          1.3444854386641432
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 5.90112852378124,
+        "ci95": [
+          5.270119950503941,
+          6.561709308012757
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3895043022289666,
+        "ci95": [
+          1.3250051065430284,
+          1.4693208373685926
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.3141120417763603,
+        "ci95": [
+          1.2548047487543228,
+          1.3897372337679363
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 5.787906550618415,
+        "ci95": [
+          4.945736658625809,
+          6.670614314934749
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "memory",
+    "reference": "same-layout-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 1.3786715955765017,
+        "ci95": [
+          1.3331761185106938,
+          1.4293330004013236
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.2906658468094545,
+        "ci95": [
+          1.2526275493012875,
+          1.330436212920562
+        ]
+      },
+      "read_calls": {
+        "point": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "candidates": {
+        "point": 6.013762304046665,
+        "ci95": [
+          5.150308554402865,
+          6.941636587260634
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "degree",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.718718840169804,
+        "ci95": [
+          0.6964695878249445,
+          0.7421113443205991
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.6148832495422684,
+        "ci95": [
+          0.5961847795128828,
+          0.6346087126412164
+        ]
+      },
+      "read_calls": {
+        "point": 0.9678188319427891,
+        "ci95": [
+          0.9476414581589043,
+          0.9874129419606711
+        ]
+      },
+      "candidates": {
+        "point": 0.22492851147125306,
+        "ci95": [
+          0.20262734981980982,
+          0.24847823365846272
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "degree",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7174470140394305,
+        "ci95": [
+          0.6834683257466397,
+          0.7529916549428018
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.6135199469247522,
+        "ci95": [
+          0.5853525626191605,
+          0.6480190166089878
+        ]
+      },
+      "read_calls": {
+        "point": 0.9740310840055084,
+        "ci95": [
+          0.9452234282446909,
+          1.003288398136974
+        ]
+      },
+      "candidates": {
+        "point": 0.21688157424953997,
+        "ci95": [
+          0.185030105179393,
+          0.2542850445656136
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "degree",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.720019602810201,
+        "ci95": [
+          0.6936467503174876,
+          0.7463512852983778
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.6162628005067505,
+        "ci95": [
+          0.5954987491486475,
+          0.6382918636097643
+        ]
+      },
+      "read_calls": {
+        "point": 0.9614844533600803,
+        "ci95": [
+          0.9338759743779013,
+          0.988596970479526
+        ]
+      },
+      "candidates": {
+        "point": 0.23321316226628497,
+        "ci95": [
+          0.2041318429951823,
+          0.2661154572719561
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8584673733325836,
+        "ci95": [
+          0.8276456106990965,
+          0.8877812636873169
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.6855647661538425,
+        "ci95": [
+          0.6430997686614744,
+          0.7307115967538256
+        ]
+      },
+      "read_calls": {
+        "point": 1.021704938659956,
+        "ci95": [
+          1.0097376110486074,
+          1.0338947193227785
+        ]
+      },
+      "candidates": {
+        "point": 0.3963567511500231,
+        "ci95": [
+          0.3479662944016943,
+          0.45293083757521824
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.844552187575418,
+        "ci95": [
+          0.8016742298330938,
+          0.8829626513585973
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.66599205463348,
+        "ci95": [
+          0.6135640424321182,
+          0.7263841504557287
+        ]
+      },
+      "read_calls": {
+        "point": 1.020614306328592,
+        "ci95": [
+          1.0043786439124425,
+          1.0360167920044718
+        ]
+      },
+      "candidates": {
+        "point": 0.36888572279413057,
+        "ci95": [
+          0.3116337406202625,
+          0.4382587274260726
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "ratio-plus",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.8731281277730625,
+        "ci95": [
+          0.8268375169136636,
+          0.9156937656083949
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.7064813553387452,
+        "ci95": [
+          0.6434565253581447,
+          0.771833146872109
+        ]
+      },
+      "read_calls": {
+        "point": 1.0228339735381988,
+        "ci95": [
+          1.004909763993597,
+          1.040538344896359
+        ]
+      },
+      "candidates": {
+        "point": 0.4267871465162609,
+        "ci95": [
+          0.35423215322234436,
+          0.5152546259737953
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6532754984297365,
+        "ci95": [
+          0.6330322824216358,
+          0.6757202681017253
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5196722377944143,
+        "ci95": [
+          0.502001918743489,
+          0.5375036249417632
+        ]
+      },
+      "read_calls": {
+        "point": 0.973621103117506,
+        "ci95": [
+          0.9548282343500625,
+          0.9922939924026968
+        ]
+      },
+      "candidates": {
+        "point": 0.17751505314126517,
+        "ci95": [
+          0.16098345588998977,
+          0.19570445298709382
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6490594428092945,
+        "ci95": [
+          0.6171048757501099,
+          0.6849449742009798
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5132443456977158,
+        "ci95": [
+          0.487731711707487,
+          0.5467199699064316
+        ]
+      },
+      "read_calls": {
+        "point": 0.9736479842674532,
+        "ci95": [
+          0.9467095399070471,
+          1.0013697144514917
+        ]
+      },
+      "candidates": {
+        "point": 0.16925290281789004,
+        "ci95": [
+          0.14673481275322398,
+          0.19886939366319994
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "cc2fs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.657628797510354,
+        "ci95": [
+          0.6322883145605813,
+          0.6852904715887037
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5263126714963089,
+        "ci95": [
+          0.5066766477341065,
+          0.5464379994077843
+        ]
+      },
+      "read_calls": {
+        "point": 0.9735933373958968,
+        "ci95": [
+          0.9467872347339464,
+          1.001906784243551
+        ]
+      },
+      "candidates": {
+        "point": 0.18621853577587058,
+        "ci95": [
+          0.16375665161324002,
+          0.21137378274637028
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6733225989413315,
+        "ci95": [
+          0.6538714477455266,
+          0.6940322478159568
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5570705030129202,
+        "ci95": [
+          0.5391191180223066,
+          0.5761198511055824
+        ]
+      },
+      "read_calls": {
+        "point": 0.963283706032387,
+        "ci95": [
+          0.9441260086358526,
+          0.9840309235676046
+        ]
+      },
+      "candidates": {
+        "point": 0.19578738337236717,
+        "ci95": [
+          0.17709467673357415,
+          0.21633825787532446
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.67004421060093,
+        "ci95": [
+          0.6395398121158832,
+          0.7034469644570183
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5523693211725207,
+        "ci95": [
+          0.5270147569838874,
+          0.5818365901593846
+        ]
+      },
+      "read_calls": {
+        "point": 0.9682781819604172,
+        "ci95": [
+          0.9424100128579668,
+          0.9943419291091992
+        ]
+      },
+      "candidates": {
+        "point": 0.18783154832659749,
+        "ci95": [
+          0.16018352625387222,
+          0.219372378093769
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "random-mean",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.6766967681904894,
+        "ci95": [
+          0.651689649074665,
+          0.7041909657203277
+        ]
+      },
+      "requested_bytes": {
+        "point": 0.5618881568703128,
+        "ci95": [
+          0.541340347257682,
+          0.5838386883127353
+        ]
+      },
+      "read_calls": {
+        "point": 0.9581784015033377,
+        "ci95": [
+          0.9318215621442313,
+          0.9863853121654629
+        ]
+      },
+      "candidates": {
+        "point": 0.2040628873554798,
+        "ci95": [
+          0.17885132014293004,
+          0.23161653619428335
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.5405363687570897,
+        "ci95": [
+          0.5134918775627835,
+          0.5683498025567394
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.3023267201326885,
+        "ci95": [
+          1.268363965750105,
+          1.349355153193863
+        ]
+      },
+      "read_calls": {
+        "point": 0.4452568086273076,
+        "ci95": [
+          0.4210448084011725,
+          0.4687222183186802
+        ]
+      },
+      "candidates": {
+        "point": 5.90112852378124,
+        "ci95": [
+          5.345569545704443,
+          6.568536576737935
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.5481098063429145,
+        "ci95": [
+          0.5026327783426706,
+          0.5919619917963335
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.3141120417763603,
+        "ci95": [
+          1.2552397968902003,
+          1.3880775643950025
+        ]
+      },
+      "read_calls": {
+        "point": 0.45363752977826644,
+        "ci95": [
+          0.4130667528004592,
+          0.49025156038268214
+        ]
+      },
+      "candidates": {
+        "point": 5.787906550618415,
+        "ci95": [
+          4.95842378312697,
+          6.705014070696042
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "direct-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.5330306296007479,
+        "ci95": [
+          0.5021168523535017,
+          0.5675876210286188
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.2906658468094545,
+        "ci95": [
+          1.2539204679128508,
+          1.3340510177824692
+        ]
+      },
+      "read_calls": {
+        "point": 0.43691886964448495,
+        "ci95": [
+          0.41093019195713415,
+          0.4640864598046004
+        ]
+      },
+      "candidates": {
+        "point": 6.013762304046665,
+        "ci95": [
+          5.2219565507984615,
+          7.0601453997977615
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "primary",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7852071334204472,
+        "ci95": [
+          0.7672215778257698,
+          0.8031571032155083
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.3023267201326885,
+        "ci95": [
+          1.2643298843720037,
+          1.3435250897222233
+        ]
+      },
+      "read_calls": {
+        "point": 0.6713517982637454,
+        "ci95": [
+          0.6561176715507849,
+          0.6850742034528594
+        ]
+      },
+      "candidates": {
+        "point": 5.90112852378124,
+        "ci95": [
+          5.311448148739363,
+          6.55865317076098
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "uniform_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.7805162862970922,
+        "ci95": [
+          0.7524657271428407,
+          0.8102771367243954
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.3141120417763603,
+        "ci95": [
+          1.253613088417718,
+          1.389607869632878
+        ]
+      },
+      "read_calls": {
+        "point": 0.6689636535603296,
+        "ci95": [
+          0.6445484866390466,
+          0.6922676503586721
+        ]
+      },
+      "candidates": {
+        "point": 5.787906550618415,
+        "ci95": [
+          5.006341321033629,
+          6.680631808126348
+        ]
+      }
+    }
+  },
+  {
+    "graph": "web-Google",
+    "mode": "file",
+    "reference": "same-layout-bfs",
+    "group": "degree_stratified_start",
+    "ratio_over_reference": {
+      "total_ms": {
+        "point": 0.790045931214399,
+        "ci95": [
+          0.7696373410499866,
+          0.812053050107873
+        ]
+      },
+      "requested_bytes": {
+        "point": 1.2906658468094545,
+        "ci95": [
+          1.2527330626755488,
+          1.3291422352243483
+        ]
+      },
+      "read_calls": {
+        "point": 0.6738366371432588,
+        "ci95": [
+          0.6553293541980175,
+          0.6921115132677139
+        ]
+      },
+      "candidates": {
+        "point": 6.013762304046665,
+        "ci95": [
+          5.197706571781706,
+          6.973005737233921
+        ]
+      }
+    }
+  }
+]
